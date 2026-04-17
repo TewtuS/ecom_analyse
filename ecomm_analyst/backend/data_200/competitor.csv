@@ -1,0 +1,597 @@
+product_id,competitor_name,price,marketplace,recorded_at
+1,LuxeBeauty,12.51,Taobao,2026-01-13
+1,SkinMart,13.88,Taobao,2026-01-11
+1,BeautyBox,15.05,Taobao,2026-02-05
+1,GlowStore,11.99,Taobao,2026-01-29
+2,BeautyBox,47.93,Temu,2026-01-29
+2,GlowStore,39.23,Temu,2026-02-06
+2,BeautyHub,41.25,Temu,2026-01-12
+2,LuxeBeauty,37.47,Temu,2026-01-11
+3,RivalBeauty,39.32,Temu,2026-02-05
+3,GlowStore,41.95,Temu,2026-01-12
+3,BeautyBox,53.08,Temu,2026-01-27
+3,BeautyHub,42.13,Temu,2026-01-28
+4,GlowStore,72.72,Temu,2026-01-13
+4,LuxeBeauty,69.03,Temu,2026-01-10
+4,RivalBeauty,66.09,Temu,2026-02-06
+4,BeautyBox,81.18,Temu,2026-02-05
+5,BeautyBox,13.47,JD,2026-01-15
+5,BeautyHub,13.07,JD,2026-01-10
+6,BeautyHub,13.7,Shopee,2026-01-24
+6,SkinMart,10.27,Shopee,2026-01-26
+6,BeautyBox,10.41,Shopee,2026-02-08
+7,GlowStore,37.71,Temu,2026-01-26
+7,RivalBeauty,42.38,Temu,2026-01-31
+7,BeautyBox,38.63,Temu,2026-01-31
+7,BeautyHub,38.83,Temu,2026-02-03
+8,RivalBeauty,40.62,Shopee,2026-01-17
+8,LuxeBeauty,41.08,Shopee,2026-01-14
+8,BeautyBox,35.49,Shopee,2026-01-26
+8,SkinMart,33.3,Shopee,2026-01-09
+9,SkinMart,29.2,Shopee,2026-01-21
+9,GlowStore,25.67,Shopee,2026-01-28
+9,BeautyBox,28.78,Shopee,2026-02-06
+10,GlowStore,32.86,Facebook Marketplace,2026-01-17
+10,BeautyBox,37.92,Facebook Marketplace,2026-02-06
+10,SkinMart,39.61,Facebook Marketplace,2026-02-06
+10,BeautyHub,33.27,Facebook Marketplace,2026-01-26
+11,RivalBeauty,38.93,Shopee,2026-01-17
+11,SkinMart,36.91,Shopee,2026-02-04
+11,BeautyHub,37.57,Shopee,2026-01-20
+11,LuxeBeauty,31.08,Shopee,2026-01-16
+12,SkinMart,34.28,Taobao,2026-01-16
+12,BeautyHub,40.15,Taobao,2026-01-10
+12,RivalBeauty,37.55,Taobao,2026-02-07
+13,RivalBeauty,32.31,Temu,2026-01-10
+13,BeautyBox,31.49,Temu,2026-01-17
+13,GlowStore,29.15,Temu,2026-01-22
+13,LuxeBeauty,29.58,Temu,2026-01-23
+14,LuxeBeauty,27.86,Facebook Marketplace,2026-01-23
+14,SkinMart,25.34,Facebook Marketplace,2026-01-23
+14,BeautyHub,31.06,Facebook Marketplace,2026-02-03
+14,BeautyBox,27.44,Facebook Marketplace,2026-01-10
+15,LuxeBeauty,27.42,JD,2026-02-06
+15,BeautyBox,24.82,JD,2026-01-30
+16,RivalBeauty,14.07,Taobao,2026-01-09
+16,SkinMart,14.61,Taobao,2026-01-11
+16,BeautyHub,14.55,Taobao,2026-02-01
+17,SkinMart,52.68,Shopee,2026-01-23
+17,LuxeBeauty,56.44,Shopee,2026-01-10
+17,BeautyBox,64.05,Shopee,2026-02-07
+18,BeautyBox,76.69,JD,2026-02-05
+18,RivalBeauty,59.74,JD,2026-01-31
+18,BeautyHub,77.52,JD,2026-01-29
+19,RivalBeauty,43.3,JD,2026-01-29
+19,BeautyBox,55.99,JD,2026-01-17
+20,LuxeBeauty,4.49,Facebook Marketplace,2026-02-07
+20,BeautyBox,5.31,Facebook Marketplace,2026-01-14
+21,BeautyBox,25.81,Temu,2026-01-29
+21,RivalBeauty,20.67,Temu,2026-01-24
+21,BeautyHub,20.35,Temu,2026-02-04
+22,BeautyHub,14.82,Taobao,2026-01-13
+22,LuxeBeauty,16.27,Taobao,2026-01-23
+22,GlowStore,17.78,Taobao,2026-01-28
+23,BeautyBox,12.51,Taobao,2026-01-18
+23,LuxeBeauty,12.77,Taobao,2026-01-26
+24,GlowStore,15.37,Taobao,2026-01-09
+24,BeautyBox,12.97,Taobao,2026-01-23
+24,RivalBeauty,13.73,Taobao,2026-01-28
+25,LuxeBeauty,41.35,JD,2026-01-31
+25,BeautyHub,50.76,JD,2026-01-25
+25,SkinMart,51.1,JD,2026-01-20
+25,BeautyBox,39.96,JD,2026-01-22
+26,GlowStore,45.92,Shopee,2026-02-08
+26,SkinMart,47.45,Shopee,2026-02-04
+26,RivalBeauty,51.22,Shopee,2026-02-03
+26,LuxeBeauty,55.28,Shopee,2026-01-23
+27,BeautyHub,34.11,Facebook Marketplace,2026-01-31
+27,SkinMart,34.28,Facebook Marketplace,2026-01-11
+27,RivalBeauty,32.47,Facebook Marketplace,2026-02-03
+28,RivalBeauty,60.1,Facebook Marketplace,2026-01-25
+28,GlowStore,54.23,Facebook Marketplace,2026-01-28
+28,BeautyHub,49.4,Facebook Marketplace,2026-01-21
+29,SkinMart,34.3,Taobao,2026-02-06
+29,BeautyBox,35.81,Taobao,2026-01-21
+29,RivalBeauty,32.97,Taobao,2026-01-17
+30,BeautyBox,36.71,Taobao,2026-01-27
+30,GlowStore,35.82,Taobao,2026-01-29
+31,RivalBeauty,11.96,JD,2026-01-13
+31,BeautyHub,15.34,JD,2026-01-14
+31,GlowStore,14.33,JD,2026-01-20
+31,BeautyBox,14.46,JD,2026-02-03
+32,GlowStore,14.12,Taobao,2026-02-07
+32,BeautyHub,14.9,Taobao,2026-02-05
+33,BeautyHub,8.59,Shopee,2026-01-28
+33,SkinMart,9.27,Shopee,2026-02-06
+33,BeautyBox,11.34,Shopee,2026-01-17
+33,RivalBeauty,8.71,Shopee,2026-01-24
+34,SkinMart,12.93,JD,2026-01-30
+34,LuxeBeauty,11.15,JD,2026-01-23
+35,LuxeBeauty,28.61,Taobao,2026-02-04
+35,GlowStore,25.82,Taobao,2026-02-08
+35,RivalBeauty,25.94,Taobao,2026-02-05
+36,LuxeBeauty,26.12,Taobao,2026-01-16
+36,SkinMart,23.53,Taobao,2026-01-28
+36,RivalBeauty,24.15,Taobao,2026-02-08
+37,SkinMart,9.22,JD,2026-02-05
+37,GlowStore,9.78,JD,2026-01-25
+38,GlowStore,36.96,Facebook Marketplace,2026-01-09
+38,BeautyBox,42.26,Facebook Marketplace,2026-01-14
+39,RivalBeauty,46.66,JD,2026-02-07
+39,BeautyBox,38.21,JD,2026-01-27
+40,SkinMart,28.19,Facebook Marketplace,2026-01-24
+40,LuxeBeauty,32.21,Facebook Marketplace,2026-01-12
+40,BeautyBox,38.18,Facebook Marketplace,2026-02-01
+41,BeautyBox,39.78,Temu,2026-01-27
+41,BeautyHub,39.89,Temu,2026-01-30
+41,RivalBeauty,41.74,Temu,2026-01-30
+41,GlowStore,42.25,Temu,2026-02-04
+42,LuxeBeauty,46.14,JD,2026-01-16
+42,BeautyHub,56.88,JD,2026-01-25
+42,RivalBeauty,41.95,JD,2026-01-25
+42,BeautyBox,43.48,JD,2026-01-26
+43,GlowStore,40.71,Temu,2026-01-26
+43,BeautyHub,35.08,Temu,2026-01-10
+43,LuxeBeauty,33.22,Temu,2026-01-28
+43,RivalBeauty,38.53,Temu,2026-01-26
+44,BeautyHub,25.99,Facebook Marketplace,2026-02-02
+44,SkinMart,29.58,Facebook Marketplace,2026-02-05
+45,SkinMart,83.97,Taobao,2026-01-22
+45,GlowStore,66.91,Taobao,2026-01-10
+45,LuxeBeauty,69.79,Taobao,2026-01-27
+46,LuxeBeauty,4.91,Temu,2026-01-15
+46,RivalBeauty,5.45,Temu,2026-01-19
+47,SkinMart,4.46,Facebook Marketplace,2026-02-08
+47,BeautyBox,4.49,Facebook Marketplace,2026-01-30
+47,LuxeBeauty,4.05,Facebook Marketplace,2026-01-27
+47,RivalBeauty,4.61,Facebook Marketplace,2026-01-24
+48,SkinMart,6.78,Facebook Marketplace,2026-02-01
+48,GlowStore,5.41,Facebook Marketplace,2026-02-03
+48,LuxeBeauty,5.12,Facebook Marketplace,2026-01-22
+49,BeautyBox,8.59,Temu,2026-01-26
+49,LuxeBeauty,7.67,Temu,2026-01-20
+49,SkinMart,8.15,Temu,2026-01-16
+49,BeautyHub,9.05,Temu,2026-01-23
+50,BeautyBox,6.75,Shopee,2026-01-14
+50,SkinMart,7.9,Shopee,2026-01-27
+51,RivalBeauty,4.2,Shopee,2026-02-04
+51,BeautyBox,3.94,Shopee,2026-01-24
+52,SkinMart,11.37,Temu,2026-01-12
+52,LuxeBeauty,10.58,Temu,2026-01-18
+53,LuxeBeauty,7.74,Facebook Marketplace,2026-01-13
+53,BeautyHub,7.65,Facebook Marketplace,2026-01-30
+53,SkinMart,6.0,Facebook Marketplace,2026-01-27
+53,BeautyBox,8.17,Facebook Marketplace,2026-01-25
+54,BeautyBox,7.83,JD,2026-02-06
+54,RivalBeauty,8.33,JD,2026-02-08
+55,RivalBeauty,30.58,Taobao,2026-02-07
+55,BeautyHub,30.77,Taobao,2026-01-14
+55,LuxeBeauty,30.84,Taobao,2026-01-12
+56,BeautyHub,5.53,Taobao,2026-01-24
+56,GlowStore,5.11,Taobao,2026-01-14
+56,SkinMart,5.8,Taobao,2026-01-16
+56,BeautyBox,5.49,Taobao,2026-01-15
+57,RivalBeauty,41.91,JD,2026-01-13
+57,GlowStore,45.51,JD,2026-01-09
+57,BeautyHub,46.5,JD,2026-01-21
+57,LuxeBeauty,51.33,JD,2026-02-04
+58,RivalBeauty,9.55,Taobao,2026-01-22
+58,SkinMart,10.85,Taobao,2026-01-31
+59,BeautyBox,38.62,Shopee,2026-02-06
+59,RivalBeauty,35.81,Shopee,2026-02-02
+59,LuxeBeauty,36.47,Shopee,2026-01-09
+59,SkinMart,37.91,Shopee,2026-01-30
+60,LuxeBeauty,24.92,Facebook Marketplace,2026-01-11
+60,SkinMart,18.89,Facebook Marketplace,2026-02-01
+61,SkinMart,29.51,Shopee,2026-01-19
+61,RivalBeauty,35.6,Shopee,2026-01-30
+61,BeautyHub,35.54,Shopee,2026-01-12
+61,GlowStore,35.14,Shopee,2026-01-29
+62,BeautyHub,47.38,JD,2026-01-17
+62,RivalBeauty,36.49,JD,2026-01-11
+62,BeautyBox,40.88,JD,2026-02-07
+63,LuxeBeauty,29.34,Temu,2026-01-13
+63,GlowStore,34.72,Temu,2026-01-09
+63,BeautyBox,34.51,Temu,2026-02-07
+63,RivalBeauty,36.26,Temu,2026-01-16
+64,LuxeBeauty,21.28,JD,2026-01-10
+64,SkinMart,28.17,JD,2026-01-14
+64,RivalBeauty,21.73,JD,2026-01-09
+65,SkinMart,42.57,Facebook Marketplace,2026-02-05
+65,BeautyBox,41.65,Facebook Marketplace,2026-01-14
+66,SkinMart,28.07,Temu,2026-02-03
+66,LuxeBeauty,25.07,Temu,2026-01-27
+66,BeautyHub,28.16,Temu,2026-01-25
+67,BeautyBox,29.38,Temu,2026-01-20
+67,SkinMart,25.63,Temu,2026-01-20
+68,LuxeBeauty,41.59,JD,2026-02-04
+68,BeautyHub,41.25,JD,2026-02-03
+69,BeautyBox,12.56,Temu,2026-01-21
+69,RivalBeauty,10.98,Temu,2026-01-25
+69,GlowStore,10.23,Temu,2026-01-12
+70,LuxeBeauty,43.02,Taobao,2026-01-28
+70,BeautyHub,39.77,Taobao,2026-01-11
+70,GlowStore,48.66,Taobao,2026-01-25
+71,BeautyHub,43.05,Taobao,2026-01-12
+71,LuxeBeauty,41.49,Taobao,2026-01-15
+71,RivalBeauty,36.77,Taobao,2026-01-25
+72,GlowStore,28.78,Facebook Marketplace,2026-02-07
+72,BeautyBox,23.2,Facebook Marketplace,2026-01-30
+72,RivalBeauty,29.64,Facebook Marketplace,2026-02-08
+72,BeautyHub,29.15,Facebook Marketplace,2026-01-25
+73,RivalBeauty,16.42,Facebook Marketplace,2026-01-29
+73,BeautyBox,14.9,Facebook Marketplace,2026-01-16
+74,SkinMart,43.36,Shopee,2026-02-07
+74,BeautyHub,39.02,Shopee,2026-02-06
+75,BeautyBox,38.81,Taobao,2026-01-10
+75,LuxeBeauty,47.48,Taobao,2026-01-18
+75,GlowStore,40.45,Taobao,2026-01-10
+76,BeautyBox,31.99,Taobao,2026-01-30
+76,LuxeBeauty,30.17,Taobao,2026-01-26
+77,BeautyBox,6.95,Facebook Marketplace,2026-02-01
+77,BeautyHub,6.59,Facebook Marketplace,2026-02-08
+77,SkinMart,5.98,Facebook Marketplace,2026-02-08
+77,RivalBeauty,6.51,Facebook Marketplace,2026-02-01
+78,SkinMart,12.68,JD,2026-01-19
+78,LuxeBeauty,13.43,JD,2026-01-09
+78,BeautyHub,13.1,JD,2026-02-06
+79,SkinMart,16.64,Facebook Marketplace,2026-01-24
+79,GlowStore,15.51,Facebook Marketplace,2026-01-14
+79,RivalBeauty,21.25,Facebook Marketplace,2026-01-20
+79,BeautyHub,21.11,Facebook Marketplace,2026-01-12
+80,BeautyHub,16.1,Temu,2026-01-21
+80,GlowStore,16.36,Temu,2026-01-13
+80,RivalBeauty,18.4,Temu,2026-01-19
+80,BeautyBox,17.4,Temu,2026-02-08
+81,GlowStore,56.54,JD,2026-01-18
+81,LuxeBeauty,47.6,JD,2026-01-31
+82,LuxeBeauty,31.21,Shopee,2026-02-01
+82,SkinMart,35.63,Shopee,2026-01-30
+82,GlowStore,36.08,Shopee,2026-01-14
+82,BeautyHub,29.68,Shopee,2026-01-13
+83,SkinMart,27.79,JD,2026-01-28
+83,BeautyBox,21.25,JD,2026-01-29
+83,LuxeBeauty,28.28,JD,2026-02-03
+84,GlowStore,31.44,Taobao,2026-01-24
+84,BeautyBox,37.64,Taobao,2026-02-08
+84,SkinMart,38.59,Taobao,2026-02-03
+84,BeautyHub,37.71,Taobao,2026-01-15
+85,BeautyBox,77.42,Shopee,2026-02-05
+85,BeautyHub,68.87,Shopee,2026-01-27
+86,RivalBeauty,58.62,Temu,2026-01-10
+86,BeautyBox,69.75,Temu,2026-01-19
+87,SkinMart,27.02,JD,2026-02-08
+87,RivalBeauty,28.23,JD,2026-02-06
+88,SkinMart,25.34,JD,2026-01-25
+88,BeautyBox,23.37,JD,2026-01-09
+88,GlowStore,23.64,JD,2026-01-31
+89,BeautyBox,21.46,Shopee,2026-01-30
+89,BeautyHub,18.34,Shopee,2026-01-19
+90,SkinMart,16.07,Facebook Marketplace,2026-01-25
+90,GlowStore,17.01,Facebook Marketplace,2026-01-22
+90,BeautyBox,17.86,Facebook Marketplace,2026-02-04
+91,GlowStore,15.02,Temu,2026-02-03
+91,RivalBeauty,15.06,Temu,2026-01-17
+92,GlowStore,16.7,JD,2026-01-30
+92,BeautyBox,16.42,JD,2026-01-12
+92,LuxeBeauty,15.03,JD,2026-01-31
+92,RivalBeauty,12.9,JD,2026-02-07
+93,BeautyHub,45.47,Taobao,2026-02-02
+93,SkinMart,37.51,Taobao,2026-01-11
+93,LuxeBeauty,39.32,Taobao,2026-01-18
+94,SkinMart,18.9,Shopee,2026-01-12
+94,BeautyBox,17.35,Shopee,2026-01-31
+94,BeautyHub,21.03,Shopee,2026-02-03
+95,BeautyBox,18.36,Taobao,2026-02-04
+95,GlowStore,17.49,Taobao,2026-01-14
+95,BeautyHub,16.95,Taobao,2026-01-13
+95,SkinMart,16.33,Taobao,2026-02-03
+96,SkinMart,17.05,Temu,2026-02-07
+96,RivalBeauty,18.26,Temu,2026-01-09
+97,BeautyHub,11.19,Facebook Marketplace,2026-01-18
+97,SkinMart,11.21,Facebook Marketplace,2026-02-02
+97,RivalBeauty,10.99,Facebook Marketplace,2026-01-28
+97,GlowStore,9.93,Facebook Marketplace,2026-01-25
+98,GlowStore,10.95,JD,2026-01-31
+98,BeautyBox,10.31,JD,2026-02-06
+99,GlowStore,9.97,JD,2026-01-14
+99,BeautyHub,12.49,JD,2026-01-30
+99,RivalBeauty,11.68,JD,2026-01-11
+99,BeautyBox,9.89,JD,2026-01-22
+100,GlowStore,38.24,Facebook Marketplace,2026-02-03
+100,BeautyHub,42.75,Facebook Marketplace,2026-01-24
+100,BeautyBox,43.13,Facebook Marketplace,2026-01-12
+100,SkinMart,39.99,Facebook Marketplace,2026-02-08
+101,BeautyHub,17.54,Taobao,2026-02-08
+101,RivalBeauty,15.19,Taobao,2026-01-15
+102,BeautyHub,32.21,Shopee,2026-02-05
+102,BeautyBox,38.91,Shopee,2026-01-10
+103,BeautyHub,21.09,Facebook Marketplace,2026-02-05
+103,SkinMart,26.38,Facebook Marketplace,2026-02-05
+104,SkinMart,30.45,Taobao,2026-01-22
+104,LuxeBeauty,29.57,Taobao,2026-02-02
+104,RivalBeauty,32.29,Taobao,2026-01-21
+104,BeautyHub,28.48,Taobao,2026-02-05
+105,SkinMart,34.28,Shopee,2026-01-13
+105,BeautyHub,41.71,Shopee,2026-01-29
+105,RivalBeauty,46.59,Shopee,2026-02-05
+105,GlowStore,34.56,Shopee,2026-01-23
+106,BeautyHub,19.26,Facebook Marketplace,2026-01-30
+106,GlowStore,21.56,Facebook Marketplace,2026-01-13
+107,RivalBeauty,25.14,Shopee,2026-01-18
+107,BeautyHub,25.41,Shopee,2026-01-19
+107,BeautyBox,31.63,Shopee,2026-02-03
+107,SkinMart,32.9,Shopee,2026-01-17
+108,LuxeBeauty,42.45,JD,2026-01-29
+108,SkinMart,36.55,JD,2026-01-12
+108,RivalBeauty,36.15,JD,2026-01-10
+109,BeautyHub,20.19,Taobao,2026-02-08
+109,GlowStore,21.61,Taobao,2026-01-12
+109,RivalBeauty,26.13,Taobao,2026-02-06
+110,SkinMart,34.38,Taobao,2026-01-10
+110,LuxeBeauty,29.91,Taobao,2026-01-17
+111,BeautyBox,39.33,Shopee,2026-02-04
+111,RivalBeauty,47.76,Shopee,2026-01-16
+112,LuxeBeauty,19.26,Facebook Marketplace,2026-01-30
+112,RivalBeauty,15.91,Facebook Marketplace,2026-01-10
+113,RivalBeauty,9.83,Facebook Marketplace,2026-01-22
+113,SkinMart,9.85,Facebook Marketplace,2026-01-26
+113,LuxeBeauty,8.07,Facebook Marketplace,2026-01-23
+114,GlowStore,7.86,Temu,2026-01-30
+114,BeautyBox,8.01,Temu,2026-01-10
+115,LuxeBeauty,10.18,Shopee,2026-01-25
+115,GlowStore,9.89,Shopee,2026-02-01
+116,SkinMart,9.42,JD,2026-02-06
+116,BeautyHub,9.29,JD,2026-01-25
+116,RivalBeauty,10.3,JD,2026-01-22
+117,SkinMart,9.19,Facebook Marketplace,2026-01-28
+117,RivalBeauty,8.3,Facebook Marketplace,2026-01-14
+118,GlowStore,9.3,Shopee,2026-02-03
+118,BeautyBox,9.06,Shopee,2026-01-20
+118,SkinMart,9.66,Shopee,2026-01-15
+118,BeautyHub,10.44,Shopee,2026-01-16
+119,LuxeBeauty,9.43,Temu,2026-01-15
+119,BeautyBox,11.13,Temu,2026-02-03
+119,SkinMart,10.2,Temu,2026-01-24
+119,RivalBeauty,9.59,Temu,2026-01-29
+120,GlowStore,12.71,JD,2026-01-19
+120,SkinMart,9.64,JD,2026-01-10
+121,BeautyHub,10.9,Shopee,2026-02-04
+121,LuxeBeauty,11.92,Shopee,2026-01-10
+121,RivalBeauty,9.6,Shopee,2026-02-04
+121,BeautyBox,12.28,Shopee,2026-01-13
+122,GlowStore,10.52,Facebook Marketplace,2026-01-23
+122,BeautyHub,11.44,Facebook Marketplace,2026-02-02
+123,RivalBeauty,9.55,Shopee,2026-01-11
+123,GlowStore,9.68,Shopee,2026-01-29
+124,RivalBeauty,14.7,Temu,2026-01-13
+124,BeautyHub,15.94,Temu,2026-02-01
+125,LuxeBeauty,9.08,JD,2026-01-20
+125,BeautyBox,10.48,JD,2026-01-22
+126,RivalBeauty,39.98,Shopee,2026-01-23
+126,BeautyBox,35.56,Shopee,2026-01-28
+126,GlowStore,38.2,Shopee,2026-01-16
+127,BeautyHub,30.01,JD,2026-01-24
+127,BeautyBox,30.79,JD,2026-01-30
+127,GlowStore,26.69,JD,2026-02-01
+127,LuxeBeauty,31.69,JD,2026-01-13
+128,LuxeBeauty,28.78,Temu,2026-01-12
+128,RivalBeauty,27.55,Temu,2026-01-23
+128,SkinMart,28.05,Temu,2026-01-15
+129,BeautyHub,30.67,Temu,2026-01-27
+129,SkinMart,26.38,Temu,2026-02-08
+130,GlowStore,32.42,Taobao,2026-02-06
+130,RivalBeauty,37.06,Taobao,2026-02-01
+130,SkinMart,28.9,Taobao,2026-01-19
+130,BeautyBox,28.02,Taobao,2026-01-29
+131,RivalBeauty,31.23,Shopee,2026-01-17
+131,LuxeBeauty,32.9,Shopee,2026-02-08
+132,LuxeBeauty,56.35,JD,2026-02-03
+132,SkinMart,52.57,JD,2026-01-18
+132,GlowStore,49.82,JD,2026-02-06
+133,SkinMart,38.02,Shopee,2026-01-25
+133,LuxeBeauty,29.25,Shopee,2026-02-04
+133,RivalBeauty,37.74,Shopee,2026-01-25
+134,BeautyHub,26.97,Shopee,2026-01-14
+134,RivalBeauty,31.23,Shopee,2026-01-31
+134,SkinMart,31.13,Shopee,2026-01-24
+135,SkinMart,14.77,Temu,2026-02-02
+135,BeautyHub,18.44,Temu,2026-01-29
+135,GlowStore,15.4,Temu,2026-01-21
+136,RivalBeauty,21.87,Shopee,2026-01-31
+136,GlowStore,17.79,Shopee,2026-01-26
+136,BeautyHub,20.0,Shopee,2026-01-12
+137,BeautyHub,20.37,Taobao,2026-01-24
+137,RivalBeauty,17.35,Taobao,2026-01-15
+137,GlowStore,22.63,Taobao,2026-01-12
+137,LuxeBeauty,21.94,Taobao,2026-02-07
+138,RivalBeauty,15.52,Temu,2026-01-21
+138,GlowStore,14.8,Temu,2026-01-20
+138,BeautyHub,15.21,Temu,2026-01-21
+139,BeautyHub,10.66,JD,2026-02-08
+139,RivalBeauty,10.32,JD,2026-01-14
+139,LuxeBeauty,10.7,JD,2026-01-15
+139,SkinMart,12.82,JD,2026-01-10
+140,BeautyBox,5.97,Taobao,2026-01-15
+140,SkinMart,5.56,Taobao,2026-01-26
+140,BeautyHub,6.97,Taobao,2026-01-30
+140,LuxeBeauty,5.91,Taobao,2026-01-25
+141,RivalBeauty,16.03,JD,2026-01-30
+141,GlowStore,14.82,JD,2026-01-13
+141,LuxeBeauty,13.33,JD,2026-02-07
+142,BeautyHub,17.08,Facebook Marketplace,2026-01-25
+142,LuxeBeauty,14.49,Facebook Marketplace,2026-01-14
+142,RivalBeauty,20.25,Facebook Marketplace,2026-01-17
+143,LuxeBeauty,9.16,Temu,2026-01-28
+143,BeautyHub,11.02,Temu,2026-01-22
+143,GlowStore,10.01,Temu,2026-02-05
+144,BeautyHub,6.02,Facebook Marketplace,2026-01-29
+144,RivalBeauty,7.82,Facebook Marketplace,2026-01-11
+145,LuxeBeauty,40.96,Taobao,2026-02-01
+145,RivalBeauty,37.38,Taobao,2026-01-17
+146,SkinMart,10.01,Facebook Marketplace,2026-01-09
+146,BeautyBox,11.56,Facebook Marketplace,2026-01-10
+146,LuxeBeauty,11.87,Facebook Marketplace,2026-02-08
+147,RivalBeauty,28.42,JD,2026-01-18
+147,SkinMart,24.3,JD,2026-01-21
+147,GlowStore,24.86,JD,2026-01-15
+147,BeautyBox,27.03,JD,2026-01-12
+148,BeautyHub,29.7,Facebook Marketplace,2026-02-05
+148,GlowStore,34.85,Facebook Marketplace,2026-02-05
+149,LuxeBeauty,31.84,Taobao,2026-02-02
+149,GlowStore,33.82,Taobao,2026-01-29
+150,LuxeBeauty,14.62,Taobao,2026-01-29
+150,BeautyHub,18.12,Taobao,2026-01-20
+151,GlowStore,14.19,Temu,2026-01-16
+151,BeautyBox,17.35,Temu,2026-01-22
+151,LuxeBeauty,16.84,Temu,2026-01-28
+151,SkinMart,18.35,Temu,2026-01-23
+152,BeautyHub,15.55,Taobao,2026-02-02
+152,GlowStore,15.18,Taobao,2026-02-02
+153,SkinMart,13.53,JD,2026-01-28
+153,BeautyBox,14.15,JD,2026-01-28
+154,RivalBeauty,25.68,Temu,2026-01-22
+154,LuxeBeauty,27.75,Temu,2026-01-22
+155,GlowStore,26.41,Shopee,2026-01-30
+155,BeautyHub,20.86,Shopee,2026-01-24
+155,RivalBeauty,26.07,Shopee,2026-01-20
+155,BeautyBox,27.21,Shopee,2026-01-18
+156,LuxeBeauty,27.05,JD,2026-01-30
+156,GlowStore,32.42,JD,2026-02-01
+156,BeautyBox,33.31,JD,2026-01-17
+157,LuxeBeauty,24.55,Temu,2026-01-13
+157,BeautyBox,32.36,Temu,2026-02-05
+157,RivalBeauty,32.98,Temu,2026-02-08
+158,LuxeBeauty,26.08,Shopee,2026-02-03
+158,BeautyHub,26.27,Shopee,2026-01-19
+158,RivalBeauty,21.53,Shopee,2026-01-26
+158,BeautyBox,26.17,Shopee,2026-01-18
+159,GlowStore,11.65,Shopee,2026-01-21
+159,LuxeBeauty,14.29,Shopee,2026-01-22
+159,BeautyHub,14.03,Shopee,2026-01-18
+160,RivalBeauty,13.6,Shopee,2026-02-02
+160,GlowStore,14.22,Shopee,2026-02-07
+160,BeautyHub,12.54,Shopee,2026-01-28
+160,LuxeBeauty,12.61,Shopee,2026-02-07
+161,GlowStore,9.99,Facebook Marketplace,2026-01-20
+161,LuxeBeauty,11.77,Facebook Marketplace,2026-02-02
+161,BeautyHub,10.08,Facebook Marketplace,2026-01-31
+161,RivalBeauty,9.08,Facebook Marketplace,2026-02-01
+162,BeautyBox,14.4,Shopee,2026-01-19
+162,LuxeBeauty,13.14,Shopee,2026-01-30
+162,RivalBeauty,12.3,Shopee,2026-02-05
+163,SkinMart,13.55,Shopee,2026-01-30
+163,BeautyHub,12.66,Shopee,2026-01-31
+164,BeautyBox,8.07,Facebook Marketplace,2026-01-29
+164,GlowStore,8.66,Facebook Marketplace,2026-01-16
+164,SkinMart,7.76,Facebook Marketplace,2026-01-22
+164,RivalBeauty,10.33,Facebook Marketplace,2026-02-01
+165,GlowStore,43.9,Facebook Marketplace,2026-01-17
+165,BeautyBox,45.46,Facebook Marketplace,2026-01-22
+165,LuxeBeauty,41.21,Facebook Marketplace,2026-01-17
+165,RivalBeauty,55.31,Facebook Marketplace,2026-01-31
+166,LuxeBeauty,6.85,Shopee,2026-01-25
+166,RivalBeauty,9.27,Shopee,2026-01-27
+166,BeautyHub,8.52,Shopee,2026-02-05
+167,LuxeBeauty,112.17,JD,2026-01-12
+167,SkinMart,107.44,JD,2026-01-30
+168,BeautyHub,169.71,Temu,2026-01-28
+168,RivalBeauty,160.3,Temu,2026-01-14
+168,SkinMart,147.09,Temu,2026-02-08
+169,GlowStore,39.94,JD,2026-01-24
+169,SkinMart,39.01,JD,2026-01-14
+170,GlowStore,17.9,Facebook Marketplace,2026-01-13
+170,RivalBeauty,14.47,Facebook Marketplace,2026-01-21
+170,BeautyBox,17.84,Facebook Marketplace,2026-02-02
+170,LuxeBeauty,15.87,Facebook Marketplace,2026-01-10
+171,SkinMart,39.24,Temu,2026-01-27
+171,LuxeBeauty,31.08,Temu,2026-01-30
+171,BeautyHub,32.17,Temu,2026-01-17
+172,SkinMart,100.5,Facebook Marketplace,2026-01-26
+172,LuxeBeauty,81.9,Facebook Marketplace,2026-01-28
+172,BeautyHub,81.78,Facebook Marketplace,2026-01-24
+172,GlowStore,95.25,Facebook Marketplace,2026-01-18
+173,RivalBeauty,74.04,JD,2026-02-01
+173,LuxeBeauty,97.09,JD,2026-02-02
+173,SkinMart,86.47,JD,2026-01-17
+173,BeautyHub,82.99,JD,2026-01-16
+174,LuxeBeauty,32.13,Shopee,2026-02-02
+174,SkinMart,31.47,Shopee,2026-01-25
+174,BeautyHub,34.01,Shopee,2026-01-30
+174,RivalBeauty,31.3,Shopee,2026-02-03
+175,GlowStore,32.9,Taobao,2026-02-02
+175,BeautyBox,34.52,Taobao,2026-01-13
+175,LuxeBeauty,32.7,Taobao,2026-01-21
+175,RivalBeauty,32.05,Taobao,2026-02-01
+176,LuxeBeauty,100.16,Temu,2026-02-07
+176,GlowStore,74.95,Temu,2026-01-22
+176,RivalBeauty,105.36,Temu,2026-01-11
+176,BeautyHub,81.28,Temu,2026-01-27
+177,GlowStore,59.14,Shopee,2026-01-20
+177,RivalBeauty,64.7,Shopee,2026-01-20
+177,BeautyBox,59.54,Shopee,2026-02-04
+178,RivalBeauty,61.62,Taobao,2026-01-20
+178,BeautyBox,84.08,Taobao,2026-01-21
+179,RivalBeauty,11.6,Shopee,2026-01-26
+179,BeautyBox,12.31,Shopee,2026-01-26
+179,BeautyHub,9.61,Shopee,2026-01-31
+180,SkinMart,9.4,Temu,2026-01-26
+180,LuxeBeauty,7.27,Temu,2026-02-03
+180,BeautyHub,6.86,Temu,2026-01-26
+180,GlowStore,6.92,Temu,2026-01-24
+181,BeautyHub,8.23,Taobao,2026-02-04
+181,RivalBeauty,7.92,Taobao,2026-02-06
+182,SkinMart,5.69,Taobao,2026-01-11
+182,RivalBeauty,6.49,Taobao,2026-02-01
+182,BeautyHub,5.67,Taobao,2026-02-04
+182,LuxeBeauty,6.88,Taobao,2026-02-02
+183,LuxeBeauty,17.19,Shopee,2026-01-11
+183,RivalBeauty,18.24,Shopee,2026-01-31
+183,SkinMart,23.88,Shopee,2026-01-11
+184,RivalBeauty,13.81,Facebook Marketplace,2026-02-03
+184,SkinMart,15.49,Facebook Marketplace,2026-01-19
+185,RivalBeauty,31.34,Facebook Marketplace,2026-01-24
+185,GlowStore,24.96,Facebook Marketplace,2026-02-07
+185,BeautyBox,32.94,Facebook Marketplace,2026-02-08
+185,BeautyHub,33.6,Facebook Marketplace,2026-01-15
+186,RivalBeauty,47.72,JD,2026-01-17
+186,BeautyHub,49.57,JD,2026-02-08
+187,RivalBeauty,54.7,Temu,2026-02-06
+187,LuxeBeauty,51.45,Temu,2026-02-07
+187,BeautyBox,44.04,Temu,2026-01-11
+188,BeautyHub,25.25,Facebook Marketplace,2026-01-20
+188,RivalBeauty,34.22,Facebook Marketplace,2026-01-29
+188,SkinMart,31.73,Facebook Marketplace,2026-02-08
+188,LuxeBeauty,25.25,Facebook Marketplace,2026-01-12
+189,SkinMart,41.11,Taobao,2026-01-31
+189,BeautyBox,30.36,Taobao,2026-01-20
+190,BeautyHub,14.74,Facebook Marketplace,2026-02-06
+190,RivalBeauty,16.84,Facebook Marketplace,2026-01-09
+191,RivalBeauty,54.54,Taobao,2026-01-21
+191,BeautyBox,56.62,Taobao,2026-01-13
+191,SkinMart,68.71,Taobao,2026-01-14
+192,GlowStore,50.28,Temu,2026-01-15
+192,LuxeBeauty,59.06,Temu,2026-02-08
+193,BeautyHub,13.82,Taobao,2026-01-16
+193,SkinMart,11.64,Taobao,2026-01-11
+193,RivalBeauty,14.15,Taobao,2026-01-29
+194,GlowStore,17.57,JD,2026-02-01
+194,SkinMart,14.54,JD,2026-01-29
+194,BeautyBox,15.65,JD,2026-01-19
+195,SkinMart,17.64,JD,2026-01-18
+195,RivalBeauty,13.02,JD,2026-01-30
+196,LuxeBeauty,39.94,Temu,2026-01-20
+196,RivalBeauty,32.77,Temu,2026-01-25
+196,BeautyBox,36.73,Temu,2026-01-10
+197,SkinMart,26.23,JD,2026-01-12
+197,RivalBeauty,28.25,JD,2026-02-05
+198,SkinMart,6.73,Temu,2026-01-26
+198,LuxeBeauty,7.16,Temu,2026-02-03
+198,GlowStore,6.39,Temu,2026-01-24
+198,BeautyHub,7.91,Temu,2026-02-03
+199,GlowStore,8.31,Taobao,2026-01-23
+199,SkinMart,6.91,Taobao,2026-01-18
+200,BeautyBox,33.43,Facebook Marketplace,2026-01-27
+200,LuxeBeauty,34.74,Facebook Marketplace,2026-01-22
+200,GlowStore,32.22,Facebook Marketplace,2026-02-01
+200,RivalBeauty,36.61,Facebook Marketplace,2026-02-07

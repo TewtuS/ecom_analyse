@@ -1,0 +1,1018 @@
+product_id,author,text,rating,sentiment,marketplace,created_at
+1,Fiona69,It did what it promised but I expected more.,3,neutral,Taobao,2026-02-12
+1,Uma98,Complete waste of money. No visible effect whatsoever.,1,negative,Taobao,2026-04-06
+1,Yuki17,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Taobao,2026-01-13
+1,Marcus44,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Taobao,2026-02-05
+1,Sam50,Did not work as advertised for my skin type.,2,negative,Taobao,2026-04-02
+1,Uma68,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Taobao,2026-02-11
+1,Xiao81,I've been using it for 3 weeks and the results are amazing.,5,positive,Taobao,2026-02-11
+2,Priya80,This is a game-changer. Will definitely repurchase.,5,positive,Temu,2026-02-11
+2,Tina64,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Temu,2026-03-19
+3,Wendy81,Five stars without hesitation. My go-to now.,5,positive,Temu,2026-03-12
+3,Julia37,Absolutely love this product! My skin has never felt better.,5,positive,Temu,2026-03-24
+3,Ben50,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Temu,2026-01-15
+3,Quinn77,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Temu,2026-01-16
+4,Ben21,Five stars without hesitation. My go-to now.,5,positive,Temu,2026-03-04
+4,Ben10,Neutral experience. Might try a different brand next time.,3,neutral,Temu,2026-01-25
+4,Ivan30,Nice texture and smell. Skin feels hydrated all day.,4,positive,Temu,2026-03-20
+4,Rosa11,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Temu,2026-01-18
+5,Quinn49,Packaging broke on arrival. Product itself is average.,2,negative,JD,2026-02-19
+5,Julia80,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,JD,2026-02-02
+5,Marcus96,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,JD,2026-03-28
+5,Marcus80,Really good product overall. Minor packaging issues but the formula is great.,4,positive,JD,2026-02-16
+5,Nina84,I've been using it for 3 weeks and the results are amazing.,5,positive,JD,2026-04-02
+5,Oscar66,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,JD,2026-03-15
+5,Zoe31,Really good product overall. Minor packaging issues but the formula is great.,4,positive,JD,2026-02-14
+5,Uma89,Works as described. Would buy again.,4,positive,JD,2026-01-20
+6,Rosa87,Average product. Works fine but nothing special.,3,neutral,Shopee,2026-03-12
+6,Nina72,Absolutely love this product! My skin has never felt better.,5,positive,Shopee,2026-02-27
+6,Victor61,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Shopee,2026-03-09
+6,Tina78,Disappointed with this. Caused slight irritation after a week of use.,2,negative,Shopee,2026-02-28
+6,Victor13,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Shopee,2026-04-01
+6,Oscar33,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Shopee,2026-02-11
+6,George68,Works as described. Would buy again.,4,positive,Shopee,2026-02-21
+7,Hannah21,Works as described. Would buy again.,4,positive,Temu,2026-03-07
+7,Oscar82,I've been using it for 3 weeks and the results are amazing.,5,positive,Temu,2026-04-04
+7,Alice73,Works as described. Would buy again.,4,positive,Temu,2026-02-01
+7,Lena43,Works as described. Would buy again.,4,positive,Temu,2026-02-13
+7,Wendy45,Would not recommend to someone with sensitive skin.,2,negative,Temu,2026-01-10
+8,Clara61,Exceeded my expectations — the quality is outstanding.,5,positive,Shopee,2026-01-18
+8,Victor16,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Shopee,2026-01-28
+8,Julia20,Average product. Works fine but nothing special.,3,neutral,Shopee,2026-01-24
+8,Nina87,Good value for money. Delivery was fast too.,4,positive,Shopee,2026-03-29
+8,Quinn58,Exceeded my expectations — the quality is outstanding.,5,positive,Shopee,2026-03-06
+8,Sam64,Best purchase I've made this year. Highly recommend!,5,positive,Shopee,2026-03-22
+9,Oscar62,Disappointed with this. Caused slight irritation after a week of use.,2,negative,Shopee,2026-02-02
+9,Tina73,Nice texture and smell. Skin feels hydrated all day.,4,positive,Shopee,2026-01-15
+9,Rosa26,Best purchase I've made this year. Highly recommend!,5,positive,Shopee,2026-03-06
+9,Priya25,Disappointed with this. Caused slight irritation after a week of use.,2,negative,Shopee,2026-03-30
+9,Hannah30,Neutral experience. Might try a different brand next time.,3,neutral,Shopee,2026-03-20
+9,Nina21,This is a game-changer. Will definitely repurchase.,5,positive,Shopee,2026-01-23
+9,David92,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Shopee,2026-03-13
+9,Julia75,The formula feels too heavy for daily use.,2,negative,Shopee,2026-03-03
+10,Priya79,Disappointed with this. Caused slight irritation after a week of use.,2,negative,Facebook Marketplace,2026-03-29
+10,Uma97,Best purchase I've made this year. Highly recommend!,5,positive,Facebook Marketplace,2026-02-07
+10,Nina22,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Facebook Marketplace,2026-03-06
+10,Julia13,Absolutely love this product! My skin has never felt better.,5,positive,Facebook Marketplace,2026-02-19
+10,Julia55,Neutral experience. Might try a different brand next time.,3,neutral,Facebook Marketplace,2026-03-05
+10,Quinn62,I've been using it for 3 weeks and the results are amazing.,5,positive,Facebook Marketplace,2026-04-06
+10,Fiona32,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Facebook Marketplace,2026-03-28
+10,Tina97,Did not work as advertised for my skin type.,2,negative,Facebook Marketplace,2026-03-13
+11,Priya47,Five stars without hesitation. My go-to now.,5,positive,Shopee,2026-02-21
+11,Oscar19,Average product. Works fine but nothing special.,3,neutral,Shopee,2026-02-06
+11,Xiao96,Packaging broke on arrival. Product itself is average.,2,negative,Shopee,2026-03-21
+11,Zoe60,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Shopee,2026-02-11
+12,Zoe32,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Taobao,2026-04-03
+12,Emma11,The formula feels too heavy for daily use.,2,negative,Taobao,2026-02-08
+12,Alice32,Works as described. Would buy again.,4,positive,Taobao,2026-01-15
+12,Nina77,Absolutely love this product! My skin has never felt better.,5,positive,Taobao,2026-01-17
+13,Rosa13,"Decent, but I've used better products at this price point.",3,neutral,Temu,2026-04-03
+13,Ivan13,Average product. Works fine but nothing special.,3,neutral,Temu,2026-02-12
+13,Julia53,Neutral experience. Might try a different brand next time.,3,neutral,Temu,2026-01-09
+13,Emma82,Five stars without hesitation. My go-to now.,5,positive,Temu,2026-03-01
+13,Xiao91,Absolutely love this product! My skin has never felt better.,5,positive,Temu,2026-01-20
+13,George58,It did what it promised but I expected more.,3,neutral,Temu,2026-03-08
+13,Lena49,Works as described. Would buy again.,4,positive,Temu,2026-03-22
+14,Clara75,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Facebook Marketplace,2026-03-17
+14,Yuki54,Works as described. Would buy again.,4,positive,Facebook Marketplace,2026-04-01
+14,Hannah23,Average product. Works fine but nothing special.,3,neutral,Facebook Marketplace,2026-02-10
+14,Tina29,Five stars without hesitation. My go-to now.,5,positive,Facebook Marketplace,2026-01-18
+14,Yuki90,Exceeded my expectations — the quality is outstanding.,5,positive,Facebook Marketplace,2026-03-09
+15,Uma52,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,JD,2026-04-04
+15,Xiao97,"Decent, but I've used better products at this price point.",3,neutral,JD,2026-01-20
+15,Nina75,Neutral experience. Might try a different brand next time.,3,neutral,JD,2026-01-11
+15,Fiona37,Works as described. Would buy again.,4,positive,JD,2026-03-12
+15,Emma29,Absolutely love this product! My skin has never felt better.,5,positive,JD,2026-02-15
+16,Tina68,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Taobao,2026-01-23
+16,Priya86,"Decent, but I've used better products at this price point.",3,neutral,Taobao,2026-01-11
+16,Sam40,Average product. Works fine but nothing special.,3,neutral,Taobao,2026-02-15
+16,Tina55,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Taobao,2026-03-23
+16,Victor95,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Taobao,2026-03-17
+16,Clara77,Broke out badly after using this. Not for sensitive skin.,1,negative,Taobao,2026-02-27
+17,Quinn44,Disappointed with this. Caused slight irritation after a week of use.,2,negative,Shopee,2026-03-04
+17,Tina33,I've been using it for 3 weeks and the results are amazing.,5,positive,Shopee,2026-02-15
+17,Clara51,Five stars without hesitation. My go-to now.,5,positive,Shopee,2026-02-15
+18,Clara67,This is a game-changer. Will definitely repurchase.,5,positive,JD,2026-03-06
+18,Zoe97,Allergic reaction after two uses. Returned immediately.,1,negative,JD,2026-04-04
+19,Julia88,I've been using it for 3 weeks and the results are amazing.,5,positive,JD,2026-01-20
+19,Fiona85,Good value for money. Delivery was fast too.,4,positive,JD,2026-01-28
+19,Tina87,Best purchase I've made this year. Highly recommend!,5,positive,JD,2026-03-22
+20,Tina97,"Decent, but I've used better products at this price point.",3,neutral,Facebook Marketplace,2026-01-24
+20,David60,Best purchase I've made this year. Highly recommend!,5,positive,Facebook Marketplace,2026-02-21
+20,Lena28,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Facebook Marketplace,2026-03-27
+20,Quinn15,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Facebook Marketplace,2026-01-13
+20,Kevin70,I've been using it for 3 weeks and the results are amazing.,5,positive,Facebook Marketplace,2026-03-08
+21,Hannah48,Works as described. Would buy again.,4,positive,Temu,2026-02-04
+21,Priya50,It did what it promised but I expected more.,3,neutral,Temu,2026-02-22
+21,Zoe45,Works as described. Would buy again.,4,positive,Temu,2026-01-24
+21,Rosa58,Nice texture and smell. Skin feels hydrated all day.,4,positive,Temu,2026-02-22
+21,Zoe28,Allergic reaction after two uses. Returned immediately.,1,negative,Temu,2026-01-14
+22,Fiona88,It did what it promised but I expected more.,3,neutral,Taobao,2026-03-04
+22,Clara61,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Taobao,2026-02-01
+22,Priya51,Complete waste of money. No visible effect whatsoever.,1,negative,Taobao,2026-01-09
+22,Hannah67,Best purchase I've made this year. Highly recommend!,5,positive,Taobao,2026-02-20
+22,Xiao83,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Taobao,2026-02-11
+22,Wendy40,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Taobao,2026-04-04
+22,Julia30,Exceeded my expectations — the quality is outstanding.,5,positive,Taobao,2026-04-06
+22,Wendy49,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Taobao,2026-03-31
+23,Marcus66,Average product. Works fine but nothing special.,3,neutral,Taobao,2026-03-19
+23,Yuki17,This is a game-changer. Will definitely repurchase.,5,positive,Taobao,2026-03-14
+23,Hannah83,Allergic reaction after two uses. Returned immediately.,1,negative,Taobao,2026-03-23
+23,Victor51,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Taobao,2026-02-16
+24,Nina47,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Taobao,2026-02-03
+24,Marcus82,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Taobao,2026-03-13
+24,Victor53,Works as described. Would buy again.,4,positive,Taobao,2026-03-12
+24,Uma72,Terrible experience. Product arrived damaged and smelled off.,1,negative,Taobao,2026-01-30
+24,Lena31,Average product. Works fine but nothing special.,3,neutral,Taobao,2026-03-19
+24,Rosa92,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Taobao,2026-03-17
+24,Clara95,Absolutely love this product! My skin has never felt better.,5,positive,Taobao,2026-01-09
+25,Sam40,I've been using it for 3 weeks and the results are amazing.,5,positive,JD,2026-02-27
+26,Ivan48,Best purchase I've made this year. Highly recommend!,5,positive,Shopee,2026-03-13
+26,Fiona65,Best purchase I've made this year. Highly recommend!,5,positive,Shopee,2026-03-03
+26,Zoe19,Best purchase I've made this year. Highly recommend!,5,positive,Shopee,2026-02-10
+26,Xiao90,Packaging broke on arrival. Product itself is average.,2,negative,Shopee,2026-03-26
+27,David43,This is a game-changer. Will definitely repurchase.,5,positive,Facebook Marketplace,2026-03-15
+27,Rosa84,"Decent, but I've used better products at this price point.",3,neutral,Facebook Marketplace,2026-02-06
+27,Marcus69,Good value for money. Delivery was fast too.,4,positive,Facebook Marketplace,2026-04-07
+27,Lena13,Nice texture and smell. Skin feels hydrated all day.,4,positive,Facebook Marketplace,2026-01-22
+27,Clara24,Five stars without hesitation. My go-to now.,5,positive,Facebook Marketplace,2026-01-27
+27,Kevin68,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Facebook Marketplace,2026-03-16
+28,Wendy48,"Decent, but I've used better products at this price point.",3,neutral,Facebook Marketplace,2026-03-25
+28,Emma50,Absolutely love this product! My skin has never felt better.,5,positive,Facebook Marketplace,2026-02-08
+29,Quinn96,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Taobao,2026-01-26
+29,Zoe62,Broke out badly after using this. Not for sensitive skin.,1,negative,Taobao,2026-02-13
+29,Emma99,Did not work as advertised for my skin type.,2,negative,Taobao,2026-02-09
+29,Kevin41,Five stars without hesitation. My go-to now.,5,positive,Taobao,2026-02-28
+29,Sam90,Works as described. Would buy again.,4,positive,Taobao,2026-03-30
+30,Hannah59,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Taobao,2026-01-22
+30,Lena48,This is a game-changer. Will definitely repurchase.,5,positive,Taobao,2026-02-26
+31,Wendy74,Exceeded my expectations — the quality is outstanding.,5,positive,JD,2026-03-04
+31,Clara91,"Decent, but I've used better products at this price point.",3,neutral,JD,2026-03-18
+31,Ivan20,Neutral experience. Might try a different brand next time.,3,neutral,JD,2026-01-19
+31,George29,Good value for money. Delivery was fast too.,4,positive,JD,2026-02-19
+31,Uma93,Really good product overall. Minor packaging issues but the formula is great.,4,positive,JD,2026-02-17
+31,Xiao40,It's okay. Not as impressive as I hoped but does the job.,3,neutral,JD,2026-02-09
+31,Nina24,Exceeded my expectations — the quality is outstanding.,5,positive,JD,2026-03-28
+32,Lena91,Five stars without hesitation. My go-to now.,5,positive,Taobao,2026-01-10
+32,Alice94,Terrible experience. Product arrived damaged and smelled off.,1,negative,Taobao,2026-02-17
+32,Quinn40,Exceeded my expectations — the quality is outstanding.,5,positive,Taobao,2026-03-12
+33,Alice58,Nice texture and smell. Skin feels hydrated all day.,4,positive,Shopee,2026-01-31
+33,Fiona45,Works as described. Would buy again.,4,positive,Shopee,2026-03-07
+33,Ben88,Would not recommend to someone with sensitive skin.,2,negative,Shopee,2026-03-28
+33,Julia73,Exceeded my expectations — the quality is outstanding.,5,positive,Shopee,2026-03-20
+33,Clara45,Nice texture and smell. Skin feels hydrated all day.,4,positive,Shopee,2026-01-26
+33,Uma77,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Shopee,2026-03-30
+33,Rosa12,Terrible experience. Product arrived damaged and smelled off.,1,negative,Shopee,2026-02-23
+33,Zoe72,Works as described. Would buy again.,4,positive,Shopee,2026-03-22
+34,Sam23,Exceeded my expectations — the quality is outstanding.,5,positive,JD,2026-01-27
+34,Clara40,Works as described. Would buy again.,4,positive,JD,2026-02-18
+34,Clara95,Five stars without hesitation. My go-to now.,5,positive,JD,2026-02-20
+34,Ivan36,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,JD,2026-04-07
+34,Ivan23,Five stars without hesitation. My go-to now.,5,positive,JD,2026-01-09
+34,Oscar63,This is a game-changer. Will definitely repurchase.,5,positive,JD,2026-03-02
+34,Marcus54,Good value for money. Delivery was fast too.,4,positive,JD,2026-02-26
+35,Julia60,It did what it promised but I expected more.,3,neutral,Taobao,2026-03-12
+35,Ivan21,Would not recommend to someone with sensitive skin.,2,negative,Taobao,2026-02-27
+35,Marcus57,This is a game-changer. Will definitely repurchase.,5,positive,Taobao,2026-03-07
+35,Oscar69,Best purchase I've made this year. Highly recommend!,5,positive,Taobao,2026-02-06
+35,Sam17,Average product. Works fine but nothing special.,3,neutral,Taobao,2026-04-08
+35,Clara95,Neutral experience. Might try a different brand next time.,3,neutral,Taobao,2026-03-19
+36,Hannah27,Neutral experience. Might try a different brand next time.,3,neutral,Taobao,2026-03-06
+36,Kevin44,It did what it promised but I expected more.,3,neutral,Taobao,2026-03-27
+36,George66,Average product. Works fine but nothing special.,3,neutral,Taobao,2026-03-02
+36,Yuki76,Neutral experience. Might try a different brand next time.,3,neutral,Taobao,2026-01-16
+36,Fiona18,Works as described. Would buy again.,4,positive,Taobao,2026-03-14
+36,Yuki77,Good value for money. Delivery was fast too.,4,positive,Taobao,2026-01-12
+36,George17,This is a game-changer. Will definitely repurchase.,5,positive,Taobao,2026-01-13
+36,Lena35,Works as described. Would buy again.,4,positive,Taobao,2026-02-25
+37,Kevin93,Disappointed with this. Caused slight irritation after a week of use.,2,negative,JD,2026-02-06
+37,Xiao49,Nice texture and smell. Skin feels hydrated all day.,4,positive,JD,2026-02-20
+37,Sam47,Nice texture and smell. Skin feels hydrated all day.,4,positive,JD,2026-01-24
+37,Uma84,Good value for money. Delivery was fast too.,4,positive,JD,2026-03-29
+38,Oscar76,Would not recommend to someone with sensitive skin.,2,negative,Facebook Marketplace,2026-03-17
+38,Victor27,Best purchase I've made this year. Highly recommend!,5,positive,Facebook Marketplace,2026-03-12
+38,George31,Nice texture and smell. Skin feels hydrated all day.,4,positive,Facebook Marketplace,2026-01-11
+39,Nina47,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,JD,2026-01-14
+39,George98,Nice texture and smell. Skin feels hydrated all day.,4,positive,JD,2026-02-20
+40,Victor92,Nice texture and smell. Skin feels hydrated all day.,4,positive,Facebook Marketplace,2026-01-28
+40,Rosa88,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Facebook Marketplace,2026-01-10
+40,Fiona74,It did what it promised but I expected more.,3,neutral,Facebook Marketplace,2026-03-13
+40,Clara72,The formula feels too heavy for daily use.,2,negative,Facebook Marketplace,2026-02-08
+40,Ivan16,Good value for money. Delivery was fast too.,4,positive,Facebook Marketplace,2026-02-06
+40,Marcus61,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Facebook Marketplace,2026-01-19
+41,Wendy41,Allergic reaction after two uses. Returned immediately.,1,negative,Temu,2026-02-28
+41,Julia67,Complete waste of money. No visible effect whatsoever.,1,negative,Temu,2026-01-26
+41,Wendy75,Works as described. Would buy again.,4,positive,Temu,2026-04-08
+41,Kevin80,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Temu,2026-02-03
+41,Wendy47,Five stars without hesitation. My go-to now.,5,positive,Temu,2026-02-22
+41,Emma93,Did not work as advertised for my skin type.,2,negative,Temu,2026-03-14
+42,Uma88,Neutral experience. Might try a different brand next time.,3,neutral,JD,2026-03-12
+43,Rosa10,"Decent, but I've used better products at this price point.",3,neutral,Temu,2026-01-17
+43,Sam15,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Temu,2026-02-23
+43,David47,The formula feels too heavy for daily use.,2,negative,Temu,2026-03-27
+43,Yuki66,Exceeded my expectations — the quality is outstanding.,5,positive,Temu,2026-02-28
+43,Alice70,Average product. Works fine but nothing special.,3,neutral,Temu,2026-03-18
+43,Xiao60,I've been using it for 3 weeks and the results are amazing.,5,positive,Temu,2026-02-15
+44,Julia72,Good value for money. Delivery was fast too.,4,positive,Facebook Marketplace,2026-01-22
+44,Tina20,Best purchase I've made this year. Highly recommend!,5,positive,Facebook Marketplace,2026-01-26
+44,George43,Disappointed with this. Caused slight irritation after a week of use.,2,negative,Facebook Marketplace,2026-01-18
+44,Quinn90,Disappointed with this. Caused slight irritation after a week of use.,2,negative,Facebook Marketplace,2026-03-24
+44,Yuki85,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Facebook Marketplace,2026-01-13
+44,Rosa79,Nice texture and smell. Skin feels hydrated all day.,4,positive,Facebook Marketplace,2026-04-02
+45,Clara75,Five stars without hesitation. My go-to now.,5,positive,Taobao,2026-02-13
+45,Fiona30,Best purchase I've made this year. Highly recommend!,5,positive,Taobao,2026-03-27
+45,David94,Average product. Works fine but nothing special.,3,neutral,Taobao,2026-03-03
+45,Xiao24,It did what it promised but I expected more.,3,neutral,Taobao,2026-04-05
+46,Ivan71,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Temu,2026-01-19
+46,Rosa62,Best purchase I've made this year. Highly recommend!,5,positive,Temu,2026-02-02
+46,Xiao10,I've been using it for 3 weeks and the results are amazing.,5,positive,Temu,2026-03-16
+47,George68,It did what it promised but I expected more.,3,neutral,Facebook Marketplace,2026-03-23
+47,Fiona62,I've been using it for 3 weeks and the results are amazing.,5,positive,Facebook Marketplace,2026-01-22
+47,Quinn47,Works as described. Would buy again.,4,positive,Facebook Marketplace,2026-01-23
+47,Ivan78,"Decent, but I've used better products at this price point.",3,neutral,Facebook Marketplace,2026-02-10
+48,Kevin98,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Facebook Marketplace,2026-01-10
+48,Marcus84,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Facebook Marketplace,2026-02-19
+48,Ivan33,Good value for money. Delivery was fast too.,4,positive,Facebook Marketplace,2026-02-11
+48,Priya88,Best purchase I've made this year. Highly recommend!,5,positive,Facebook Marketplace,2026-02-24
+48,Nina36,Exceeded my expectations — the quality is outstanding.,5,positive,Facebook Marketplace,2026-04-08
+48,Lena61,Neutral experience. Might try a different brand next time.,3,neutral,Facebook Marketplace,2026-03-07
+48,Emma83,Five stars without hesitation. My go-to now.,5,positive,Facebook Marketplace,2026-02-07
+48,Xiao44,Average product. Works fine but nothing special.,3,neutral,Facebook Marketplace,2026-03-21
+49,Fiona13,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Temu,2026-04-03
+49,Kevin70,Nice texture and smell. Skin feels hydrated all day.,4,positive,Temu,2026-03-19
+49,Rosa66,Did not work as advertised for my skin type.,2,negative,Temu,2026-04-08
+49,Sam86,Nice texture and smell. Skin feels hydrated all day.,4,positive,Temu,2026-03-30
+50,George42,Nice texture and smell. Skin feels hydrated all day.,4,positive,Shopee,2026-01-10
+50,Yuki41,Exceeded my expectations — the quality is outstanding.,5,positive,Shopee,2026-03-06
+50,Ben35,Exceeded my expectations — the quality is outstanding.,5,positive,Shopee,2026-01-21
+50,George70,Nice texture and smell. Skin feels hydrated all day.,4,positive,Shopee,2026-04-06
+50,Kevin30,Broke out badly after using this. Not for sensitive skin.,1,negative,Shopee,2026-03-20
+50,Ivan71,Works as described. Would buy again.,4,positive,Shopee,2026-02-03
+50,Ben95,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Shopee,2026-01-23
+51,Victor78,It did what it promised but I expected more.,3,neutral,Shopee,2026-02-02
+51,Priya80,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Shopee,2026-03-28
+51,Nina92,Best purchase I've made this year. Highly recommend!,5,positive,Shopee,2026-01-23
+51,Victor18,Absolutely love this product! My skin has never felt better.,5,positive,Shopee,2026-01-25
+51,Ben35,Absolutely love this product! My skin has never felt better.,5,positive,Shopee,2026-03-12
+52,Oscar55,This is a game-changer. Will definitely repurchase.,5,positive,Temu,2026-01-26
+52,Sam41,This is a game-changer. Will definitely repurchase.,5,positive,Temu,2026-02-10
+52,Clara83,It did what it promised but I expected more.,3,neutral,Temu,2026-03-22
+52,Xiao19,The formula feels too heavy for daily use.,2,negative,Temu,2026-03-11
+53,Yuki49,Average product. Works fine but nothing special.,3,neutral,Facebook Marketplace,2026-02-22
+53,Zoe66,"Decent, but I've used better products at this price point.",3,neutral,Facebook Marketplace,2026-01-27
+53,Hannah35,Works as described. Would buy again.,4,positive,Facebook Marketplace,2026-01-28
+53,Clara24,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Facebook Marketplace,2026-02-09
+53,Emma46,Disappointed with this. Caused slight irritation after a week of use.,2,negative,Facebook Marketplace,2026-02-21
+53,David49,It did what it promised but I expected more.,3,neutral,Facebook Marketplace,2026-03-10
+53,George78,This is a game-changer. Will definitely repurchase.,5,positive,Facebook Marketplace,2026-02-04
+54,Tina90,Complete waste of money. No visible effect whatsoever.,1,negative,JD,2026-03-03
+54,Emma64,Best purchase I've made this year. Highly recommend!,5,positive,JD,2026-03-27
+54,Rosa26,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,JD,2026-04-02
+54,Rosa97,This is a game-changer. Will definitely repurchase.,5,positive,JD,2026-01-26
+54,Wendy77,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,JD,2026-03-05
+54,Yuki28,Complete waste of money. No visible effect whatsoever.,1,negative,JD,2026-02-18
+54,Rosa25,This is a game-changer. Will definitely repurchase.,5,positive,JD,2026-02-18
+55,Nina47,Good value for money. Delivery was fast too.,4,positive,Taobao,2026-01-15
+55,Emma69,It did what it promised but I expected more.,3,neutral,Taobao,2026-01-20
+55,David33,"Decent, but I've used better products at this price point.",3,neutral,Taobao,2026-04-08
+55,Marcus62,Works as described. Would buy again.,4,positive,Taobao,2026-03-07
+55,Oscar85,Five stars without hesitation. My go-to now.,5,positive,Taobao,2026-02-03
+56,Clara47,It did what it promised but I expected more.,3,neutral,Taobao,2026-01-26
+56,Ivan52,I've been using it for 3 weeks and the results are amazing.,5,positive,Taobao,2026-03-02
+56,Wendy36,Good value for money. Delivery was fast too.,4,positive,Taobao,2026-01-16
+56,Xiao90,I've been using it for 3 weeks and the results are amazing.,5,positive,Taobao,2026-01-20
+56,Wendy87,Works as described. Would buy again.,4,positive,Taobao,2026-03-04
+56,Kevin43,"Decent, but I've used better products at this price point.",3,neutral,Taobao,2026-03-23
+57,Julia82,Neutral experience. Might try a different brand next time.,3,neutral,JD,2026-03-21
+58,Tina81,I've been using it for 3 weeks and the results are amazing.,5,positive,Taobao,2026-01-22
+58,Lena80,Best purchase I've made this year. Highly recommend!,5,positive,Taobao,2026-02-12
+58,Wendy46,I've been using it for 3 weeks and the results are amazing.,5,positive,Taobao,2026-02-09
+58,Julia88,Best purchase I've made this year. Highly recommend!,5,positive,Taobao,2026-03-19
+58,Emma13,Nice texture and smell. Skin feels hydrated all day.,4,positive,Taobao,2026-04-05
+59,Nina82,Neutral experience. Might try a different brand next time.,3,neutral,Shopee,2026-03-19
+59,Fiona94,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Shopee,2026-03-23
+59,David85,"Decent, but I've used better products at this price point.",3,neutral,Shopee,2026-03-09
+59,David66,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Shopee,2026-02-17
+59,Clara86,Broke out badly after using this. Not for sensitive skin.,1,negative,Shopee,2026-04-06
+59,Yuki58,Neutral experience. Might try a different brand next time.,3,neutral,Shopee,2026-03-13
+60,Xiao72,Five stars without hesitation. My go-to now.,5,positive,Facebook Marketplace,2026-03-05
+60,Emma20,Complete waste of money. No visible effect whatsoever.,1,negative,Facebook Marketplace,2026-04-01
+60,Oscar99,"Decent, but I've used better products at this price point.",3,neutral,Facebook Marketplace,2026-03-04
+60,Oscar75,It did what it promised but I expected more.,3,neutral,Facebook Marketplace,2026-03-20
+60,Marcus55,Average product. Works fine but nothing special.,3,neutral,Facebook Marketplace,2026-02-01
+60,Alice83,Nice texture and smell. Skin feels hydrated all day.,4,positive,Facebook Marketplace,2026-02-08
+60,Ivan62,"Decent, but I've used better products at this price point.",3,neutral,Facebook Marketplace,2026-03-23
+60,Ben82,Nice texture and smell. Skin feels hydrated all day.,4,positive,Facebook Marketplace,2026-02-25
+61,Marcus70,Best purchase I've made this year. Highly recommend!,5,positive,Shopee,2026-03-10
+61,Yuki78,Average product. Works fine but nothing special.,3,neutral,Shopee,2026-02-26
+61,Marcus70,Neutral experience. Might try a different brand next time.,3,neutral,Shopee,2026-01-27
+62,Victor19,Five stars without hesitation. My go-to now.,5,positive,JD,2026-03-08
+62,Ivan64,The formula feels too heavy for daily use.,2,negative,JD,2026-02-10
+62,Clara45,Absolutely love this product! My skin has never felt better.,5,positive,JD,2026-02-26
+63,Uma66,Five stars without hesitation. My go-to now.,5,positive,Temu,2026-02-02
+63,George13,Five stars without hesitation. My go-to now.,5,positive,Temu,2026-03-25
+63,Marcus18,I've been using it for 3 weeks and the results are amazing.,5,positive,Temu,2026-04-01
+63,Rosa67,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Temu,2026-01-13
+63,Kevin15,Nice texture and smell. Skin feels hydrated all day.,4,positive,Temu,2026-01-24
+63,Uma95,I've been using it for 3 weeks and the results are amazing.,5,positive,Temu,2026-03-08
+64,Uma48,Allergic reaction after two uses. Returned immediately.,1,negative,JD,2026-03-03
+64,Hannah34,Absolutely love this product! My skin has never felt better.,5,positive,JD,2026-03-17
+64,Tina56,Complete waste of money. No visible effect whatsoever.,1,negative,JD,2026-03-09
+64,Victor36,Neutral experience. Might try a different brand next time.,3,neutral,JD,2026-01-15
+64,Zoe29,Five stars without hesitation. My go-to now.,5,positive,JD,2026-03-10
+64,Fiona95,Really good product overall. Minor packaging issues but the formula is great.,4,positive,JD,2026-01-15
+64,Julia36,It did what it promised but I expected more.,3,neutral,JD,2026-02-10
+65,Sam10,Packaging broke on arrival. Product itself is average.,2,negative,Facebook Marketplace,2026-01-14
+65,Priya74,Absolutely love this product! My skin has never felt better.,5,positive,Facebook Marketplace,2026-03-04
+65,Priya99,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Facebook Marketplace,2026-03-07
+65,Clara81,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Facebook Marketplace,2026-04-07
+65,George26,Neutral experience. Might try a different brand next time.,3,neutral,Facebook Marketplace,2026-02-15
+65,Clara12,Exceeded my expectations — the quality is outstanding.,5,positive,Facebook Marketplace,2026-04-04
+65,Wendy68,Good value for money. Delivery was fast too.,4,positive,Facebook Marketplace,2026-03-24
+66,Julia67,"Decent, but I've used better products at this price point.",3,neutral,Temu,2026-02-25
+66,Wendy18,Average product. Works fine but nothing special.,3,neutral,Temu,2026-03-08
+66,Marcus32,Best purchase I've made this year. Highly recommend!,5,positive,Temu,2026-01-18
+66,Ivan24,Five stars without hesitation. My go-to now.,5,positive,Temu,2026-01-27
+66,George76,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Temu,2026-02-15
+66,Victor79,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Temu,2026-03-10
+66,Oscar92,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Temu,2026-02-15
+66,Alice39,I've been using it for 3 weeks and the results are amazing.,5,positive,Temu,2026-04-01
+67,Uma34,I've been using it for 3 weeks and the results are amazing.,5,positive,Temu,2026-03-17
+67,Yuki45,This is a game-changer. Will definitely repurchase.,5,positive,Temu,2026-01-11
+67,Oscar96,Five stars without hesitation. My go-to now.,5,positive,Temu,2026-01-20
+67,Marcus34,Terrible experience. Product arrived damaged and smelled off.,1,negative,Temu,2026-02-18
+67,Quinn17,Neutral experience. Might try a different brand next time.,3,neutral,Temu,2026-02-28
+68,Ben28,Best purchase I've made this year. Highly recommend!,5,positive,JD,2026-03-09
+68,Emma55,Did not work as advertised for my skin type.,2,negative,JD,2026-01-15
+68,Nina91,Best purchase I've made this year. Highly recommend!,5,positive,JD,2026-01-15
+68,Quinn91,Absolutely love this product! My skin has never felt better.,5,positive,JD,2026-03-15
+68,Uma33,Absolutely love this product! My skin has never felt better.,5,positive,JD,2026-03-26
+69,George33,Five stars without hesitation. My go-to now.,5,positive,Temu,2026-02-22
+69,Emma45,I've been using it for 3 weeks and the results are amazing.,5,positive,Temu,2026-02-22
+69,Quinn88,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Temu,2026-03-14
+69,David84,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Temu,2026-03-17
+69,George46,This is a game-changer. Will definitely repurchase.,5,positive,Temu,2026-03-18
+69,Xiao22,This is a game-changer. Will definitely repurchase.,5,positive,Temu,2026-03-14
+69,Priya56,Would not recommend to someone with sensitive skin.,2,negative,Temu,2026-02-01
+70,Emma13,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Taobao,2026-01-15
+70,Priya96,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Taobao,2026-01-31
+71,Ben68,Nice texture and smell. Skin feels hydrated all day.,4,positive,Taobao,2026-03-22
+71,Nina44,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Taobao,2026-04-08
+71,Alice50,Nice texture and smell. Skin feels hydrated all day.,4,positive,Taobao,2026-03-23
+72,Zoe45,Five stars without hesitation. My go-to now.,5,positive,Facebook Marketplace,2026-03-20
+72,Ben72,Absolutely love this product! My skin has never felt better.,5,positive,Facebook Marketplace,2026-01-16
+72,Clara50,Would not recommend to someone with sensitive skin.,2,negative,Facebook Marketplace,2026-02-16
+72,Nina56,Disappointed with this. Caused slight irritation after a week of use.,2,negative,Facebook Marketplace,2026-02-28
+73,Wendy13,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Facebook Marketplace,2026-04-01
+73,Uma66,Average product. Works fine but nothing special.,3,neutral,Facebook Marketplace,2026-01-09
+73,Uma49,Works as described. Would buy again.,4,positive,Facebook Marketplace,2026-03-23
+73,Fiona41,I've been using it for 3 weeks and the results are amazing.,5,positive,Facebook Marketplace,2026-04-02
+73,Tina97,It did what it promised but I expected more.,3,neutral,Facebook Marketplace,2026-02-18
+73,Xiao27,Works as described. Would buy again.,4,positive,Facebook Marketplace,2026-01-31
+73,Kevin46,Average product. Works fine but nothing special.,3,neutral,Facebook Marketplace,2026-01-19
+73,Fiona60,Nice texture and smell. Skin feels hydrated all day.,4,positive,Facebook Marketplace,2026-03-23
+74,Clara22,Good value for money. Delivery was fast too.,4,positive,Shopee,2026-01-16
+74,Hannah70,Best purchase I've made this year. Highly recommend!,5,positive,Shopee,2026-03-27
+74,Zoe86,Disappointed with this. Caused slight irritation after a week of use.,2,negative,Shopee,2026-01-09
+74,Tina58,Best purchase I've made this year. Highly recommend!,5,positive,Shopee,2026-02-28
+74,Emma81,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Shopee,2026-03-24
+74,Fiona74,Exceeded my expectations — the quality is outstanding.,5,positive,Shopee,2026-02-21
+74,Emma21,The formula feels too heavy for daily use.,2,negative,Shopee,2026-03-17
+74,Ivan24,Works as described. Would buy again.,4,positive,Shopee,2026-01-14
+75,Ben93,I've been using it for 3 weeks and the results are amazing.,5,positive,Taobao,2026-03-07
+76,Wendy48,Works as described. Would buy again.,4,positive,Taobao,2026-03-25
+76,Yuki95,It did what it promised but I expected more.,3,neutral,Taobao,2026-03-29
+76,Kevin33,Average product. Works fine but nothing special.,3,neutral,Taobao,2026-02-01
+77,Xiao88,Nice texture and smell. Skin feels hydrated all day.,4,positive,Facebook Marketplace,2026-02-07
+77,Quinn12,It did what it promised but I expected more.,3,neutral,Facebook Marketplace,2026-03-23
+77,Clara44,Nice texture and smell. Skin feels hydrated all day.,4,positive,Facebook Marketplace,2026-03-10
+77,Tina92,Best purchase I've made this year. Highly recommend!,5,positive,Facebook Marketplace,2026-03-07
+77,Alice30,Neutral experience. Might try a different brand next time.,3,neutral,Facebook Marketplace,2026-02-02
+77,Oscar39,Good value for money. Delivery was fast too.,4,positive,Facebook Marketplace,2026-02-06
+78,Wendy76,It's okay. Not as impressive as I hoped but does the job.,3,neutral,JD,2026-01-19
+78,Marcus31,Nice texture and smell. Skin feels hydrated all day.,4,positive,JD,2026-01-16
+78,Ben94,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,JD,2026-03-23
+78,Uma94,I've been using it for 3 weeks and the results are amazing.,5,positive,JD,2026-02-15
+79,Wendy64,Exceeded my expectations — the quality is outstanding.,5,positive,Facebook Marketplace,2026-01-19
+79,Nina26,Exceeded my expectations — the quality is outstanding.,5,positive,Facebook Marketplace,2026-02-05
+79,Lena96,Good value for money. Delivery was fast too.,4,positive,Facebook Marketplace,2026-03-01
+79,Quinn60,Works as described. Would buy again.,4,positive,Facebook Marketplace,2026-03-24
+79,Nina66,Nice texture and smell. Skin feels hydrated all day.,4,positive,Facebook Marketplace,2026-03-03
+79,Emma74,Average product. Works fine but nothing special.,3,neutral,Facebook Marketplace,2026-03-12
+80,Ben72,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Temu,2026-02-21
+80,Nina13,Good value for money. Delivery was fast too.,4,positive,Temu,2026-02-18
+80,Clara24,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Temu,2026-03-19
+80,Emma33,Best purchase I've made this year. Highly recommend!,5,positive,Temu,2026-01-20
+80,Nina96,This is a game-changer. Will definitely repurchase.,5,positive,Temu,2026-01-16
+81,Fiona10,Really good product overall. Minor packaging issues but the formula is great.,4,positive,JD,2026-03-11
+81,Ivan97,Exceeded my expectations — the quality is outstanding.,5,positive,JD,2026-02-22
+81,George84,"Decent, but I've used better products at this price point.",3,neutral,JD,2026-02-14
+82,Wendy55,Average product. Works fine but nothing special.,3,neutral,Shopee,2026-01-20
+82,Uma48,Average product. Works fine but nothing special.,3,neutral,Shopee,2026-02-07
+82,Lena14,Allergic reaction after two uses. Returned immediately.,1,negative,Shopee,2026-03-13
+82,Wendy87,Did not work as advertised for my skin type.,2,negative,Shopee,2026-01-09
+82,Uma60,Absolutely love this product! My skin has never felt better.,5,positive,Shopee,2026-02-13
+83,David90,Nice texture and smell. Skin feels hydrated all day.,4,positive,JD,2026-03-24
+83,Ben14,Exceeded my expectations — the quality is outstanding.,5,positive,JD,2026-02-18
+83,Wendy18,Did not work as advertised for my skin type.,2,negative,JD,2026-01-16
+83,Oscar17,The formula feels too heavy for daily use.,2,negative,JD,2026-03-28
+83,Clara23,It's okay. Not as impressive as I hoped but does the job.,3,neutral,JD,2026-03-21
+83,Marcus61,Absolutely love this product! My skin has never felt better.,5,positive,JD,2026-03-29
+83,Hannah86,"Decent, but I've used better products at this price point.",3,neutral,JD,2026-01-10
+84,Wendy98,It did what it promised but I expected more.,3,neutral,Taobao,2026-03-26
+84,Sam82,Neutral experience. Might try a different brand next time.,3,neutral,Taobao,2026-03-28
+84,Kevin30,Absolutely love this product! My skin has never felt better.,5,positive,Taobao,2026-03-08
+84,Ben73,Did not work as advertised for my skin type.,2,negative,Taobao,2026-01-09
+85,Yuki88,Would not recommend to someone with sensitive skin.,2,negative,Shopee,2026-02-02
+85,Julia29,Neutral experience. Might try a different brand next time.,3,neutral,Shopee,2026-02-09
+86,Clara55,Absolutely love this product! My skin has never felt better.,5,positive,Temu,2026-02-15
+86,Quinn79,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Temu,2026-02-13
+87,Emma52,Would not recommend to someone with sensitive skin.,2,negative,JD,2026-03-30
+87,Tina83,It did what it promised but I expected more.,3,neutral,JD,2026-02-26
+87,Marcus18,I've been using it for 3 weeks and the results are amazing.,5,positive,JD,2026-02-27
+88,Tina65,Exceeded my expectations — the quality is outstanding.,5,positive,JD,2026-02-27
+88,Fiona99,Would not recommend to someone with sensitive skin.,2,negative,JD,2026-01-21
+88,Ben40,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,JD,2026-02-13
+88,Rosa47,Disappointed with this. Caused slight irritation after a week of use.,2,negative,JD,2026-04-08
+88,George73,It did what it promised but I expected more.,3,neutral,JD,2026-03-20
+88,Lena19,Absolutely love this product! My skin has never felt better.,5,positive,JD,2026-03-14
+89,Alice59,Average product. Works fine but nothing special.,3,neutral,Shopee,2026-03-08
+89,Victor45,Five stars without hesitation. My go-to now.,5,positive,Shopee,2026-03-29
+89,Clara37,Nice texture and smell. Skin feels hydrated all day.,4,positive,Shopee,2026-02-16
+89,Priya23,"Decent, but I've used better products at this price point.",3,neutral,Shopee,2026-03-22
+89,David86,Best purchase I've made this year. Highly recommend!,5,positive,Shopee,2026-03-30
+89,Victor98,Average product. Works fine but nothing special.,3,neutral,Shopee,2026-02-20
+90,Nina69,Works as described. Would buy again.,4,positive,Facebook Marketplace,2026-01-30
+90,Hannah64,Average product. Works fine but nothing special.,3,neutral,Facebook Marketplace,2026-03-27
+90,Julia83,Exceeded my expectations — the quality is outstanding.,5,positive,Facebook Marketplace,2026-03-31
+90,Zoe71,Absolutely love this product! My skin has never felt better.,5,positive,Facebook Marketplace,2026-02-24
+91,Sam49,Packaging broke on arrival. Product itself is average.,2,negative,Temu,2026-01-20
+91,Sam54,This is a game-changer. Will definitely repurchase.,5,positive,Temu,2026-02-12
+91,Xiao60,Neutral experience. Might try a different brand next time.,3,neutral,Temu,2026-01-09
+91,Priya10,Broke out badly after using this. Not for sensitive skin.,1,negative,Temu,2026-01-17
+91,Nina77,It did what it promised but I expected more.,3,neutral,Temu,2026-04-02
+91,Nina31,This is a game-changer. Will definitely repurchase.,5,positive,Temu,2026-02-25
+91,Emma35,Exceeded my expectations — the quality is outstanding.,5,positive,Temu,2026-02-01
+91,David67,Good value for money. Delivery was fast too.,4,positive,Temu,2026-02-05
+92,Zoe20,Neutral experience. Might try a different brand next time.,3,neutral,JD,2026-03-04
+92,Priya94,Disappointed with this. Caused slight irritation after a week of use.,2,negative,JD,2026-02-27
+92,George28,I've been using it for 3 weeks and the results are amazing.,5,positive,JD,2026-03-23
+92,Wendy74,It's okay. Not as impressive as I hoped but does the job.,3,neutral,JD,2026-01-25
+92,Clara48,Good value for money. Delivery was fast too.,4,positive,JD,2026-03-09
+92,Oscar24,Exceeded my expectations — the quality is outstanding.,5,positive,JD,2026-04-03
+93,Wendy83,Terrible experience. Product arrived damaged and smelled off.,1,negative,Taobao,2026-03-30
+93,Priya47,It did what it promised but I expected more.,3,neutral,Taobao,2026-01-16
+93,Kevin29,Complete waste of money. No visible effect whatsoever.,1,negative,Taobao,2026-02-06
+93,Ben32,It did what it promised but I expected more.,3,neutral,Taobao,2026-02-28
+93,Victor30,Absolutely love this product! My skin has never felt better.,5,positive,Taobao,2026-03-20
+94,Priya92,Five stars without hesitation. My go-to now.,5,positive,Shopee,2026-03-15
+94,Sam83,I've been using it for 3 weeks and the results are amazing.,5,positive,Shopee,2026-03-11
+94,Xiao22,I've been using it for 3 weeks and the results are amazing.,5,positive,Shopee,2026-02-01
+95,Nina19,"Decent, but I've used better products at this price point.",3,neutral,Taobao,2026-02-10
+95,Uma30,Exceeded my expectations — the quality is outstanding.,5,positive,Taobao,2026-03-08
+95,Ivan96,Exceeded my expectations — the quality is outstanding.,5,positive,Taobao,2026-04-07
+95,George19,Five stars without hesitation. My go-to now.,5,positive,Taobao,2026-02-12
+96,Wendy39,Works as described. Would buy again.,4,positive,Temu,2026-03-31
+96,Julia62,The formula feels too heavy for daily use.,2,negative,Temu,2026-01-20
+96,Clara40,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Temu,2026-01-30
+96,Clara46,Good value for money. Delivery was fast too.,4,positive,Temu,2026-03-13
+96,Alice64,"Decent, but I've used better products at this price point.",3,neutral,Temu,2026-01-26
+96,Quinn97,Good value for money. Delivery was fast too.,4,positive,Temu,2026-04-08
+97,Kevin14,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Facebook Marketplace,2026-04-04
+97,Priya95,Best purchase I've made this year. Highly recommend!,5,positive,Facebook Marketplace,2026-01-24
+97,Rosa73,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Facebook Marketplace,2026-02-19
+97,Yuki61,"Decent, but I've used better products at this price point.",3,neutral,Facebook Marketplace,2026-02-27
+97,David12,This is a game-changer. Will definitely repurchase.,5,positive,Facebook Marketplace,2026-01-28
+97,Alice97,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Facebook Marketplace,2026-01-15
+98,Tina25,It's okay. Not as impressive as I hoped but does the job.,3,neutral,JD,2026-03-25
+98,Uma34,Complete waste of money. No visible effect whatsoever.,1,negative,JD,2026-03-07
+98,Clara79,Would not recommend to someone with sensitive skin.,2,negative,JD,2026-02-21
+98,Priya35,Good value for money. Delivery was fast too.,4,positive,JD,2026-01-28
+99,Fiona42,Broke out badly after using this. Not for sensitive skin.,1,negative,JD,2026-03-18
+99,Yuki84,It's okay. Not as impressive as I hoped but does the job.,3,neutral,JD,2026-04-07
+99,Uma42,Good value for money. Delivery was fast too.,4,positive,JD,2026-03-20
+99,Oscar38,Best purchase I've made this year. Highly recommend!,5,positive,JD,2026-02-12
+99,Uma60,This is a game-changer. Will definitely repurchase.,5,positive,JD,2026-03-07
+99,Xiao65,Best purchase I've made this year. Highly recommend!,5,positive,JD,2026-01-27
+99,Clara73,Did not work as advertised for my skin type.,2,negative,JD,2026-03-08
+99,Fiona34,I've been using it for 3 weeks and the results are amazing.,5,positive,JD,2026-03-12
+100,Victor59,Five stars without hesitation. My go-to now.,5,positive,Facebook Marketplace,2026-01-23
+100,David38,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Facebook Marketplace,2026-02-14
+100,Tina52,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Facebook Marketplace,2026-02-24
+100,Clara15,Would not recommend to someone with sensitive skin.,2,negative,Facebook Marketplace,2026-01-28
+100,Quinn52,I've been using it for 3 weeks and the results are amazing.,5,positive,Facebook Marketplace,2026-02-01
+100,Emma95,Neutral experience. Might try a different brand next time.,3,neutral,Facebook Marketplace,2026-03-29
+100,Lena23,Neutral experience. Might try a different brand next time.,3,neutral,Facebook Marketplace,2026-03-13
+100,Ivan19,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Facebook Marketplace,2026-01-28
+101,Xiao77,Neutral experience. Might try a different brand next time.,3,neutral,Taobao,2026-03-10
+101,Kevin66,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Taobao,2026-02-14
+101,Ben92,Absolutely love this product! My skin has never felt better.,5,positive,Taobao,2026-03-27
+101,Quinn30,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Taobao,2026-02-28
+101,Victor68,"Decent, but I've used better products at this price point.",3,neutral,Taobao,2026-02-11
+101,Quinn49,Did not work as advertised for my skin type.,2,negative,Taobao,2026-03-04
+102,Clara39,Did not work as advertised for my skin type.,2,negative,Shopee,2026-04-06
+102,Yuki30,"Decent, but I've used better products at this price point.",3,neutral,Shopee,2026-03-16
+102,Tina93,Allergic reaction after two uses. Returned immediately.,1,negative,Shopee,2026-03-07
+103,Xiao70,Absolutely love this product! My skin has never felt better.,5,positive,Facebook Marketplace,2026-02-13
+103,Rosa29,Nice texture and smell. Skin feels hydrated all day.,4,positive,Facebook Marketplace,2026-01-27
+103,Kevin82,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Facebook Marketplace,2026-03-26
+103,Ben56,It did what it promised but I expected more.,3,neutral,Facebook Marketplace,2026-03-10
+103,George12,Five stars without hesitation. My go-to now.,5,positive,Facebook Marketplace,2026-03-04
+103,Uma32,Absolutely love this product! My skin has never felt better.,5,positive,Facebook Marketplace,2026-01-27
+104,Oscar62,Nice texture and smell. Skin feels hydrated all day.,4,positive,Taobao,2026-02-23
+104,Rosa64,Good value for money. Delivery was fast too.,4,positive,Taobao,2026-02-20
+104,Fiona68,Exceeded my expectations — the quality is outstanding.,5,positive,Taobao,2026-02-25
+104,Tina30,I've been using it for 3 weeks and the results are amazing.,5,positive,Taobao,2026-03-05
+104,Victor98,Nice texture and smell. Skin feels hydrated all day.,4,positive,Taobao,2026-03-31
+104,Tina22,Absolutely love this product! My skin has never felt better.,5,positive,Taobao,2026-01-22
+104,Alice88,Exceeded my expectations — the quality is outstanding.,5,positive,Taobao,2026-01-22
+104,Yuki89,Good value for money. Delivery was fast too.,4,positive,Taobao,2026-01-21
+105,Wendy79,Absolutely love this product! My skin has never felt better.,5,positive,Shopee,2026-03-23
+105,Xiao26,Nice texture and smell. Skin feels hydrated all day.,4,positive,Shopee,2026-03-31
+105,Lena33,Average product. Works fine but nothing special.,3,neutral,Shopee,2026-04-02
+105,Julia34,Would not recommend to someone with sensitive skin.,2,negative,Shopee,2026-02-09
+106,Nina86,The formula feels too heavy for daily use.,2,negative,Facebook Marketplace,2026-02-18
+106,Tina59,It did what it promised but I expected more.,3,neutral,Facebook Marketplace,2026-02-03
+106,Lena90,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Facebook Marketplace,2026-03-07
+106,Ben75,Best purchase I've made this year. Highly recommend!,5,positive,Facebook Marketplace,2026-03-25
+106,Tina92,Good value for money. Delivery was fast too.,4,positive,Facebook Marketplace,2026-02-23
+106,David33,Works as described. Would buy again.,4,positive,Facebook Marketplace,2026-03-04
+107,Yuki50,Exceeded my expectations — the quality is outstanding.,5,positive,Shopee,2026-03-28
+107,Julia99,Exceeded my expectations — the quality is outstanding.,5,positive,Shopee,2026-03-13
+107,David57,"Decent, but I've used better products at this price point.",3,neutral,Shopee,2026-01-22
+107,Ben11,This is a game-changer. Will definitely repurchase.,5,positive,Shopee,2026-01-22
+107,Wendy65,Complete waste of money. No visible effect whatsoever.,1,negative,Shopee,2026-01-30
+107,Xiao57,I've been using it for 3 weeks and the results are amazing.,5,positive,Shopee,2026-01-09
+108,Lena22,Really good product overall. Minor packaging issues but the formula is great.,4,positive,JD,2026-04-02
+108,Nina34,Works as described. Would buy again.,4,positive,JD,2026-02-02
+108,Tina45,Good value for money. Delivery was fast too.,4,positive,JD,2026-03-27
+109,Lena79,Works as described. Would buy again.,4,positive,Taobao,2026-04-03
+109,Lena68,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Taobao,2026-02-23
+109,Kevin76,Good value for money. Delivery was fast too.,4,positive,Taobao,2026-03-11
+109,Victor76,Five stars without hesitation. My go-to now.,5,positive,Taobao,2026-03-31
+109,Nina38,Five stars without hesitation. My go-to now.,5,positive,Taobao,2026-01-27
+109,Alice41,Good value for money. Delivery was fast too.,4,positive,Taobao,2026-04-08
+110,Fiona58,Nice texture and smell. Skin feels hydrated all day.,4,positive,Taobao,2026-01-21
+110,Oscar98,Best purchase I've made this year. Highly recommend!,5,positive,Taobao,2026-03-14
+110,Wendy55,Packaging broke on arrival. Product itself is average.,2,negative,Taobao,2026-02-23
+110,Nina62,Nice texture and smell. Skin feels hydrated all day.,4,positive,Taobao,2026-01-12
+110,Alice63,Disappointed with this. Caused slight irritation after a week of use.,2,negative,Taobao,2026-01-26
+110,Julia41,"Decent, but I've used better products at this price point.",3,neutral,Taobao,2026-03-15
+110,Tina79,Good value for money. Delivery was fast too.,4,positive,Taobao,2026-02-15
+110,Marcus26,Exceeded my expectations — the quality is outstanding.,5,positive,Taobao,2026-04-04
+111,Rosa43,"Decent, but I've used better products at this price point.",3,neutral,Shopee,2026-04-06
+111,Victor88,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Shopee,2026-03-05
+112,Yuki39,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Facebook Marketplace,2026-01-22
+112,Fiona59,Packaging broke on arrival. Product itself is average.,2,negative,Facebook Marketplace,2026-01-17
+112,Ivan24,Absolutely love this product! My skin has never felt better.,5,positive,Facebook Marketplace,2026-01-18
+112,Lena87,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Facebook Marketplace,2026-01-31
+112,Wendy67,Nice texture and smell. Skin feels hydrated all day.,4,positive,Facebook Marketplace,2026-01-26
+112,Sam81,Complete waste of money. No visible effect whatsoever.,1,negative,Facebook Marketplace,2026-02-03
+112,Oscar96,Best purchase I've made this year. Highly recommend!,5,positive,Facebook Marketplace,2026-02-06
+112,Fiona65,I've been using it for 3 weeks and the results are amazing.,5,positive,Facebook Marketplace,2026-02-02
+113,Tina20,Good value for money. Delivery was fast too.,4,positive,Facebook Marketplace,2026-03-11
+113,Ivan15,Disappointed with this. Caused slight irritation after a week of use.,2,negative,Facebook Marketplace,2026-01-13
+113,Hannah93,Works as described. Would buy again.,4,positive,Facebook Marketplace,2026-03-05
+113,Zoe39,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Facebook Marketplace,2026-01-16
+113,Zoe35,I've been using it for 3 weeks and the results are amazing.,5,positive,Facebook Marketplace,2026-03-27
+113,Victor97,Disappointed with this. Caused slight irritation after a week of use.,2,negative,Facebook Marketplace,2026-03-20
+114,Ben44,Best purchase I've made this year. Highly recommend!,5,positive,Temu,2026-03-25
+114,Clara17,Works as described. Would buy again.,4,positive,Temu,2026-03-28
+114,Alice58,Nice texture and smell. Skin feels hydrated all day.,4,positive,Temu,2026-03-06
+115,Lena79,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Shopee,2026-03-26
+115,David19,I've been using it for 3 weeks and the results are amazing.,5,positive,Shopee,2026-03-06
+115,Clara40,This is a game-changer. Will definitely repurchase.,5,positive,Shopee,2026-02-19
+115,Victor63,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Shopee,2026-04-01
+115,Julia28,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Shopee,2026-02-19
+115,Lena52,It did what it promised but I expected more.,3,neutral,Shopee,2026-04-02
+115,Julia89,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Shopee,2026-01-29
+115,Julia29,Good value for money. Delivery was fast too.,4,positive,Shopee,2026-01-12
+116,Kevin53,I've been using it for 3 weeks and the results are amazing.,5,positive,JD,2026-03-27
+116,Xiao15,It's okay. Not as impressive as I hoped but does the job.,3,neutral,JD,2026-02-23
+116,Nina90,Packaging broke on arrival. Product itself is average.,2,negative,JD,2026-03-05
+116,Priya99,This is a game-changer. Will definitely repurchase.,5,positive,JD,2026-02-01
+116,Sam75,It's okay. Not as impressive as I hoped but does the job.,3,neutral,JD,2026-01-28
+116,Sam85,The formula feels too heavy for daily use.,2,negative,JD,2026-04-05
+116,Marcus51,It did what it promised but I expected more.,3,neutral,JD,2026-01-31
+116,Sam45,Really good product overall. Minor packaging issues but the formula is great.,4,positive,JD,2026-02-07
+117,Rosa94,Five stars without hesitation. My go-to now.,5,positive,Facebook Marketplace,2026-01-13
+117,Uma11,Did not work as advertised for my skin type.,2,negative,Facebook Marketplace,2026-01-26
+117,Hannah96,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Facebook Marketplace,2026-02-11
+117,Priya33,Nice texture and smell. Skin feels hydrated all day.,4,positive,Facebook Marketplace,2026-02-14
+117,Uma21,I've been using it for 3 weeks and the results are amazing.,5,positive,Facebook Marketplace,2026-02-05
+118,Hannah83,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Shopee,2026-03-18
+118,Uma24,I've been using it for 3 weeks and the results are amazing.,5,positive,Shopee,2026-03-28
+118,Tina79,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Shopee,2026-01-11
+118,Clara52,Neutral experience. Might try a different brand next time.,3,neutral,Shopee,2026-03-20
+118,Ben76,This is a game-changer. Will definitely repurchase.,5,positive,Shopee,2026-02-24
+119,Hannah83,Absolutely love this product! My skin has never felt better.,5,positive,Temu,2026-02-28
+119,Oscar57,It did what it promised but I expected more.,3,neutral,Temu,2026-03-22
+119,Julia52,This is a game-changer. Will definitely repurchase.,5,positive,Temu,2026-03-30
+119,David81,Complete waste of money. No visible effect whatsoever.,1,negative,Temu,2026-02-04
+119,Priya85,Did not work as advertised for my skin type.,2,negative,Temu,2026-01-19
+119,Tina70,I've been using it for 3 weeks and the results are amazing.,5,positive,Temu,2026-03-22
+119,Ben73,Neutral experience. Might try a different brand next time.,3,neutral,Temu,2026-03-02
+119,Kevin29,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Temu,2026-02-19
+120,Sam23,This is a game-changer. Will definitely repurchase.,5,positive,JD,2026-03-16
+120,Yuki59,Works as described. Would buy again.,4,positive,JD,2026-03-23
+120,Sam87,Neutral experience. Might try a different brand next time.,3,neutral,JD,2026-03-28
+120,Priya36,Average product. Works fine but nothing special.,3,neutral,JD,2026-01-09
+120,George21,"Decent, but I've used better products at this price point.",3,neutral,JD,2026-01-27
+121,Wendy17,Works as described. Would buy again.,4,positive,Shopee,2026-01-21
+121,Ivan34,Would not recommend to someone with sensitive skin.,2,negative,Shopee,2026-01-11
+121,Victor50,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Shopee,2026-03-25
+122,Zoe44,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Facebook Marketplace,2026-03-15
+122,Ivan37,It did what it promised but I expected more.,3,neutral,Facebook Marketplace,2026-02-11
+122,David76,Five stars without hesitation. My go-to now.,5,positive,Facebook Marketplace,2026-03-30
+122,Emma69,I've been using it for 3 weeks and the results are amazing.,5,positive,Facebook Marketplace,2026-02-19
+122,Marcus94,Good value for money. Delivery was fast too.,4,positive,Facebook Marketplace,2026-01-13
+122,David90,Works as described. Would buy again.,4,positive,Facebook Marketplace,2026-01-10
+122,Priya52,Best purchase I've made this year. Highly recommend!,5,positive,Facebook Marketplace,2026-04-01
+123,Julia96,It did what it promised but I expected more.,3,neutral,Shopee,2026-03-26
+123,Clara54,Nice texture and smell. Skin feels hydrated all day.,4,positive,Shopee,2026-04-04
+123,Sam13,Average product. Works fine but nothing special.,3,neutral,Shopee,2026-03-27
+123,Hannah57,Best purchase I've made this year. Highly recommend!,5,positive,Shopee,2026-02-21
+123,Alice88,Good value for money. Delivery was fast too.,4,positive,Shopee,2026-02-28
+123,Uma39,Did not work as advertised for my skin type.,2,negative,Shopee,2026-03-13
+124,Kevin48,Five stars without hesitation. My go-to now.,5,positive,Temu,2026-01-13
+124,Lena14,Good value for money. Delivery was fast too.,4,positive,Temu,2026-02-28
+124,Clara78,Absolutely love this product! My skin has never felt better.,5,positive,Temu,2026-01-25
+124,Uma73,It did what it promised but I expected more.,3,neutral,Temu,2026-02-13
+124,Oscar98,Good value for money. Delivery was fast too.,4,positive,Temu,2026-02-09
+124,Xiao77,Would not recommend to someone with sensitive skin.,2,negative,Temu,2026-03-08
+125,Rosa54,It's okay. Not as impressive as I hoped but does the job.,3,neutral,JD,2026-02-04
+125,Quinn57,Neutral experience. Might try a different brand next time.,3,neutral,JD,2026-02-15
+125,Oscar96,It did what it promised but I expected more.,3,neutral,JD,2026-01-12
+126,Tina89,I've been using it for 3 weeks and the results are amazing.,5,positive,Shopee,2026-01-19
+126,Xiao62,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Shopee,2026-02-19
+126,Fiona82,It did what it promised but I expected more.,3,neutral,Shopee,2026-04-06
+126,Lena12,Five stars without hesitation. My go-to now.,5,positive,Shopee,2026-03-26
+126,Uma59,Would not recommend to someone with sensitive skin.,2,negative,Shopee,2026-03-15
+126,Fiona68,The formula feels too heavy for daily use.,2,negative,Shopee,2026-02-08
+126,Wendy35,Best purchase I've made this year. Highly recommend!,5,positive,Shopee,2026-01-25
+127,Kevin47,It did what it promised but I expected more.,3,neutral,JD,2026-02-20
+127,Wendy43,"Decent, but I've used better products at this price point.",3,neutral,JD,2026-02-13
+127,Yuki27,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,JD,2026-03-16
+127,Hannah57,I've been using it for 3 weeks and the results are amazing.,5,positive,JD,2026-02-24
+128,Hannah39,Packaging broke on arrival. Product itself is average.,2,negative,Temu,2026-01-31
+128,Tina44,I've been using it for 3 weeks and the results are amazing.,5,positive,Temu,2026-02-13
+128,George18,This is a game-changer. Will definitely repurchase.,5,positive,Temu,2026-03-16
+128,George39,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Temu,2026-03-24
+128,Priya69,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Temu,2026-03-18
+128,Ben50,Disappointed with this. Caused slight irritation after a week of use.,2,negative,Temu,2026-02-03
+128,Oscar20,Nice texture and smell. Skin feels hydrated all day.,4,positive,Temu,2026-02-03
+128,Sam37,I've been using it for 3 weeks and the results are amazing.,5,positive,Temu,2026-03-12
+129,Emma68,Neutral experience. Might try a different brand next time.,3,neutral,Temu,2026-01-11
+129,George36,Neutral experience. Might try a different brand next time.,3,neutral,Temu,2026-02-15
+129,Alice51,It did what it promised but I expected more.,3,neutral,Temu,2026-02-26
+129,Rosa35,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Temu,2026-03-29
+129,Ivan23,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Temu,2026-02-09
+130,Nina14,I've been using it for 3 weeks and the results are amazing.,5,positive,Taobao,2026-02-19
+130,Priya46,"Decent, but I've used better products at this price point.",3,neutral,Taobao,2026-02-20
+130,Xiao19,"Decent, but I've used better products at this price point.",3,neutral,Taobao,2026-01-20
+130,Yuki24,Complete waste of money. No visible effect whatsoever.,1,negative,Taobao,2026-03-15
+130,Clara83,It did what it promised but I expected more.,3,neutral,Taobao,2026-03-28
+131,Fiona74,I've been using it for 3 weeks and the results are amazing.,5,positive,Shopee,2026-03-16
+131,Yuki36,Absolutely love this product! My skin has never felt better.,5,positive,Shopee,2026-03-12
+131,Lena50,It did what it promised but I expected more.,3,neutral,Shopee,2026-02-02
+132,Alice54,This is a game-changer. Will definitely repurchase.,5,positive,JD,2026-01-20
+132,Clara24,Nice texture and smell. Skin feels hydrated all day.,4,positive,JD,2026-03-09
+133,Priya80,Nice texture and smell. Skin feels hydrated all day.,4,positive,Shopee,2026-04-03
+133,Kevin76,Best purchase I've made this year. Highly recommend!,5,positive,Shopee,2026-01-17
+133,Nina92,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Shopee,2026-03-19
+133,Hannah68,Absolutely love this product! My skin has never felt better.,5,positive,Shopee,2026-01-24
+133,Julia26,Works as described. Would buy again.,4,positive,Shopee,2026-02-17
+134,Sam34,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Shopee,2026-02-22
+134,Ivan27,Exceeded my expectations — the quality is outstanding.,5,positive,Shopee,2026-01-24
+134,Sam96,Average product. Works fine but nothing special.,3,neutral,Shopee,2026-02-04
+134,Victor45,Works as described. Would buy again.,4,positive,Shopee,2026-01-10
+134,Quinn49,"Decent, but I've used better products at this price point.",3,neutral,Shopee,2026-01-22
+134,Tina70,Average product. Works fine but nothing special.,3,neutral,Shopee,2026-04-03
+134,David79,Good value for money. Delivery was fast too.,4,positive,Shopee,2026-03-08
+134,Yuki53,Best purchase I've made this year. Highly recommend!,5,positive,Shopee,2026-01-14
+135,Nina13,Five stars without hesitation. My go-to now.,5,positive,Temu,2026-03-08
+135,Ivan55,Neutral experience. Might try a different brand next time.,3,neutral,Temu,2026-02-23
+135,Hannah45,Terrible experience. Product arrived damaged and smelled off.,1,negative,Temu,2026-01-15
+136,George28,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Shopee,2026-02-15
+136,Alice88,Exceeded my expectations — the quality is outstanding.,5,positive,Shopee,2026-03-06
+136,Rosa82,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Shopee,2026-03-02
+136,Quinn84,Exceeded my expectations — the quality is outstanding.,5,positive,Shopee,2026-03-30
+136,Marcus43,Works as described. Would buy again.,4,positive,Shopee,2026-02-11
+136,Lena40,Works as described. Would buy again.,4,positive,Shopee,2026-03-19
+137,Kevin33,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Taobao,2026-02-17
+137,Wendy65,Works as described. Would buy again.,4,positive,Taobao,2026-03-13
+137,Ivan61,This is a game-changer. Will definitely repurchase.,5,positive,Taobao,2026-02-07
+137,Uma91,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Taobao,2026-02-21
+137,David77,Works as described. Would buy again.,4,positive,Taobao,2026-01-11
+137,Ben81,Disappointed with this. Caused slight irritation after a week of use.,2,negative,Taobao,2026-04-06
+137,Fiona10,Good value for money. Delivery was fast too.,4,positive,Taobao,2026-01-10
+137,Marcus49,Absolutely love this product! My skin has never felt better.,5,positive,Taobao,2026-03-22
+138,Julia59,This is a game-changer. Will definitely repurchase.,5,positive,Temu,2026-02-23
+138,Ben97,Terrible experience. Product arrived damaged and smelled off.,1,negative,Temu,2026-03-15
+138,Fiona75,Works as described. Would buy again.,4,positive,Temu,2026-04-06
+138,George22,It did what it promised but I expected more.,3,neutral,Temu,2026-02-01
+138,Wendy50,Disappointed with this. Caused slight irritation after a week of use.,2,negative,Temu,2026-02-04
+138,Sam91,Good value for money. Delivery was fast too.,4,positive,Temu,2026-01-10
+138,Marcus36,Five stars without hesitation. My go-to now.,5,positive,Temu,2026-01-23
+139,Zoe18,Average product. Works fine but nothing special.,3,neutral,JD,2026-03-05
+139,Oscar28,It did what it promised but I expected more.,3,neutral,JD,2026-03-26
+139,Victor74,Average product. Works fine but nothing special.,3,neutral,JD,2026-02-04
+140,Wendy34,I've been using it for 3 weeks and the results are amazing.,5,positive,Taobao,2026-02-02
+140,Xiao94,Would not recommend to someone with sensitive skin.,2,negative,Taobao,2026-02-24
+140,Rosa62,The formula feels too heavy for daily use.,2,negative,Taobao,2026-04-01
+140,Marcus28,Nice texture and smell. Skin feels hydrated all day.,4,positive,Taobao,2026-01-22
+141,Priya58,Packaging broke on arrival. Product itself is average.,2,negative,JD,2026-01-30
+141,Sam98,Neutral experience. Might try a different brand next time.,3,neutral,JD,2026-03-06
+141,Fiona67,Really good product overall. Minor packaging issues but the formula is great.,4,positive,JD,2026-03-12
+141,Sam54,The formula feels too heavy for daily use.,2,negative,JD,2026-01-19
+142,Sam90,Exceeded my expectations — the quality is outstanding.,5,positive,Facebook Marketplace,2026-03-30
+142,Zoe95,Disappointed with this. Caused slight irritation after a week of use.,2,negative,Facebook Marketplace,2026-03-28
+142,Wendy27,This is a game-changer. Will definitely repurchase.,5,positive,Facebook Marketplace,2026-01-19
+142,Wendy21,Absolutely love this product! My skin has never felt better.,5,positive,Facebook Marketplace,2026-03-05
+142,Hannah36,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Facebook Marketplace,2026-01-19
+142,Uma77,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Facebook Marketplace,2026-03-10
+142,Wendy73,"Decent, but I've used better products at this price point.",3,neutral,Facebook Marketplace,2026-02-01
+143,Xiao59,Exceeded my expectations — the quality is outstanding.,5,positive,Temu,2026-01-12
+143,Zoe50,Packaging broke on arrival. Product itself is average.,2,negative,Temu,2026-03-30
+143,Lena11,Exceeded my expectations — the quality is outstanding.,5,positive,Temu,2026-04-03
+143,Emma85,Did not work as advertised for my skin type.,2,negative,Temu,2026-02-05
+143,Marcus70,This is a game-changer. Will definitely repurchase.,5,positive,Temu,2026-02-12
+143,Alice73,Nice texture and smell. Skin feels hydrated all day.,4,positive,Temu,2026-01-29
+144,Zoe44,Works as described. Would buy again.,4,positive,Facebook Marketplace,2026-03-12
+144,Tina78,Complete waste of money. No visible effect whatsoever.,1,negative,Facebook Marketplace,2026-04-01
+144,Tina87,Absolutely love this product! My skin has never felt better.,5,positive,Facebook Marketplace,2026-02-15
+144,Xiao34,"Decent, but I've used better products at this price point.",3,neutral,Facebook Marketplace,2026-03-14
+144,Zoe58,Exceeded my expectations — the quality is outstanding.,5,positive,Facebook Marketplace,2026-04-08
+144,Alice48,Neutral experience. Might try a different brand next time.,3,neutral,Facebook Marketplace,2026-02-04
+145,Alice16,Average product. Works fine but nothing special.,3,neutral,Taobao,2026-03-11
+145,Hannah39,This is a game-changer. Will definitely repurchase.,5,positive,Taobao,2026-01-26
+145,Kevin59,Nice texture and smell. Skin feels hydrated all day.,4,positive,Taobao,2026-01-11
+145,Julia73,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Taobao,2026-04-04
+145,Nina80,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Taobao,2026-01-14
+145,Ben36,This is a game-changer. Will definitely repurchase.,5,positive,Taobao,2026-03-24
+145,Lena99,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Taobao,2026-03-24
+145,Quinn31,Packaging broke on arrival. Product itself is average.,2,negative,Taobao,2026-02-05
+146,Clara40,Exceeded my expectations — the quality is outstanding.,5,positive,Facebook Marketplace,2026-03-24
+146,Ivan44,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Facebook Marketplace,2026-04-08
+146,Clara98,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Facebook Marketplace,2026-02-05
+146,Victor58,Absolutely love this product! My skin has never felt better.,5,positive,Facebook Marketplace,2026-01-13
+147,David83,Absolutely love this product! My skin has never felt better.,5,positive,JD,2026-02-10
+147,Victor31,Did not work as advertised for my skin type.,2,negative,JD,2026-04-06
+147,Kevin72,It's okay. Not as impressive as I hoped but does the job.,3,neutral,JD,2026-02-19
+147,Zoe57,"Decent, but I've used better products at this price point.",3,neutral,JD,2026-02-28
+147,Marcus38,Good value for money. Delivery was fast too.,4,positive,JD,2026-02-22
+147,Wendy23,Average product. Works fine but nothing special.,3,neutral,JD,2026-03-31
+147,Emma98,Average product. Works fine but nothing special.,3,neutral,JD,2026-01-09
+148,Quinn66,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Facebook Marketplace,2026-03-14
+148,Ivan99,I've been using it for 3 weeks and the results are amazing.,5,positive,Facebook Marketplace,2026-02-27
+148,Rosa93,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Facebook Marketplace,2026-02-10
+148,Wendy76,Nice texture and smell. Skin feels hydrated all day.,4,positive,Facebook Marketplace,2026-01-31
+148,Julia30,Disappointed with this. Caused slight irritation after a week of use.,2,negative,Facebook Marketplace,2026-02-15
+148,Nina24,Average product. Works fine but nothing special.,3,neutral,Facebook Marketplace,2026-01-18
+148,Priya41,Absolutely love this product! My skin has never felt better.,5,positive,Facebook Marketplace,2026-02-27
+148,Zoe93,Average product. Works fine but nothing special.,3,neutral,Facebook Marketplace,2026-02-26
+149,Priya71,Average product. Works fine but nothing special.,3,neutral,Taobao,2026-01-21
+149,Rosa91,Five stars without hesitation. My go-to now.,5,positive,Taobao,2026-03-19
+149,Clara28,Did not work as advertised for my skin type.,2,negative,Taobao,2026-03-15
+149,Yuki18,Exceeded my expectations — the quality is outstanding.,5,positive,Taobao,2026-03-15
+150,Kevin40,I've been using it for 3 weeks and the results are amazing.,5,positive,Taobao,2026-02-02
+150,Julia34,Works as described. Would buy again.,4,positive,Taobao,2026-03-16
+150,Ivan43,"Decent, but I've used better products at this price point.",3,neutral,Taobao,2026-03-04
+150,George88,Average product. Works fine but nothing special.,3,neutral,Taobao,2026-04-07
+150,Victor97,Best purchase I've made this year. Highly recommend!,5,positive,Taobao,2026-03-19
+150,George69,Good value for money. Delivery was fast too.,4,positive,Taobao,2026-03-16
+150,Xiao47,Five stars without hesitation. My go-to now.,5,positive,Taobao,2026-02-09
+151,Lena40,Did not work as advertised for my skin type.,2,negative,Temu,2026-01-11
+151,Kevin38,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Temu,2026-02-27
+151,Tina12,This is a game-changer. Will definitely repurchase.,5,positive,Temu,2026-01-20
+151,Tina44,Nice texture and smell. Skin feels hydrated all day.,4,positive,Temu,2026-01-24
+151,Nina38,This is a game-changer. Will definitely repurchase.,5,positive,Temu,2026-03-08
+152,Clara88,Would not recommend to someone with sensitive skin.,2,negative,Taobao,2026-01-15
+152,Quinn42,Exceeded my expectations — the quality is outstanding.,5,positive,Taobao,2026-01-28
+152,Nina45,This is a game-changer. Will definitely repurchase.,5,positive,Taobao,2026-02-07
+152,Fiona76,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Taobao,2026-02-07
+152,Tina16,Would not recommend to someone with sensitive skin.,2,negative,Taobao,2026-04-02
+152,Xiao32,Neutral experience. Might try a different brand next time.,3,neutral,Taobao,2026-03-20
+152,Nina31,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Taobao,2026-01-11
+152,George87,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Taobao,2026-01-17
+153,Nina19,Would not recommend to someone with sensitive skin.,2,negative,JD,2026-02-15
+153,Quinn80,Nice texture and smell. Skin feels hydrated all day.,4,positive,JD,2026-01-14
+153,Priya18,The formula feels too heavy for daily use.,2,negative,JD,2026-02-20
+153,Quinn31,Absolutely love this product! My skin has never felt better.,5,positive,JD,2026-01-21
+153,Wendy81,Best purchase I've made this year. Highly recommend!,5,positive,JD,2026-01-16
+153,George90,I've been using it for 3 weeks and the results are amazing.,5,positive,JD,2026-02-25
+154,Xiao52,Works as described. Would buy again.,4,positive,Temu,2026-03-17
+154,Victor85,I've been using it for 3 weeks and the results are amazing.,5,positive,Temu,2026-04-06
+154,Tina41,This is a game-changer. Will definitely repurchase.,5,positive,Temu,2026-01-11
+154,Ivan52,Good value for money. Delivery was fast too.,4,positive,Temu,2026-02-16
+154,Xiao61,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Temu,2026-03-25
+154,Ivan23,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Temu,2026-03-21
+154,Zoe38,This is a game-changer. Will definitely repurchase.,5,positive,Temu,2026-03-09
+155,Priya23,The formula feels too heavy for daily use.,2,negative,Shopee,2026-03-25
+155,Quinn19,I've been using it for 3 weeks and the results are amazing.,5,positive,Shopee,2026-02-14
+155,Oscar87,Best purchase I've made this year. Highly recommend!,5,positive,Shopee,2026-01-29
+155,Wendy75,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Shopee,2026-03-13
+156,Emma40,I've been using it for 3 weeks and the results are amazing.,5,positive,JD,2026-03-27
+156,Ivan35,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,JD,2026-03-03
+156,Alice90,Best purchase I've made this year. Highly recommend!,5,positive,JD,2026-02-21
+156,Lena53,It's okay. Not as impressive as I hoped but does the job.,3,neutral,JD,2026-01-22
+157,Xiao43,This is a game-changer. Will definitely repurchase.,5,positive,Temu,2026-04-03
+157,Ivan63,This is a game-changer. Will definitely repurchase.,5,positive,Temu,2026-03-04
+157,Fiona56,Absolutely love this product! My skin has never felt better.,5,positive,Temu,2026-02-14
+158,Lena35,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Shopee,2026-01-13
+158,Alice83,Works as described. Would buy again.,4,positive,Shopee,2026-01-11
+158,Lena93,Allergic reaction after two uses. Returned immediately.,1,negative,Shopee,2026-03-03
+158,Alice50,It did what it promised but I expected more.,3,neutral,Shopee,2026-01-19
+158,David86,I've been using it for 3 weeks and the results are amazing.,5,positive,Shopee,2026-03-21
+158,Sam27,It did what it promised but I expected more.,3,neutral,Shopee,2026-03-13
+159,Fiona85,I've been using it for 3 weeks and the results are amazing.,5,positive,Shopee,2026-02-09
+159,Fiona33,Five stars without hesitation. My go-to now.,5,positive,Shopee,2026-03-22
+159,David90,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Shopee,2026-03-10
+159,Wendy26,This is a game-changer. Will definitely repurchase.,5,positive,Shopee,2026-04-06
+159,Nina10,Good value for money. Delivery was fast too.,4,positive,Shopee,2026-02-12
+159,Xiao34,Nice texture and smell. Skin feels hydrated all day.,4,positive,Shopee,2026-03-20
+159,Nina37,I've been using it for 3 weeks and the results are amazing.,5,positive,Shopee,2026-04-04
+160,Ivan30,Terrible experience. Product arrived damaged and smelled off.,1,negative,Shopee,2026-02-06
+160,Emma12,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Shopee,2026-04-01
+160,Hannah80,Good value for money. Delivery was fast too.,4,positive,Shopee,2026-04-01
+160,David44,The formula feels too heavy for daily use.,2,negative,Shopee,2026-03-16
+160,David44,Five stars without hesitation. My go-to now.,5,positive,Shopee,2026-03-16
+160,Xiao61,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Shopee,2026-01-17
+161,Tina25,Disappointed with this. Caused slight irritation after a week of use.,2,negative,Facebook Marketplace,2026-02-10
+161,Rosa90,Average product. Works fine but nothing special.,3,neutral,Facebook Marketplace,2026-01-14
+161,Ivan79,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Facebook Marketplace,2026-04-03
+161,Xiao10,It did what it promised but I expected more.,3,neutral,Facebook Marketplace,2026-02-05
+161,Kevin22,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Facebook Marketplace,2026-03-14
+162,Xiao27,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Shopee,2026-03-16
+162,Hannah26,This is a game-changer. Will definitely repurchase.,5,positive,Shopee,2026-01-15
+162,Tina79,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Shopee,2026-02-08
+162,Clara53,Good value for money. Delivery was fast too.,4,positive,Shopee,2026-03-18
+162,Ivan52,I've been using it for 3 weeks and the results are amazing.,5,positive,Shopee,2026-01-26
+162,Ben64,It did what it promised but I expected more.,3,neutral,Shopee,2026-02-04
+162,Zoe38,Five stars without hesitation. My go-to now.,5,positive,Shopee,2026-03-31
+162,Emma89,Exceeded my expectations — the quality is outstanding.,5,positive,Shopee,2026-01-18
+163,David60,Neutral experience. Might try a different brand next time.,3,neutral,Shopee,2026-03-17
+163,Rosa77,Five stars without hesitation. My go-to now.,5,positive,Shopee,2026-01-09
+163,Xiao43,Five stars without hesitation. My go-to now.,5,positive,Shopee,2026-01-31
+163,Priya73,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Shopee,2026-03-16
+163,Wendy34,I've been using it for 3 weeks and the results are amazing.,5,positive,Shopee,2026-04-01
+164,Tina68,I've been using it for 3 weeks and the results are amazing.,5,positive,Facebook Marketplace,2026-03-09
+164,Zoe25,"Decent, but I've used better products at this price point.",3,neutral,Facebook Marketplace,2026-01-15
+164,George40,"Decent, but I've used better products at this price point.",3,neutral,Facebook Marketplace,2026-01-20
+165,Yuki62,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Facebook Marketplace,2026-01-30
+166,Alice67,Best purchase I've made this year. Highly recommend!,5,positive,Shopee,2026-03-24
+166,Marcus86,"Decent, but I've used better products at this price point.",3,neutral,Shopee,2026-03-29
+166,Nina89,Would not recommend to someone with sensitive skin.,2,negative,Shopee,2026-02-26
+166,Victor47,Would not recommend to someone with sensitive skin.,2,negative,Shopee,2026-04-01
+166,Tina96,It did what it promised but I expected more.,3,neutral,Shopee,2026-01-20
+166,Julia28,Would not recommend to someone with sensitive skin.,2,negative,Shopee,2026-02-24
+166,Uma82,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Shopee,2026-01-27
+167,Ivan21,Good value for money. Delivery was fast too.,4,positive,JD,2026-02-26
+167,Lena62,Really good product overall. Minor packaging issues but the formula is great.,4,positive,JD,2026-02-05
+168,Nina32,Five stars without hesitation. My go-to now.,5,positive,Temu,2026-03-16
+168,Sam66,Five stars without hesitation. My go-to now.,5,positive,Temu,2026-03-02
+168,Ben57,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Temu,2026-03-31
+169,Sam16,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,JD,2026-03-24
+169,Emma60,Works as described. Would buy again.,4,positive,JD,2026-03-15
+169,David65,Best purchase I've made this year. Highly recommend!,5,positive,JD,2026-02-14
+169,Hannah67,Complete waste of money. No visible effect whatsoever.,1,negative,JD,2026-04-06
+169,David60,Exceeded my expectations — the quality is outstanding.,5,positive,JD,2026-03-18
+170,Marcus79,Average product. Works fine but nothing special.,3,neutral,Facebook Marketplace,2026-01-19
+170,Fiona33,Average product. Works fine but nothing special.,3,neutral,Facebook Marketplace,2026-03-30
+170,Victor30,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Facebook Marketplace,2026-02-28
+170,Victor56,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Facebook Marketplace,2026-02-20
+170,Oscar23,Works as described. Would buy again.,4,positive,Facebook Marketplace,2026-03-01
+171,Sam35,Nice texture and smell. Skin feels hydrated all day.,4,positive,Temu,2026-01-13
+171,Rosa50,"Decent, but I've used better products at this price point.",3,neutral,Temu,2026-01-09
+171,Fiona97,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Temu,2026-02-25
+171,Ivan13,Five stars without hesitation. My go-to now.,5,positive,Temu,2026-02-24
+172,Marcus57,Works as described. Would buy again.,4,positive,Facebook Marketplace,2026-01-12
+173,Fiona68,It did what it promised but I expected more.,3,neutral,JD,2026-03-28
+174,Uma62,Did not work as advertised for my skin type.,2,negative,Shopee,2026-01-09
+174,Quinn31,Best purchase I've made this year. Highly recommend!,5,positive,Shopee,2026-02-14
+174,Clara77,This is a game-changer. Will definitely repurchase.,5,positive,Shopee,2026-01-31
+174,Zoe23,Average product. Works fine but nothing special.,3,neutral,Shopee,2026-02-02
+174,Emma35,"Decent, but I've used better products at this price point.",3,neutral,Shopee,2026-01-27
+174,Uma10,The formula feels too heavy for daily use.,2,negative,Shopee,2026-03-29
+174,Marcus11,Absolutely love this product! My skin has never felt better.,5,positive,Shopee,2026-03-16
+174,Ivan72,This is a game-changer. Will definitely repurchase.,5,positive,Shopee,2026-02-04
+175,Priya38,Average product. Works fine but nothing special.,3,neutral,Taobao,2026-02-28
+175,Alice83,Best purchase I've made this year. Highly recommend!,5,positive,Taobao,2026-02-11
+175,Sam73,Would not recommend to someone with sensitive skin.,2,negative,Taobao,2026-01-23
+175,Oscar87,I've been using it for 3 weeks and the results are amazing.,5,positive,Taobao,2026-03-06
+175,Sam32,Exceeded my expectations — the quality is outstanding.,5,positive,Taobao,2026-01-17
+175,Kevin41,Five stars without hesitation. My go-to now.,5,positive,Taobao,2026-03-26
+175,Quinn73,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Taobao,2026-02-05
+175,Kevin27,Good value for money. Delivery was fast too.,4,positive,Taobao,2026-03-21
+176,George71,Best purchase I've made this year. Highly recommend!,5,positive,Temu,2026-04-02
+177,Rosa97,Exceeded my expectations — the quality is outstanding.,5,positive,Shopee,2026-03-30
+177,Kevin11,Good value for money. Delivery was fast too.,4,positive,Shopee,2026-04-04
+177,Emma29,I've been using it for 3 weeks and the results are amazing.,5,positive,Shopee,2026-02-14
+178,Sam12,Nice texture and smell. Skin feels hydrated all day.,4,positive,Taobao,2026-02-07
+178,Julia77,Five stars without hesitation. My go-to now.,5,positive,Taobao,2026-01-22
+178,Ivan30,Five stars without hesitation. My go-to now.,5,positive,Taobao,2026-03-30
+178,Hannah99,Works as described. Would buy again.,4,positive,Taobao,2026-01-13
+179,Zoe66,Works as described. Would buy again.,4,positive,Shopee,2026-03-05
+179,Nina29,Disappointed with this. Caused slight irritation after a week of use.,2,negative,Shopee,2026-02-23
+179,Quinn40,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Shopee,2026-04-08
+179,Alice14,Disappointed with this. Caused slight irritation after a week of use.,2,negative,Shopee,2026-02-12
+179,Nina22,Works as described. Would buy again.,4,positive,Shopee,2026-02-20
+179,Alice18,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Shopee,2026-01-15
+179,Priya95,Nice texture and smell. Skin feels hydrated all day.,4,positive,Shopee,2026-01-24
+180,Clara79,It did what it promised but I expected more.,3,neutral,Temu,2026-02-11
+180,Emma30,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Temu,2026-03-07
+180,Lena76,Would not recommend to someone with sensitive skin.,2,negative,Temu,2026-02-07
+181,Marcus78,Five stars without hesitation. My go-to now.,5,positive,Taobao,2026-03-14
+181,Ben65,This is a game-changer. Will definitely repurchase.,5,positive,Taobao,2026-02-11
+181,Emma77,Nice texture and smell. Skin feels hydrated all day.,4,positive,Taobao,2026-03-27
+181,Nina12,Good value for money. Delivery was fast too.,4,positive,Taobao,2026-01-17
+182,Victor78,Good value for money. Delivery was fast too.,4,positive,Taobao,2026-02-09
+182,Sam60,"Decent, but I've used better products at this price point.",3,neutral,Taobao,2026-03-20
+182,Quinn58,Good value for money. Delivery was fast too.,4,positive,Taobao,2026-02-17
+182,Clara51,Neutral experience. Might try a different brand next time.,3,neutral,Taobao,2026-03-25
+182,Kevin94,Absolutely love this product! My skin has never felt better.,5,positive,Taobao,2026-01-23
+182,Emma86,Five stars without hesitation. My go-to now.,5,positive,Taobao,2026-02-01
+182,Victor71,Best purchase I've made this year. Highly recommend!,5,positive,Taobao,2026-02-09
+183,Alice98,Packaging broke on arrival. Product itself is average.,2,negative,Shopee,2026-01-29
+183,David32,Did not work as advertised for my skin type.,2,negative,Shopee,2026-02-15
+183,Yuki67,Exceeded my expectations — the quality is outstanding.,5,positive,Shopee,2026-03-11
+183,Priya49,It did what it promised but I expected more.,3,neutral,Shopee,2026-01-26
+184,Xiao72,"Decent, but I've used better products at this price point.",3,neutral,Facebook Marketplace,2026-01-19
+184,Yuki60,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Facebook Marketplace,2026-02-09
+184,Uma92,Average product. Works fine but nothing special.,3,neutral,Facebook Marketplace,2026-03-12
+184,George81,I've been using it for 3 weeks and the results are amazing.,5,positive,Facebook Marketplace,2026-02-26
+184,Clara70,Neutral experience. Might try a different brand next time.,3,neutral,Facebook Marketplace,2026-01-10
+184,Ben18,"Decent, but I've used better products at this price point.",3,neutral,Facebook Marketplace,2026-02-27
+184,Ben42,Allergic reaction after two uses. Returned immediately.,1,negative,Facebook Marketplace,2026-03-31
+185,Emma71,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Facebook Marketplace,2026-02-13
+185,Victor27,Neutral experience. Might try a different brand next time.,3,neutral,Facebook Marketplace,2026-02-26
+185,Zoe21,Five stars without hesitation. My go-to now.,5,positive,Facebook Marketplace,2026-03-26
+185,Marcus42,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Facebook Marketplace,2026-02-12
+185,George81,Five stars without hesitation. My go-to now.,5,positive,Facebook Marketplace,2026-02-06
+185,Fiona76,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Facebook Marketplace,2026-02-08
+186,Xiao12,Exceeded my expectations — the quality is outstanding.,5,positive,JD,2026-03-01
+187,Wendy55,Nice texture and smell. Skin feels hydrated all day.,4,positive,Temu,2026-03-30
+187,Rosa33,Nice texture and smell. Skin feels hydrated all day.,4,positive,Temu,2026-01-10
+188,Tina51,The formula feels too heavy for daily use.,2,negative,Facebook Marketplace,2026-01-09
+188,Priya76,Five stars without hesitation. My go-to now.,5,positive,Facebook Marketplace,2026-03-16
+188,Wendy43,Five stars without hesitation. My go-to now.,5,positive,Facebook Marketplace,2026-03-07
+188,Emma63,Absolutely love this product! My skin has never felt better.,5,positive,Facebook Marketplace,2026-02-27
+189,Marcus44,Good value for money. Delivery was fast too.,4,positive,Taobao,2026-03-05
+189,Nina67,This is a game-changer. Will definitely repurchase.,5,positive,Taobao,2026-03-25
+189,Wendy42,Works as described. Would buy again.,4,positive,Taobao,2026-03-19
+189,Rosa48,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Taobao,2026-02-18
+189,Marcus90,Neutral experience. Might try a different brand next time.,3,neutral,Taobao,2026-03-01
+189,Rosa16,The formula feels too heavy for daily use.,2,negative,Taobao,2026-02-20
+190,Julia15,Exceeded my expectations — the quality is outstanding.,5,positive,Facebook Marketplace,2026-01-21
+190,Wendy34,Average product. Works fine but nothing special.,3,neutral,Facebook Marketplace,2026-03-09
+190,Ben55,Good value for money. Delivery was fast too.,4,positive,Facebook Marketplace,2026-04-05
+190,Alice39,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Facebook Marketplace,2026-01-15
+190,Marcus46,Five stars without hesitation. My go-to now.,5,positive,Facebook Marketplace,2026-03-29
+191,Wendy57,This is a game-changer. Will definitely repurchase.,5,positive,Taobao,2026-01-11
+191,Priya68,Exceeded my expectations — the quality is outstanding.,5,positive,Taobao,2026-01-29
+191,Alice37,This is a game-changer. Will definitely repurchase.,5,positive,Taobao,2026-03-31
+192,Fiona11,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Temu,2026-03-08
+192,Quinn33,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Temu,2026-02-10
+192,Oscar13,Good value for money. Delivery was fast too.,4,positive,Temu,2026-01-25
+192,Oscar24,Absolutely love this product! My skin has never felt better.,5,positive,Temu,2026-02-22
+193,Alice26,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Taobao,2026-03-31
+193,Ben45,Five stars without hesitation. My go-to now.,5,positive,Taobao,2026-04-08
+193,Emma26,Five stars without hesitation. My go-to now.,5,positive,Taobao,2026-03-06
+193,Emma99,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Taobao,2026-02-09
+193,George15,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,Taobao,2026-03-14
+193,Kevin16,Exceeded my expectations — the quality is outstanding.,5,positive,Taobao,2026-02-10
+193,Alice97,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Taobao,2026-02-22
+193,Tina39,It did what it promised but I expected more.,3,neutral,Taobao,2026-03-08
+194,Tina58,"Happy with the results, though it took a few weeks to notice the difference.",4,positive,JD,2026-03-08
+194,Fiona59,This is a game-changer. Will definitely repurchase.,5,positive,JD,2026-03-05
+194,David21,The formula feels too heavy for daily use.,2,negative,JD,2026-01-27
+195,Tina28,Neutral experience. Might try a different brand next time.,3,neutral,JD,2026-02-25
+195,Marcus48,Nice texture and smell. Skin feels hydrated all day.,4,positive,JD,2026-02-01
+195,Hannah11,Exceeded my expectations — the quality is outstanding.,5,positive,JD,2026-02-13
+195,Lena85,Absolutely love this product! My skin has never felt better.,5,positive,JD,2026-02-12
+196,Oscar67,Did not work as advertised for my skin type.,2,negative,Temu,2026-03-23
+196,Victor51,Nice texture and smell. Skin feels hydrated all day.,4,positive,Temu,2026-02-02
+196,Alice24,Best purchase I've made this year. Highly recommend!,5,positive,Temu,2026-01-16
+196,Ben90,Neutral experience. Might try a different brand next time.,3,neutral,Temu,2026-01-28
+197,Zoe38,Neutral experience. Might try a different brand next time.,3,neutral,JD,2026-02-06
+197,Nina64,Absolutely love this product! My skin has never felt better.,5,positive,JD,2026-03-14
+197,Ben70,Nice texture and smell. Skin feels hydrated all day.,4,positive,JD,2026-01-20
+197,Rosa68,Disappointed with this. Caused slight irritation after a week of use.,2,negative,JD,2026-03-15
+197,Tina73,Absolutely love this product! My skin has never felt better.,5,positive,JD,2026-03-14
+197,George58,It's okay. Not as impressive as I hoped but does the job.,3,neutral,JD,2026-01-21
+198,Priya94,Neutral experience. Might try a different brand next time.,3,neutral,Temu,2026-02-27
+198,Xiao45,Exceeded my expectations — the quality is outstanding.,5,positive,Temu,2026-01-14
+198,Ivan82,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Temu,2026-01-31
+198,Victor18,The formula feels too heavy for daily use.,2,negative,Temu,2026-01-20
+198,Xiao44,Really good product overall. Minor packaging issues but the formula is great.,4,positive,Temu,2026-01-18
+198,Victor53,Works as described. Would buy again.,4,positive,Temu,2026-03-04
+198,Sam95,Absolutely love this product! My skin has never felt better.,5,positive,Temu,2026-03-23
+199,David85,Absolutely love this product! My skin has never felt better.,5,positive,Taobao,2026-02-23
+199,Yuki54,It did what it promised but I expected more.,3,neutral,Taobao,2026-02-26
+199,Julia82,Five stars without hesitation. My go-to now.,5,positive,Taobao,2026-03-08
+199,Julia71,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Taobao,2026-01-15
+200,Julia42,It's okay. Not as impressive as I hoped but does the job.,3,neutral,Facebook Marketplace,2026-02-17
+200,Marcus82,"Decent, but I've used better products at this price point.",3,neutral,Facebook Marketplace,2026-03-25
+200,Tina41,Five stars without hesitation. My go-to now.,5,positive,Facebook Marketplace,2026-02-11
+200,Oscar46,This is a game-changer. Will definitely repurchase.,5,positive,Facebook Marketplace,2026-03-23
+200,Nina43,Disappointed with this. Caused slight irritation after a week of use.,2,negative,Facebook Marketplace,2026-03-17
