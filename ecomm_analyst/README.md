@@ -80,14 +80,14 @@ python -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
 
 # Install dependencies
-pip install -r requirements.txt
+pip install --upgrade -r requirements.txt
 
 # Configure environment
 cp .env.example .env
 # Edit .env and add your OPENAI_API_KEY (optional – mock mode works without it)
 
 # Seed demo data
-con
+python seed.py
 
 # Start API server
 uvicorn app.main:app --reload --port 8000
