@@ -247,6 +247,116 @@ def bundle_analytics(
     }
 
 
+@router.get("/analytics/association-lift")
+def association_lift(
+    marketplace: Optional[str] = Query(None),
+    db: Session = Depends(get_db),
+    _=Depends(get_current_user),
+):
+    """
+    Returns:
+    - nodes: list of {id, name, sales_count} for network graph
+    - edges: list of {source, target, weight} co-purchase counts for network graph
+    - lift_matrix: list of {product_a, product_b, lift, confidence, support} for the lift table
+    """
+    from collections import defaultdict
+
+    # Fetch all records with bundles
+    q = db.query(models.SalesRecord).filter(models.SalesRecord.bundled_with != "")
+    if marketplace and marketplace != "all":
+        q = q.filter(models.SalesRecord.marketplace == marketplace)
+    records = q.all()
+
+    # Total number of transactions (all sales regardless of bundle)
+    total_q = db.query(models.SalesRecord)
+    if marketplace and marketplace != "all":
+        total_q = total_q.filter(models.SalesRecord.marketplace == marketplace)
+    total_transactions = total_q.count() or 1
+
+    # Count per-product sales (support of individual items)
+    product_sales: dict = defaultdict(int)
+    for r in total_q.all():
+        product_sales[r.product_id] += 1
+
+    # Count co-purchase pairs
+    pair_count: dict = defaultdict(int)
+    for r in records:
+        for bid in r.bundled_with.split(","):
+            bid = bid.strip()
+            if not bid:
+                continue
+            try:
+                bid_int = int(bid)
+            except ValueError:
+                continue
+            pair = tuple(sorted([r.product_id, bid_int]))
+            pair_count[pair] += 1
+
+    # Resolve product names (only those that appear in pairs)
+    product_ids_in_pairs: set = set()
+    for (a, b) in pair_count:
+        product_ids_in_pairs.add(a)
+        product_ids_in_pairs.add(b)
+
+    product_map: dict = {}
+    for pid in product_ids_in_pairs:
+        p = db.get(models.Product, pid)
+        if p:
+            product_map[pid] = p.name
+
+    # Build network graph edges + nodes
+    edges = []
+    for (a, b), weight in sorted(pair_count.items(), key=lambda x: -x[1]):
+        if a in product_map and b in product_map:
+            edges.append({
+                "source": a,
+                "target": b,
+                "weight": weight,
+            })
+
+    nodes = [
+        {
+            "id": pid,
+            "name": product_map[pid],
+            "sales_count": product_sales.get(pid, 0),
+        }
+        for pid in product_map
+    ]
+
+    # Build lift matrix
+    # lift(A→B) = P(A∩B) / (P(A) * P(B))
+    # confidence(A→B) = P(A∩B) / P(A)
+    lift_matrix = []
+    for (a, b), co_count in pair_count.items():
+        if a not in product_map or b not in product_map:
+            continue
+        support_ab = co_count / total_transactions
+        support_a = product_sales.get(a, 0) / total_transactions
+        support_b = product_sales.get(b, 0) / total_transactions
+        lift = round(support_ab / (support_a * support_b), 3) if support_a and support_b else 0
+        conf_ab = round(support_ab / support_a * 100, 1) if support_a else 0
+        conf_ba = round(support_ab / support_b * 100, 1) if support_b else 0
+        lift_matrix.append({
+            "product_a_id": a,
+            "product_b_id": b,
+            "product_a": product_map[a],
+            "product_b": product_map[b],
+            "co_count": co_count,
+            "lift": lift,
+            "confidence_ab": conf_ab,   # % chance of buying B given bought A
+            "confidence_ba": conf_ba,   # % chance of buying A given bought B
+            "support": round(support_ab * 100, 2),
+        })
+
+    lift_matrix.sort(key=lambda x: -x["lift"])
+
+    return {
+        "nodes": nodes,
+        "edges": edges,
+        "lift_matrix": lift_matrix,
+    }
+
+
 @router.get("/analytics/competitor-pricing")
 def competitor_pricing(
     marketplace: Optional[str] = Query(None),

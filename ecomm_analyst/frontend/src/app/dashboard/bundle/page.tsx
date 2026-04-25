@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip,
   ResponsiveContainer, Cell,
@@ -51,10 +51,31 @@ type Summary = {
 
 type SortKey = "count" | "revenue" | "avg_order_qty" | "product_a" | "product_b";
 
+type GraphNode = { id: number; name: string; sales_count: number };
+type GraphEdge = { source: number; target: number; weight: number };
+
+type LiftRow = {
+  product_a_id: number;
+  product_b_id: number;
+  product_a: string;
+  product_b: string;
+  co_count: number;
+  lift: number;
+  confidence_ab: number;
+  confidence_ba: number;
+  support: number;
+};
+
 // ── Chart colours ─────────────────────────────────────────────────────────────
 const BAR_COLORS = [
   "#6366f1", "#8b5cf6", "#a78bfa", "#c4b5fd",
   "#818cf8", "#7c3aed", "#4f46e5", "#4338ca", "#3730a3", "#312e81",
+];
+
+const NODE_COLORS = [
+  "#6366f1", "#8b5cf6", "#ec4899", "#f59e0b", "#10b981",
+  "#06b6d4", "#ef4444", "#3b82f6", "#84cc16", "#f97316",
+  "#a855f7", "#14b8a6", "#e11d48", "#0ea5e9", "#d97706",
 ];
 
 // ── Custom Tooltip ─────────────────────────────────────────────────────────────
@@ -79,6 +100,311 @@ function BundleTooltip({ active, payload, label }: {
   );
 }
 
+// ── Co-purchase Network Graph ─────────────────────────────────────────────────
+// Shows top MAX_GRAPH_NODES nodes by sales volume.
+// Uses pure Fruchterman-Reingold: displacement capped to temperature each tick,
+// NO persistent velocity (avoids overshoot / wall-pinning).
+const MAX_GRAPH_NODES = 20;
+
+function CoPurchaseGraph({ nodes: rawNodes, edges: rawEdges }: { nodes: GraphNode[]; edges: GraphEdge[] }) {
+  // Trim to top-N by sales_count
+  const nodes = [...rawNodes]
+    .sort((a, b) => b.sales_count - a.sales_count)
+    .slice(0, MAX_GRAPH_NODES);
+  const nodeIds = new Set(nodes.map((n) => n.id));
+  const edges = rawEdges.filter((e) => nodeIds.has(e.source) && nodeIds.has(e.target));
+
+  const W = 700, H = 500;
+  const PAD = 60;
+
+  type Pos = { x: number; y: number };
+  const posRef  = useRef<Pos[]>([]);
+  const tickRef = useRef(0);
+  const animRef = useRef<number>(0);
+  const [, rerender] = useState(0);
+
+  // Init: random positions in a small central cloud (not a large circle)
+  useEffect(() => {
+    if (!nodes.length) return;
+    cancelAnimationFrame(animRef.current);
+    tickRef.current = 0;
+    // Start all nodes within ±40px of centre — repulsion will spread them out
+    posRef.current = nodes.map(() => ({
+      x: W / 2 + (Math.random() - 0.5) * 80,
+      y: H / 2 + (Math.random() - 0.5) * 80,
+    }));
+    rerender((n) => n + 1);
+  }, [nodes.length, edges.length]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  useEffect(() => {
+    if (!nodes.length) return;
+    const N = nodes.length;
+
+    // FR ideal spacing
+    const usableW = W - PAD * 2, usableH = H - PAD * 2;
+    const k = Math.sqrt((usableW * usableH) / N);
+
+    const maxEdgeW = edges.reduce((m, e) => Math.max(m, e.weight), 1);
+    const idxById  = new Map(nodes.map((n, i) => [n.id, i]));
+
+    // Temperature schedule: wide at start so repulsion pushes nodes apart,
+    // then cools so they settle. Linear decay is simple and reliable.
+    const T0 = usableW * 0.5;   // initial temperature (px)
+    const MAX_TICKS = 400;
+
+    const step = () => {
+      const pos = posRef.current;
+      if (pos.length !== N) return;
+
+      const t = tickRef.current++;
+      const temp = Math.max(0.5, T0 * (1 - t / MAX_TICKS));
+
+      const dx = new Float64Array(N);
+      const dy = new Float64Array(N);
+
+      // ── Repulsion: k²/dist (FR) ───────────────────────────────────────────
+      for (let i = 0; i < N; i++) {
+        for (let j = i + 1; j < N; j++) {
+          const ddx = pos[i].x - pos[j].x;
+          const ddy = pos[i].y - pos[j].y;
+          const dist = Math.sqrt(ddx * ddx + ddy * ddy) || 0.1;
+          const fr = (k * k) / dist;
+          dx[i] += fr * ddx / dist;  dy[i] += fr * ddy / dist;
+          dx[j] -= fr * ddx / dist;  dy[j] -= fr * ddy / dist;
+        }
+      }
+
+      // ── Attraction: dist²/k (FR) — only along edges ───────────────────────
+      // Divided by extra factor so it can't overpower repulsion at start
+      for (const e of edges) {
+        const si = idxById.get(e.source), ti = idxById.get(e.target);
+        if (si === undefined || ti === undefined) continue;
+        const ddx = pos[ti].x - pos[si].x;
+        const ddy = pos[ti].y - pos[si].y;
+        const dist = Math.sqrt(ddx * ddx + ddy * ddy) || 0.1;
+        const wScale = 0.5 + 0.5 * (e.weight / maxEdgeW);
+        // Standard FR attraction, but scaled by current temperature so it
+        // starts weaker and grows as nodes spread — prevents early wall pinning
+        const fa = (dist / k) * Math.min(dist, temp) * wScale * 0.15;
+        dx[si] += fa * ddx / dist;  dy[si] += fa * ddy / dist;
+        dx[ti] -= fa * ddx / dist;  dy[ti] -= fa * ddy / dist;
+      }
+
+      // ── Gravity toward centre ─────────────────────────────────────────────
+      const G = 0.06;
+      for (let i = 0; i < N; i++) {
+        dx[i] += G * (W / 2 - pos[i].x);
+        dy[i] += G * (H / 2 - pos[i].y);
+      }
+
+      // ── Cap total displacement to temperature, update position ────────────
+      for (let i = 0; i < N; i++) {
+        const mag = Math.sqrt(dx[i] * dx[i] + dy[i] * dy[i]) || 1;
+        const scale = Math.min(mag, temp) / mag;
+        pos[i].x = Math.max(PAD, Math.min(W - PAD, pos[i].x + dx[i] * scale));
+        pos[i].y = Math.max(PAD, Math.min(H - PAD, pos[i].y + dy[i] * scale));
+      }
+
+      rerender((n) => n + 1);
+      if (t < MAX_TICKS) animRef.current = requestAnimationFrame(step);
+    };
+
+    animRef.current = requestAnimationFrame(step);
+    return () => cancelAnimationFrame(animRef.current);
+  }, [nodes.length, edges.length]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  if (!nodes.length) {
+    return (
+      <div className="flex items-center justify-center h-56 text-slate-300 text-sm">
+        No co-purchase data
+      </div>
+    );
+  }
+
+  const pos = posRef.current;
+  if (pos.length !== nodes.length) return null;
+
+  const maxW   = edges.reduce((m, e) => Math.max(m, e.weight), 1);
+  const maxSales = nodes.reduce((m, n) => Math.max(m, n.sales_count), 1);
+  const idxById  = new Map(nodes.map((n, i) => [n.id, i]));
+
+  return (
+    <div className="overflow-x-auto">
+      {rawNodes.length > MAX_GRAPH_NODES && (
+        <p className="text-xs text-slate-400 mb-2">
+          Showing top {MAX_GRAPH_NODES} of {rawNodes.length} products by sales volume
+        </p>
+      )}
+      <svg width={W} height={H} className="rounded-xl bg-slate-50/50">
+        {/* Edges */}
+        {edges.map((e, i) => {
+          const si = idxById.get(e.source), ti = idxById.get(e.target);
+          if (si === undefined || ti === undefined || !pos[si] || !pos[ti]) return null;
+          const alpha = 0.15 + 0.55 * (e.weight / maxW);
+          const lw    = 1   + 3   * (e.weight / maxW);
+          const mx = (pos[si].x + pos[ti].x) / 2;
+          const my = (pos[si].y + pos[ti].y) / 2;
+          return (
+            <g key={i}>
+              <line
+                x1={pos[si].x} y1={pos[si].y}
+                x2={pos[ti].x} y2={pos[ti].y}
+                stroke={`rgba(99,102,241,${alpha})`}
+                strokeWidth={lw}
+                strokeLinecap="round"
+              />
+              {e.weight > 1 && (
+                <text x={mx} y={my} textAnchor="middle" dominantBaseline="central"
+                  fontSize={9} fill="rgba(99,102,241,0.7)" fontWeight={600}>
+                  {e.weight}
+                </text>
+              )}
+            </g>
+          );
+        })}
+
+        {/* Nodes */}
+        {nodes.map((n, i) => {
+          if (!pos[i]) return null;
+          const r     = 11 + 12 * (n.sales_count / maxSales);
+          const color = NODE_COLORS[i % NODE_COLORS.length];
+          const label = n.name.length > 14 ? n.name.slice(0, 13) + "…" : n.name;
+          return (
+            <g key={n.id}>
+              <circle cx={pos[i].x} cy={pos[i].y} r={r + 4}
+                fill={color} opacity={0.12} />
+              <circle cx={pos[i].x} cy={pos[i].y} r={r}
+                fill={color} stroke="#fff" strokeWidth={2} />
+              <text x={pos[i].x} y={pos[i].y} textAnchor="middle"
+                dominantBaseline="central" fontSize={Math.max(9, r * 0.65)}
+                fill="#fff" fontWeight={700}>
+                {i + 1}
+              </text>
+              <text x={pos[i].x} y={pos[i].y + r + 11} textAnchor="middle"
+                fontSize={9} fill="#64748b">
+                {label}
+              </text>
+            </g>
+          );
+        })}
+      </svg>
+
+      {/* Legend */}
+      <div className="flex flex-wrap gap-2 mt-3">
+        {nodes.map((n, i) => (
+          <span
+            key={n.id}
+            className="inline-flex items-center gap-1 text-xs text-slate-600 bg-slate-50 rounded-full px-2 py-0.5 border border-slate-100"
+          >
+            <span className="w-2.5 h-2.5 rounded-full inline-block shrink-0"
+              style={{ background: NODE_COLORS[i % NODE_COLORS.length] }} />
+            <span className="font-semibold">{i + 1}</span>
+            <span className="truncate max-w-[100px]">{n.name}</span>
+          </span>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// ── Association Strength (Lift) Matrix ────────────────────────────────────────
+function LiftMatrix({ rows }: { rows: LiftRow[] }) {
+  // Collect unique product names (limit to top 8 for readability)
+  const topRows = rows.slice(0, 28);
+  const productSet = new Set<string>();
+  topRows.forEach((r) => { productSet.add(r.product_a); productSet.add(r.product_b); });
+  const products = Array.from(productSet).slice(0, 8);
+
+  // Build lookup: "A||B" → confidence_ab (% of buying B given A)
+  const lookup: Record<string, number> = {};
+  topRows.forEach((r) => {
+    lookup[`${r.product_a}||${r.product_b}`] = r.confidence_ab;
+    lookup[`${r.product_b}||${r.product_a}`] = r.confidence_ba;
+  });
+
+  const maxConf = Math.max(...Object.values(lookup), 1);
+
+  function cellColor(val: number | null): string {
+    if (val === null) return "bg-slate-50 text-slate-300";
+    const intensity = val / maxConf;
+    if (intensity > 0.75) return "bg-indigo-600 text-white";
+    if (intensity > 0.5)  return "bg-indigo-400 text-white";
+    if (intensity > 0.25) return "bg-indigo-200 text-indigo-800";
+    if (intensity > 0)    return "bg-indigo-50 text-indigo-600";
+    return "bg-slate-50 text-slate-300";
+  }
+
+  if (!products.length) {
+    return (
+      <div className="flex items-center justify-center h-40 text-slate-300 text-sm">
+        No association data
+      </div>
+    );
+  }
+
+  // Short labels (A, B, C… or truncated names)
+  const labels = products.map((p, i) => ({
+    full: p,
+    short: p.length > 10 ? p.slice(0, 9) + "…" : p,
+    letter: String.fromCharCode(65 + i),
+  }));
+
+  return (
+    <div className="overflow-x-auto">
+      <table className="text-xs border-collapse w-full">
+        <thead>
+          <tr>
+            <th className="w-28 text-left pr-2 pb-2 text-slate-400 font-medium align-bottom">
+              Association<br />strength (%)
+            </th>
+            {labels.map((l) => (
+              <th key={l.full} className="text-center pb-2 px-1 text-slate-500 font-semibold min-w-[52px]">
+                {l.letter}
+              </th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {labels.map((row) => (
+            <tr key={row.full}>
+              <td className="pr-3 py-1 text-slate-600 font-semibold whitespace-nowrap">
+                <span className="inline-flex items-center gap-1.5">
+                  <span className="text-slate-400">{row.letter}</span>
+                  <span className="truncate max-w-[80px]">{row.short}</span>
+                </span>
+              </td>
+              {labels.map((col) => {
+                const isSelf = row.full === col.full;
+                const val = isSelf ? null : (lookup[`${row.full}||${col.full}`] ?? 0);
+                return (
+                  <td
+                    key={col.full}
+                    className={clsx(
+                      "text-center py-1.5 px-1 rounded font-medium transition-colors",
+                      isSelf ? "bg-slate-100 text-slate-300" : cellColor(val)
+                    )}
+                  >
+                    {isSelf ? "—" : val !== null && val > 0 ? `${val}%` : "%"}
+                  </td>
+                );
+              })}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      {/* Legend key */}
+      <div className="flex items-center gap-1.5 mt-3 text-xs text-slate-400">
+        <span>Low</span>
+        {["bg-indigo-50","bg-indigo-200","bg-indigo-400","bg-indigo-600"].map((c) => (
+          <span key={c} className={clsx("w-5 h-3 rounded inline-block", c)} />
+        ))}
+        <span>High</span>
+        <span className="ml-3 text-slate-300 italic">% = probability of buying column product given row product</span>
+      </div>
+    </div>
+  );
+}
+
 // ── Main ──────────────────────────────────────────────────────────────────────
 export default function BundlePage() {
   const [channel, setChannel] = useState<ChannelId>("all");
@@ -91,15 +417,26 @@ export default function BundlePage() {
   const [search, setSearch] = useState("");
   const [chartMode, setChartMode] = useState<"count" | "revenue">("count");
 
+  // Network graph + lift
+  const [graphNodes, setGraphNodes] = useState<GraphNode[]>([]);
+  const [graphEdges, setGraphEdges] = useState<GraphEdge[]>([]);
+  const [liftRows, setLiftRows] = useState<LiftRow[]>([]);
+
   const mkt = channel === "all" ? undefined : channel;
 
   useEffect(() => {
     setLoading(true);
-    salesApi.bundleAnalytics(mkt)
-      .then((res) => {
-        setSummary(res.data.summary);
-        setPairs(res.data.pairs);
-        setChartData(res.data.chart_data);
+    Promise.all([
+      salesApi.bundleAnalytics(mkt),
+      salesApi.associationLift(mkt),
+    ])
+      .then(([bundleRes, liftRes]) => {
+        setSummary(bundleRes.data.summary);
+        setPairs(bundleRes.data.pairs);
+        setChartData(bundleRes.data.chart_data);
+        setGraphNodes(liftRes.data.nodes);
+        setGraphEdges(liftRes.data.edges);
+        setLiftRows(liftRes.data.lift_matrix);
       })
       .finally(() => setLoading(false));
   }, [channel]);
@@ -195,7 +532,6 @@ export default function BundlePage() {
             <div className="card lg:col-span-2">
               <div className="flex items-center justify-between mb-1">
                 <h2 className="text-base font-semibold text-slate-700">Top Bundle Pairs</h2>
-                {/* Toggle count / revenue */}
                 <div className="flex items-center bg-slate-100 rounded-lg p-0.5 text-xs font-medium">
                   <button
                     onClick={() => setChartMode("count")}
@@ -279,7 +615,6 @@ export default function BundlePage() {
                             {p.count}×
                           </span>
                         </div>
-                        {/* progress bar */}
                         <div className="h-1.5 bg-slate-100 rounded-full overflow-hidden">
                           <div
                             className="h-full bg-brand-400 rounded-full transition-all"
@@ -296,6 +631,66 @@ export default function BundlePage() {
                 </div>
               )}
             </div>
+          </div>
+
+          {/* ── Co-purchase Frequency Network Graph ── */}
+          <div className="card mb-6">
+            <h2 className="text-base font-semibold text-slate-700 mb-1">Co-purchase Frequency</h2>
+            <p className="text-xs text-slate-400 mb-5">
+              Network graph — links show products bought together. Node size = sales volume. Edge thickness = co-purchase frequency.
+            </p>
+            <CoPurchaseGraph nodes={graphNodes} edges={graphEdges} />
+          </div>
+
+          {/* ── Association Strength (Lift) Matrix ── */}
+          <div className="card mb-6">
+            <h2 className="text-base font-semibold text-slate-700 mb-1">Association Strength (Lift)</h2>
+            <p className="text-xs text-slate-400 mb-5">
+              → probability of buying column product given row product was purchased
+            </p>
+            <LiftMatrix rows={liftRows} />
+
+            {/* Top lift pairs table */}
+            {liftRows.length > 0 && (
+              <div className="mt-6">
+                <h3 className="text-sm font-semibold text-slate-600 mb-3">Top Association Rules by Lift Score</h3>
+                <div className="overflow-x-auto">
+                  <table className="w-full text-xs">
+                    <thead>
+                      <tr className="text-slate-400 uppercase tracking-wide border-b border-slate-100">
+                        <th className="py-2 pr-3 text-left font-medium">Product A</th>
+                        <th className="py-2 pr-3 text-left font-medium">Product B</th>
+                        <th className="py-2 pr-3 text-right font-medium">Lift</th>
+                        <th className="py-2 pr-3 text-right font-medium">A→B conf.</th>
+                        <th className="py-2 pr-3 text-right font-medium">B→A conf.</th>
+                        <th className="py-2 text-right font-medium">Support</th>
+                      </tr>
+                    </thead>
+                    <tbody className="divide-y divide-slate-50">
+                      {liftRows.slice(0, 10).map((r, i) => (
+                        <tr key={i} className="hover:bg-slate-50 transition-colors">
+                          <td className="py-2.5 pr-3 font-medium text-slate-700 max-w-[150px] truncate">{r.product_a}</td>
+                          <td className="py-2.5 pr-3 text-slate-500 max-w-[150px] truncate">{r.product_b}</td>
+                          <td className="py-2.5 pr-3 text-right">
+                            <span className={clsx(
+                              "inline-flex items-center px-2 py-0.5 rounded-full text-xs font-bold tabular-nums",
+                              r.lift >= 2 ? "bg-emerald-50 text-emerald-700" :
+                              r.lift >= 1 ? "bg-blue-50 text-blue-700" :
+                              "bg-red-50 text-red-600"
+                            )}>
+                              {r.lift.toFixed(2)}
+                            </span>
+                          </td>
+                          <td className="py-2.5 pr-3 text-right text-slate-600 tabular-nums">{r.confidence_ab}%</td>
+                          <td className="py-2.5 pr-3 text-right text-slate-600 tabular-nums">{r.confidence_ba}%</td>
+                          <td className="py-2.5 text-right text-slate-400 tabular-nums">{r.support}%</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            )}
           </div>
 
           {/* Full Table */}
