@@ -1,9 +1,9 @@
 product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
-1,23,310.5,False,2026-01-12,Taobao,2
+1,23,310.5,False,2026-01-12,Taobao,
 1,11,148.5,False,2026-01-20,Taobao,
 1,22,297.0,False,2026-01-22,Taobao,
 1,22,297.0,False,2026-01-26,Taobao,
-1,13,175.5,False,2026-02-06,Taobao,2
+1,13,175.5,False,2026-02-06,Taobao,
 1,30,405.0,False,2026-02-09,Taobao,
 1,13,175.5,False,2026-02-13,Taobao,
 1,15,202.5,False,2026-03-19,Taobao,
@@ -44,7 +44,7 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 7,5,190.0,False,2026-01-17,Temu,
 7,7,266.0,False,2026-02-06,Temu,
 7,3,114.0,False,2026-02-09,Temu,
-7,6,228.0,False,2026-04-02,Temu,8
+7,6,228.0,False,2026-04-02,Temu,
 7,6,228.0,False,2026-04-02,Temu,
 8,5,190.0,False,2026-01-20,Shopee,
 8,9,342.0,False,2026-02-06,Shopee,
@@ -72,7 +72,7 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 11,6,210.0,True,2026-03-25,Shopee,
 11,8,280.0,False,2026-03-31,Shopee,
 12,9,306.0,False,2026-01-12,Taobao,
-12,8,272.0,False,2026-01-17,Taobao,13
+12,8,272.0,False,2026-01-17,Taobao,
 12,2,68.0,False,2026-02-06,Taobao,
 12,3,102.0,False,2026-02-19,Taobao,
 12,8,272.0,False,2026-03-21,Taobao,
@@ -97,25 +97,25 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 14,4,116.0,False,2026-02-22,Facebook Marketplace,
 14,5,145.0,False,2026-03-05,Facebook Marketplace,
 14,7,203.0,False,2026-03-15,Facebook Marketplace,
-15,7,168.0,False,2026-01-13,JD,16
-15,3,72.0,False,2026-01-16,JD,
-15,9,216.0,False,2026-01-18,JD,
-15,2,48.0,False,2026-02-17,JD,
-15,5,120.0,False,2026-03-07,JD,
-15,4,96.0,False,2026-03-09,JD,
-15,7,168.0,False,2026-03-14,JD,16
-16,16,239.84,False,2026-01-14,Taobao,
+15,7,168.0,False,2026-01-13,JD,"49,47"
+15,3,72.0,False,2026-01-16,JD,"49,47"
+15,9,216.0,False,2026-01-18,JD,49
+15,2,48.0,False,2026-02-17,JD,49
+15,5,120.0,False,2026-03-07,JD,49
+15,4,96.0,False,2026-03-09,JD,49
+15,7,168.0,False,2026-03-14,JD,"49,47"
+16,16,239.84,False,2026-01-14,Taobao,37
 16,19,284.81,False,2026-01-25,Taobao,
-16,30,449.7,False,2026-01-28,Taobao,
-16,14,209.86,False,2026-01-29,Taobao,
-16,11,164.89,False,2026-01-30,Taobao,
-16,19,284.81,False,2026-02-01,Taobao,
+16,30,449.7,False,2026-01-28,Taobao,"37,47"
+16,14,209.86,False,2026-01-29,Taobao,37
+16,11,164.89,False,2026-01-30,Taobao,37
+16,19,284.81,False,2026-02-01,Taobao,37
 16,17,254.83,False,2026-02-26,Taobao,
 16,10,149.9,False,2026-03-02,Taobao,
-16,9,134.91,False,2026-03-06,Taobao,17
-16,20,299.8,False,2026-03-26,Taobao,
-16,8,119.92,False,2026-03-29,Taobao,
-16,8,119.92,False,2026-03-29,Taobao,
+16,9,134.91,False,2026-03-06,Taobao,
+16,20,299.8,False,2026-03-26,Taobao,"37,47"
+16,8,119.92,False,2026-03-29,Taobao,37
+16,8,119.92,False,2026-03-29,Taobao,47
 16,13,194.87,False,2026-04-07,Taobao,
 17,1,58.0,False,2026-01-26,Shopee,
 17,2,116.0,False,2026-02-20,Shopee,
@@ -123,24 +123,24 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 18,1,66.0,False,2026-01-16,JD,
 18,5,330.0,False,2026-02-13,JD,
 18,1,66.0,False,2026-03-05,JD,
-18,4,264.0,True,2026-03-28,JD,19
+18,4,264.0,True,2026-03-28,JD,
 18,3,198.0,False,2026-03-31,JD,
 19,2,100.0,False,2026-01-24,JD,
 19,4,200.0,True,2026-02-06,JD,
 19,3,150.0,False,2026-02-24,JD,
-19,2,100.0,False,2026-03-15,JD,20
-20,20,99.8,False,2026-01-12,Facebook Marketplace,
-20,17,84.83,False,2026-02-15,Facebook Marketplace,21
+19,2,100.0,False,2026-03-15,JD,
+20,20,99.8,False,2026-01-12,Facebook Marketplace,91
+20,17,84.83,False,2026-02-15,Facebook Marketplace,91
 20,6,29.94,False,2026-02-16,Facebook Marketplace,
 20,19,94.81,False,2026-03-03,Facebook Marketplace,
-20,15,74.85,False,2026-03-13,Facebook Marketplace,
-20,16,79.84,False,2026-03-19,Facebook Marketplace,
-20,16,79.84,False,2026-03-23,Facebook Marketplace,
-20,12,59.88,False,2026-03-29,Facebook Marketplace,
-20,12,59.88,False,2026-03-30,Facebook Marketplace,21
-20,17,84.83,False,2026-03-31,Facebook Marketplace,
-20,10,49.9,False,2026-04-01,Facebook Marketplace,
-21,6,132.0,False,2026-02-16,Temu,22
+20,15,74.85,False,2026-03-13,Facebook Marketplace,40
+20,16,79.84,False,2026-03-19,Facebook Marketplace,"91,40"
+20,16,79.84,False,2026-03-23,Facebook Marketplace,40
+20,12,59.88,False,2026-03-29,Facebook Marketplace,91
+20,12,59.88,False,2026-03-30,Facebook Marketplace,91
+20,17,84.83,False,2026-03-31,Facebook Marketplace,91
+20,10,49.9,False,2026-04-01,Facebook Marketplace,91
+21,6,132.0,False,2026-02-16,Temu,
 21,7,154.0,False,2026-02-21,Temu,
 21,6,132.0,False,2026-03-12,Temu,
 21,2,44.0,False,2026-03-14,Temu,
@@ -149,7 +149,7 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 21,8,176.0,False,2026-03-25,Temu,
 21,2,44.0,False,2026-03-28,Temu,
 22,5,79.95,False,2026-01-22,Taobao,
-22,5,79.95,False,2026-01-26,Taobao,23
+22,5,79.95,False,2026-01-26,Taobao,
 22,8,127.92,False,2026-02-08,Taobao,
 22,4,63.96,True,2026-02-12,Taobao,
 22,4,63.96,False,2026-02-12,Taobao,
@@ -157,33 +157,33 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 22,6,95.94,False,2026-03-25,Taobao,
 22,3,47.97,False,2026-03-28,Taobao,
 22,2,31.98,False,2026-04-08,Taobao,
-23,21,283.29,False,2026-01-19,Taobao,24
-23,23,310.27,False,2026-02-05,Taobao,
-23,21,283.29,False,2026-02-09,Taobao,
+23,21,283.29,False,2026-01-19,Taobao,179
+23,23,310.27,False,2026-02-05,Taobao,179
+23,21,283.29,False,2026-02-09,Taobao,179
 23,10,134.9,False,2026-03-03,Taobao,
-23,8,107.92,False,2026-03-07,Taobao,
+23,8,107.92,False,2026-03-07,Taobao,179
 23,20,269.8,False,2026-03-10,Taobao,
 23,30,404.7,False,2026-03-17,Taobao,
-23,18,242.82,False,2026-03-18,Taobao,24
-23,19,256.31,False,2026-03-20,Taobao,
+23,18,242.82,False,2026-03-18,Taobao,179
+23,19,256.31,False,2026-03-20,Taobao,"179,190"
 23,5,67.45,False,2026-03-26,Taobao,
-23,28,377.72,False,2026-04-04,Taobao,24
-23,18,242.82,False,2026-04-06,Taobao,24
-23,6,80.94,False,2026-04-08,Taobao,24
+23,28,377.72,False,2026-04-04,Taobao,"179,190"
+23,18,242.82,False,2026-04-06,Taobao,
+23,6,80.94,False,2026-04-08,Taobao,190
 24,30,420.0,False,2026-01-15,Taobao,
-24,18,252.0,False,2026-02-22,Taobao,
-24,29,406.0,False,2026-02-26,Taobao,
-24,12,168.0,False,2026-03-04,Taobao,
-24,30,420.0,False,2026-03-13,Taobao,25
-24,18,252.0,False,2026-03-21,Taobao,
-24,9,126.0,False,2026-03-30,Taobao,
-24,15,210.0,False,2026-04-01,Taobao,
-24,16,224.0,False,2026-04-04,Taobao,
-24,11,154.0,False,2026-04-05,Taobao,
+24,18,252.0,False,2026-02-22,Taobao,33
+24,29,406.0,False,2026-02-26,Taobao,33
+24,12,168.0,False,2026-03-04,Taobao,"33,67"
+24,30,420.0,False,2026-03-13,Taobao,
+24,18,252.0,False,2026-03-21,Taobao,"33,67"
+24,9,126.0,False,2026-03-30,Taobao,67
+24,15,210.0,False,2026-04-01,Taobao,33
+24,16,224.0,False,2026-04-04,Taobao,33
+24,11,154.0,False,2026-04-05,Taobao,33
 25,4,184.0,True,2026-01-09,JD,
 25,3,138.0,False,2026-01-11,JD,
 25,5,230.0,False,2026-03-11,JD,
-25,2,92.0,False,2026-03-12,JD,26
+25,2,92.0,False,2026-03-12,JD,
 25,2,92.0,False,2026-03-18,JD,
 25,3,138.0,False,2026-03-20,JD,
 25,4,184.0,False,2026-04-03,JD,
@@ -219,7 +219,7 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 31,18,252.0,False,2026-02-05,JD,
 31,13,182.0,False,2026-02-22,JD,
 31,24,336.0,False,2026-03-02,JD,
-31,29,406.0,False,2026-03-06,JD,32
+31,29,406.0,False,2026-03-06,JD,
 31,26,364.0,False,2026-03-06,JD,
 31,24,336.0,False,2026-03-28,JD,
 31,14,196.0,False,2026-03-30,JD,
@@ -229,25 +229,25 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 32,2,32.0,False,2026-01-25,Taobao,
 32,7,112.0,False,2026-01-30,Taobao,
 32,3,48.0,False,2026-02-11,Taobao,
-32,2,32.0,False,2026-02-12,Taobao,33
+32,2,32.0,False,2026-02-12,Taobao,
 32,2,32.0,False,2026-02-12,Taobao,
 32,4,64.0,False,2026-02-20,Taobao,
 32,2,32.0,False,2026-02-25,Taobao,
 32,8,128.0,False,2026-03-04,Taobao,
-33,18,180.0,False,2026-01-16,Shopee,
-33,14,140.0,False,2026-01-18,Shopee,
-33,30,300.0,False,2026-01-19,Shopee,
-33,15,150.0,False,2026-01-21,Shopee,
-33,7,70.0,False,2026-01-26,Shopee,
-33,29,290.0,False,2026-02-25,Shopee,
-33,10,100.0,False,2026-02-28,Shopee,
-33,8,80.0,False,2026-03-08,Shopee,
-33,11,110.0,False,2026-03-14,Shopee,
-33,8,80.0,False,2026-03-22,Shopee,
-33,14,140.0,False,2026-03-24,Shopee,
-33,6,60.0,False,2026-03-25,Shopee,
-33,9,90.0,False,2026-03-31,Shopee,
-33,16,160.0,False,2026-04-08,Shopee,34
+33,18,180.0,False,2026-01-16,Shopee,"179,67,143,188,164"
+33,14,140.0,False,2026-01-18,Shopee,"179,24,67,143,164"
+33,30,300.0,False,2026-01-19,Shopee,"179,49,24,188"
+33,15,150.0,False,2026-01-21,Shopee,"179,49,47"
+33,7,70.0,False,2026-01-26,Shopee,"179,24,67,188"
+33,29,290.0,False,2026-02-25,Shopee,"179,188"
+33,10,100.0,False,2026-02-28,Shopee,"179,67,143,188,164"
+33,8,80.0,False,2026-03-08,Shopee,"179,49,143,47"
+33,11,110.0,False,2026-03-14,Shopee,"179,49,24,143"
+33,8,80.0,False,2026-03-22,Shopee,"179,49,188"
+33,14,140.0,False,2026-03-24,Shopee,"179,49,24,67"
+33,6,60.0,False,2026-03-25,Shopee,"179,24,143,188"
+33,9,90.0,False,2026-03-31,Shopee,"179,67,143"
+33,16,160.0,False,2026-04-08,Shopee,"179,49,24,67,47"
 34,16,192.0,False,2026-01-16,JD,
 34,10,120.0,False,2026-01-21,JD,
 34,30,360.0,False,2026-01-29,JD,
@@ -262,7 +262,7 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 34,30,360.0,False,2026-03-24,JD,
 34,5,60.0,False,2026-04-03,JD,
 35,3,75.0,False,2026-01-11,Taobao,
-35,8,200.0,False,2026-01-13,Taobao,36
+35,8,200.0,False,2026-01-13,Taobao,
 35,3,75.0,False,2026-02-11,Taobao,
 35,9,225.0,False,2026-02-15,Taobao,
 35,4,100.0,False,2026-02-18,Taobao,
@@ -274,39 +274,39 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 36,5,120.0,False,2026-03-10,Taobao,
 36,6,144.0,False,2026-03-14,Taobao,
 36,3,72.0,False,2026-03-23,Taobao,
-37,12,107.88,False,2026-01-12,JD,
-37,13,116.87,False,2026-01-15,JD,
-37,29,260.71,False,2026-01-20,JD,
-37,20,179.8,False,2026-01-29,JD,
-37,24,215.76,False,2026-01-29,JD,
-37,24,215.76,False,2026-02-05,JD,
-37,27,242.73,False,2026-02-11,JD,
-37,17,152.83,False,2026-02-14,JD,
-37,11,98.89,False,2026-02-22,JD,
-37,24,215.76,False,2026-02-22,JD,
-37,21,188.79,False,2026-02-27,JD,
-37,16,143.84,False,2026-03-20,JD,
-37,14,125.86,False,2026-03-23,JD,
-37,7,62.93,False,2026-03-25,JD,
-37,15,134.85,False,2026-04-07,JD,
+37,12,107.88,False,2026-01-12,JD,"49,91,179,47"
+37,13,116.87,False,2026-01-15,JD,"49,91,179,16,47"
+37,29,260.71,False,2026-01-20,JD,"49,91,179,16,97"
+37,20,179.8,False,2026-01-29,JD,"49,91,179,47"
+37,24,215.76,False,2026-01-29,JD,"49,91,179,16,47,140"
+37,24,215.76,False,2026-02-05,JD,"49,91,179,47,140"
+37,27,242.73,False,2026-02-11,JD,"49,91,179,140"
+37,17,152.83,False,2026-02-14,JD,"49,91,179,47,97,140"
+37,11,98.89,False,2026-02-22,JD,"49,91,179,16,97"
+37,24,215.76,False,2026-02-22,JD,"49,91,179"
+37,21,188.79,False,2026-02-27,JD,"49,91,179,140"
+37,16,143.84,False,2026-03-20,JD,"49,91,179,16,97,140"
+37,14,125.86,False,2026-03-23,JD,"49,91,179,16,97"
+37,7,62.93,False,2026-03-25,JD,"49,91,179,97"
+37,15,134.85,False,2026-04-07,JD,"49,91,179,16,47,97,140"
 38,3,120.0,False,2026-01-15,Facebook Marketplace,
 38,4,160.0,False,2026-01-26,Facebook Marketplace,
 38,2,80.0,False,2026-01-28,Facebook Marketplace,
-38,2,80.0,False,2026-02-03,Facebook Marketplace,39
+38,2,80.0,False,2026-02-03,Facebook Marketplace,
 38,4,160.0,False,2026-03-02,Facebook Marketplace,
 39,4,172.0,False,2026-01-13,JD,
 39,5,215.0,False,2026-02-24,JD,
 39,1,43.0,False,2026-04-02,JD,
-40,6,192.0,False,2026-01-18,Facebook Marketplace,41
-40,4,128.0,False,2026-01-20,Facebook Marketplace,
-40,7,224.0,False,2026-01-21,Facebook Marketplace,
-40,3,96.0,False,2026-01-28,Facebook Marketplace,
-40,2,64.0,True,2026-02-07,Facebook Marketplace,
-40,4,128.0,False,2026-02-10,Facebook Marketplace,
-40,6,192.0,False,2026-03-08,Facebook Marketplace,41
-40,7,224.0,False,2026-03-13,Facebook Marketplace,
-40,9,288.0,False,2026-03-15,Facebook Marketplace,
-40,9,288.0,False,2026-04-01,Facebook Marketplace,
+40,6,192.0,False,2026-01-18,Facebook Marketplace,91
+40,4,128.0,False,2026-01-20,Facebook Marketplace,20
+40,7,224.0,False,2026-01-21,Facebook Marketplace,91
+40,3,96.0,False,2026-01-28,Facebook Marketplace,91
+40,2,64.0,True,2026-02-07,Facebook Marketplace,20
+40,4,128.0,False,2026-02-10,Facebook Marketplace,"91,20,66"
+40,6,192.0,False,2026-03-08,Facebook Marketplace,"91,66"
+40,7,224.0,False,2026-03-13,Facebook Marketplace,91
+40,9,288.0,False,2026-03-15,Facebook Marketplace,66
+40,9,288.0,False,2026-04-01,Facebook Marketplace,91
 41,6,228.0,False,2026-01-09,Temu,
 41,9,342.0,False,2026-01-11,Temu,
 41,2,76.0,False,2026-01-13,Temu,
@@ -317,7 +317,7 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 41,6,228.0,False,2026-03-20,Temu,
 41,3,114.0,True,2026-03-21,Temu,
 41,4,152.0,False,2026-03-27,Temu,
-42,2,96.0,False,2026-01-10,JD,43
+42,2,96.0,False,2026-01-10,JD,
 42,3,144.0,False,2026-01-12,JD,
 42,3,144.0,False,2026-01-22,JD,
 42,1,48.0,False,2026-02-14,JD,
@@ -338,7 +338,7 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 44,2,56.0,False,2026-02-17,Facebook Marketplace,
 44,10,280.0,False,2026-02-22,Facebook Marketplace,
 44,6,168.0,False,2026-03-02,Facebook Marketplace,
-45,4,312.0,False,2026-01-20,Taobao,46
+45,4,312.0,False,2026-01-20,Taobao,
 45,2,156.0,False,2026-01-26,Taobao,
 45,5,390.0,False,2026-03-09,Taobao,
 45,2,156.0,False,2026-03-14,Taobao,
@@ -351,22 +351,22 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 46,18,90.0,False,2026-02-01,Temu,
 46,29,145.0,False,2026-02-11,Temu,
 46,13,65.0,False,2026-03-15,Temu,
-46,19,95.0,False,2026-03-23,Temu,47
+46,19,95.0,False,2026-03-23,Temu,
 46,17,85.0,False,2026-03-30,Temu,
-47,26,104.0,False,2026-01-22,Facebook Marketplace,
-47,22,88.0,False,2026-01-28,Facebook Marketplace,
-47,16,64.0,False,2026-02-10,Facebook Marketplace,
-47,14,56.0,False,2026-02-11,Facebook Marketplace,
-47,17,68.0,False,2026-02-13,Facebook Marketplace,
-47,26,104.0,False,2026-02-24,Facebook Marketplace,
-47,30,120.0,False,2026-02-24,Facebook Marketplace,
-47,11,44.0,False,2026-03-04,Facebook Marketplace,
+47,26,104.0,False,2026-01-22,Facebook Marketplace,"37,49,97"
+47,22,88.0,False,2026-01-28,Facebook Marketplace,37
+47,16,64.0,False,2026-02-10,Facebook Marketplace,"16,97"
+47,14,56.0,False,2026-02-11,Facebook Marketplace,"37,16,33,15"
+47,17,68.0,False,2026-02-13,Facebook Marketplace,15
+47,26,104.0,False,2026-02-24,Facebook Marketplace,"49,33"
+47,30,120.0,False,2026-02-24,Facebook Marketplace,"49,97"
+47,11,44.0,False,2026-03-04,Facebook Marketplace,"37,49,33"
 47,30,120.0,False,2026-03-04,Facebook Marketplace,
-47,27,108.0,False,2026-03-18,Facebook Marketplace,
-47,25,100.0,True,2026-03-22,Facebook Marketplace,48
-47,9,36.0,False,2026-03-24,Facebook Marketplace,
-47,7,28.0,False,2026-03-28,Facebook Marketplace,
-47,7,28.0,False,2026-04-02,Facebook Marketplace,
+47,27,108.0,False,2026-03-18,Facebook Marketplace,37
+47,25,100.0,True,2026-03-22,Facebook Marketplace,"37,49"
+47,9,36.0,False,2026-03-24,Facebook Marketplace,37
+47,7,28.0,False,2026-03-28,Facebook Marketplace,"49,16,15"
+47,7,28.0,False,2026-04-02,Facebook Marketplace,49
 48,18,108.0,False,2026-01-17,Facebook Marketplace,
 48,5,30.0,False,2026-02-06,Facebook Marketplace,
 48,14,84.0,False,2026-02-07,Facebook Marketplace,
@@ -376,23 +376,23 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 48,26,156.0,False,2026-03-31,Facebook Marketplace,
 48,28,168.0,False,2026-04-05,Facebook Marketplace,
 48,13,78.0,False,2026-04-08,Facebook Marketplace,
-49,6,48.0,False,2026-01-15,Temu,
-49,25,200.0,False,2026-01-21,Temu,
-49,13,104.0,False,2026-01-26,Temu,
-49,30,240.0,False,2026-01-29,Temu,50
-49,8,64.0,False,2026-02-10,Temu,
-49,24,192.0,False,2026-02-16,Temu,
-49,25,200.0,False,2026-02-18,Temu,
-49,14,112.0,False,2026-02-28,Temu,
-49,20,160.0,False,2026-03-12,Temu,
-49,7,56.0,False,2026-03-16,Temu,
-49,25,200.0,False,2026-03-18,Temu,
-49,25,200.0,False,2026-03-21,Temu,
-49,25,200.0,False,2026-03-22,Temu,
-49,7,56.0,False,2026-03-30,Temu,
-49,15,120.0,False,2026-04-07,Temu,
+49,6,48.0,False,2026-01-15,Temu,"37,91,164,15"
+49,25,200.0,False,2026-01-21,Temu,"37,91,33,47,15"
+49,13,104.0,False,2026-01-26,Temu,"37,91"
+49,30,240.0,False,2026-01-29,Temu,"37,91,164,33,47"
+49,8,64.0,False,2026-02-10,Temu,"37,91,33"
+49,24,192.0,False,2026-02-16,Temu,"37,91,33,15"
+49,25,200.0,False,2026-02-18,Temu,"37,91,47,15"
+49,14,112.0,False,2026-02-28,Temu,"37,91,33,47"
+49,20,160.0,False,2026-03-12,Temu,"37,91,164,33"
+49,7,56.0,False,2026-03-16,Temu,"37,91,164,47"
+49,25,200.0,False,2026-03-18,Temu,"37,91,15"
+49,25,200.0,False,2026-03-21,Temu,"37,91,164"
+49,25,200.0,False,2026-03-22,Temu,"37,91,47"
+49,7,56.0,False,2026-03-30,Temu,"37,91,164,33,15"
+49,15,120.0,False,2026-04-07,Temu,"37,91,164,47,15"
 50,22,154.0,True,2026-01-09,Shopee,
-50,29,203.0,False,2026-01-10,Shopee,51
+50,29,203.0,False,2026-01-10,Shopee,
 50,18,126.0,False,2026-01-26,Shopee,
 50,30,210.0,True,2026-01-28,Shopee,
 50,18,126.0,False,2026-02-11,Shopee,
@@ -403,7 +403,7 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 50,27,189.0,False,2026-03-02,Shopee,
 50,28,196.0,False,2026-03-10,Shopee,
 50,11,77.0,False,2026-03-16,Shopee,
-51,9,36.0,False,2026-01-10,Shopee,52
+51,9,36.0,False,2026-01-10,Shopee,
 51,10,40.0,False,2026-01-14,Shopee,
 51,15,60.0,False,2026-02-09,Shopee,
 51,25,100.0,False,2026-02-28,Shopee,
@@ -442,7 +442,7 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 54,21,147.0,False,2026-04-08,JD,
 55,4,112.0,True,2026-01-22,Taobao,
 55,6,168.0,False,2026-01-25,Taobao,
-55,5,140.0,False,2026-01-28,Taobao,56
+55,5,140.0,False,2026-01-28,Taobao,
 55,3,84.0,False,2026-02-02,Taobao,
 55,10,280.0,False,2026-02-13,Taobao,
 55,7,196.0,False,2026-02-16,Taobao,
@@ -454,9 +454,9 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 56,9,45.0,False,2026-02-27,Taobao,
 56,18,90.0,False,2026-03-07,Taobao,
 56,19,95.0,False,2026-03-15,Taobao,
-56,9,45.0,False,2026-03-17,Taobao,57
+56,9,45.0,False,2026-03-17,Taobao,
 56,29,145.0,False,2026-03-28,Taobao,
-56,20,100.0,False,2026-03-31,Taobao,57
+56,20,100.0,False,2026-03-31,Taobao,
 57,1,48.0,False,2026-01-12,JD,
 57,5,240.0,False,2026-01-24,JD,
 57,3,144.0,False,2026-03-09,JD,
@@ -464,7 +464,7 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 58,16,175.84,False,2026-01-23,Taobao,
 58,11,120.89,False,2026-02-01,Taobao,
 58,16,175.84,False,2026-02-12,Taobao,
-58,7,76.93,False,2026-02-17,Taobao,59
+58,7,76.93,False,2026-02-17,Taobao,
 58,20,219.8,False,2026-02-18,Taobao,
 58,15,164.85,False,2026-02-27,Taobao,
 58,21,230.79,False,2026-03-23,Taobao,
@@ -472,13 +472,13 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 58,21,230.79,False,2026-03-27,Taobao,
 59,5,170.0,False,2026-02-17,Shopee,
 59,10,340.0,False,2026-02-20,Shopee,
-59,9,306.0,False,2026-02-23,Shopee,60
+59,9,306.0,False,2026-02-23,Shopee,
 59,9,306.0,False,2026-03-07,Shopee,
 59,9,306.0,False,2026-03-25,Shopee,
 59,4,136.0,False,2026-03-28,Shopee,
 59,7,238.0,False,2026-03-30,Shopee,
 59,7,238.0,False,2026-04-07,Shopee,
-59,9,306.0,False,2026-04-08,Shopee,60
+59,9,306.0,False,2026-04-08,Shopee,
 60,9,189.0,False,2026-02-15,Facebook Marketplace,
 60,7,147.0,False,2026-02-27,Facebook Marketplace,
 60,6,126.0,False,2026-03-07,Facebook Marketplace,
@@ -490,22 +490,22 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 61,10,300.0,False,2026-02-09,Shopee,
 61,10,300.0,False,2026-02-13,Shopee,
 61,7,210.0,False,2026-03-09,Shopee,
-61,6,180.0,False,2026-03-10,Shopee,62
+61,6,180.0,False,2026-03-10,Shopee,
 61,6,180.0,False,2026-03-16,Shopee,
 61,2,60.0,False,2026-03-16,Shopee,
 61,2,60.0,False,2026-03-28,Shopee,
-62,3,120.0,False,2026-02-12,JD,63
+62,3,120.0,False,2026-02-12,JD,
 62,5,200.0,False,2026-02-20,JD,
 62,2,80.0,False,2026-03-05,JD,
 62,2,80.0,False,2026-03-28,JD,
-62,2,80.0,False,2026-04-02,JD,63
+62,2,80.0,False,2026-04-02,JD,
 63,4,136.0,False,2026-01-22,Temu,
 63,3,102.0,False,2026-01-31,Temu,
-63,3,102.0,True,2026-02-28,Temu,64
-63,6,204.0,False,2026-03-12,Temu,64
+63,3,102.0,True,2026-02-28,Temu,
+63,6,204.0,False,2026-03-12,Temu,
 63,9,306.0,False,2026-03-28,Temu,
 63,2,68.0,False,2026-04-01,Temu,
-64,4,96.0,False,2026-01-10,JD,65
+64,4,96.0,False,2026-01-10,JD,
 64,3,72.0,False,2026-01-15,JD,
 64,5,120.0,False,2026-01-21,JD,
 64,7,168.0,False,2026-01-25,JD,
@@ -519,30 +519,30 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 65,7,266.0,False,2026-01-23,Facebook Marketplace,
 65,5,190.0,False,2026-02-08,Facebook Marketplace,
 65,5,190.0,False,2026-02-19,Facebook Marketplace,
-65,9,342.0,False,2026-03-06,Facebook Marketplace,66
+65,9,342.0,False,2026-03-06,Facebook Marketplace,
 65,8,304.0,False,2026-03-15,Facebook Marketplace,
 65,9,342.0,False,2026-03-24,Facebook Marketplace,
 65,9,342.0,False,2026-03-25,Facebook Marketplace,
-66,7,182.0,False,2026-01-09,Temu,
-66,6,156.0,False,2026-01-18,Temu,
-66,5,130.0,False,2026-02-27,Temu,67
-66,7,182.0,False,2026-03-09,Temu,67
-66,7,182.0,False,2026-03-30,Temu,
-66,7,182.0,False,2026-03-30,Temu,67
-66,7,182.0,False,2026-03-31,Temu,
-67,9,270.0,False,2026-01-25,Temu,
-67,2,60.0,False,2026-01-30,Temu,
-67,4,120.0,False,2026-02-07,Temu,
+66,7,182.0,False,2026-01-09,Temu,"91,40"
+66,6,156.0,False,2026-01-18,Temu,"91,142"
+66,5,130.0,False,2026-02-27,Temu,"91,40,142"
+66,7,182.0,False,2026-03-09,Temu,91
+66,7,182.0,False,2026-03-30,Temu,"91,142"
+66,7,182.0,False,2026-03-30,Temu,91
+66,7,182.0,False,2026-03-31,Temu,"91,40"
+67,9,270.0,False,2026-01-25,Temu,33
+67,2,60.0,False,2026-01-30,Temu,"33,24,143"
+67,4,120.0,False,2026-02-07,Temu,33
 67,10,300.0,False,2026-02-11,Temu,
-67,4,120.0,False,2026-02-16,Temu,
-67,7,210.0,False,2026-02-17,Temu,
-67,7,210.0,False,2026-03-06,Temu,
-67,2,60.0,False,2026-03-08,Temu,
-67,4,120.0,False,2026-03-22,Temu,
+67,4,120.0,False,2026-02-16,Temu,"33,24"
+67,7,210.0,False,2026-02-17,Temu,"33,24,143"
+67,7,210.0,False,2026-03-06,Temu,33
+67,2,60.0,False,2026-03-08,Temu,33
+67,4,120.0,False,2026-03-22,Temu,143
 68,9,324.0,False,2026-01-20,JD,
 68,8,288.0,False,2026-02-05,JD,
 68,3,108.0,False,2026-02-17,JD,
-68,10,360.0,False,2026-03-03,JD,69
+68,10,360.0,False,2026-03-03,JD,
 68,8,288.0,False,2026-03-06,JD,
 68,6,216.0,False,2026-03-07,JD,
 68,4,144.0,False,2026-03-21,JD,
@@ -557,9 +557,9 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 69,5,55.0,False,2026-03-24,Temu,
 69,16,176.0,False,2026-04-06,Temu,
 69,24,264.0,False,2026-04-07,Temu,
-69,10,110.0,False,2026-04-08,Temu,70
+69,10,110.0,False,2026-04-08,Temu,
 70,4,180.0,False,2026-01-23,Taobao,
-70,5,225.0,False,2026-01-24,Taobao,71
+70,5,225.0,False,2026-01-24,Taobao,
 70,4,180.0,False,2026-01-26,Taobao,
 70,5,225.0,False,2026-03-09,Taobao,
 70,4,180.0,False,2026-03-16,Taobao,
@@ -607,7 +607,7 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 76,8,272.0,False,2026-01-20,Taobao,
 76,4,136.0,False,2026-01-31,Taobao,
 76,8,272.0,False,2026-02-08,Taobao,
-76,4,136.0,False,2026-02-10,Taobao,77
+76,4,136.0,False,2026-02-10,Taobao,
 76,7,238.0,False,2026-02-26,Taobao,
 76,8,272.0,False,2026-03-01,Taobao,
 76,8,272.0,False,2026-03-01,Taobao,
@@ -617,7 +617,7 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 77,28,168.0,False,2026-01-10,Facebook Marketplace,
 77,24,144.0,False,2026-01-23,Facebook Marketplace,
 77,27,162.0,False,2026-01-30,Facebook Marketplace,
-77,17,102.0,False,2026-02-28,Facebook Marketplace,78
+77,17,102.0,False,2026-02-28,Facebook Marketplace,
 77,9,54.0,True,2026-03-08,Facebook Marketplace,
 77,5,30.0,False,2026-03-11,Facebook Marketplace,
 77,5,30.0,False,2026-04-02,Facebook Marketplace,
@@ -625,7 +625,7 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 78,20,230.0,False,2026-01-25,JD,
 78,6,69.0,False,2026-01-29,JD,
 78,13,149.5,False,2026-01-29,JD,
-78,21,241.5,True,2026-01-31,JD,79
+78,21,241.5,True,2026-01-31,JD,
 78,18,207.0,False,2026-02-03,JD,
 78,22,253.0,False,2026-02-04,JD,
 78,15,172.5,False,2026-02-14,JD,
@@ -644,7 +644,7 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 79,6,108.0,False,2026-04-01,Facebook Marketplace,
 79,8,144.0,False,2026-04-08,Facebook Marketplace,
 80,3,55.5,False,2026-01-14,Temu,
-80,6,111.0,False,2026-01-23,Temu,81
+80,6,111.0,False,2026-01-23,Temu,
 80,4,74.0,False,2026-01-24,Temu,
 80,2,37.0,False,2026-01-28,Temu,
 80,6,111.0,False,2026-02-15,Temu,
@@ -677,7 +677,7 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 84,4,136.0,False,2026-03-25,Taobao,
 85,1,67.0,False,2026-01-09,Shopee,
 85,4,268.0,False,2026-01-10,Shopee,
-85,3,201.0,True,2026-01-18,Shopee,86
+85,3,201.0,True,2026-01-18,Shopee,
 85,2,134.0,False,2026-02-01,Shopee,
 85,3,201.0,False,2026-02-23,Shopee,
 85,5,335.0,False,2026-02-24,Shopee,
@@ -688,20 +688,20 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 86,3,201.0,False,2026-03-28,Temu,
 86,5,335.0,False,2026-04-03,Temu,
 87,5,140.0,False,2026-02-10,JD,
-87,10,280.0,False,2026-02-13,JD,88
+87,10,280.0,False,2026-02-13,JD,
 87,6,168.0,False,2026-02-16,JD,
 87,8,224.0,False,2026-02-20,JD,
 87,2,56.0,False,2026-04-05,JD,
 87,4,112.0,False,2026-04-06,JD,
 88,9,243.0,True,2026-01-13,JD,
 88,8,216.0,False,2026-01-20,JD,
-88,10,270.0,False,2026-01-22,JD,89
+88,10,270.0,False,2026-01-22,JD,
 88,10,270.0,True,2026-01-30,JD,
 88,8,216.0,False,2026-01-31,JD,
 88,4,108.0,False,2026-03-20,JD,
 88,3,81.0,False,2026-04-05,JD,
 89,4,72.0,False,2026-01-10,Shopee,
-89,9,162.0,False,2026-01-13,Shopee,90
+89,9,162.0,False,2026-01-13,Shopee,
 89,5,90.0,False,2026-01-23,Shopee,
 89,9,162.0,False,2026-02-02,Shopee,
 89,4,72.0,False,2026-02-10,Shopee,
@@ -713,23 +713,23 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 90,5,80.0,False,2026-02-26,Facebook Marketplace,
 90,2,32.0,False,2026-03-07,Facebook Marketplace,
 90,3,48.0,False,2026-03-15,Facebook Marketplace,
-90,5,80.0,False,2026-03-24,Facebook Marketplace,91
+90,5,80.0,False,2026-03-24,Facebook Marketplace,
 90,7,112.0,False,2026-03-27,Facebook Marketplace,
-91,14,189.0,False,2026-01-11,Temu,
-91,7,94.5,False,2026-01-19,Temu,
-91,11,148.5,False,2026-01-28,Temu,
-91,5,67.5,False,2026-01-31,Temu,
-91,16,216.0,False,2026-02-10,Temu,
-91,17,229.5,False,2026-02-16,Temu,
-91,20,270.0,False,2026-02-17,Temu,
-91,7,94.5,False,2026-02-26,Temu,92
-91,8,108.0,False,2026-02-26,Temu,
-91,11,148.5,False,2026-03-04,Temu,
-91,29,391.5,False,2026-03-08,Temu,
-91,21,283.5,False,2026-03-09,Temu,
-91,16,216.0,False,2026-03-18,Temu,
-91,18,243.0,False,2026-03-20,Temu,
-91,6,81.0,False,2026-03-26,Temu,
+91,14,189.0,False,2026-01-11,Temu,"37,49,40,142"
+91,7,94.5,False,2026-01-19,Temu,"37,49,20"
+91,11,148.5,False,2026-01-28,Temu,"37,49,20,40,66,142"
+91,5,67.5,False,2026-01-31,Temu,"37,49,20,40"
+91,16,216.0,False,2026-02-10,Temu,"37,49,20"
+91,17,229.5,False,2026-02-16,Temu,"37,49"
+91,20,270.0,False,2026-02-17,Temu,"37,49,20,40"
+91,7,94.5,False,2026-02-26,Temu,"37,49,20,40,66,142"
+91,8,108.0,False,2026-02-26,Temu,"37,49,66,142"
+91,11,148.5,False,2026-03-04,Temu,"37,49,142"
+91,29,391.5,False,2026-03-08,Temu,"37,49,66,142"
+91,21,283.5,False,2026-03-09,Temu,"37,49,20,66"
+91,16,216.0,False,2026-03-18,Temu,"37,49,66"
+91,18,243.0,False,2026-03-20,Temu,"37,49,40"
+91,6,81.0,False,2026-03-26,Temu,"37,49,40,66,142"
 92,3,45.0,False,2026-01-19,JD,
 92,7,105.0,True,2026-01-22,JD,
 92,9,135.0,False,2026-01-30,JD,
@@ -750,43 +750,43 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 94,9,162.0,False,2026-02-02,Shopee,
 94,9,162.0,False,2026-02-28,Shopee,
 94,4,72.0,False,2026-03-20,Shopee,
-94,5,90.0,False,2026-04-08,Shopee,95
+94,5,90.0,False,2026-04-08,Shopee,
 94,3,54.0,False,2026-04-08,Shopee,
 95,3,51.0,False,2026-01-11,Taobao,
 95,3,51.0,False,2026-02-01,Taobao,
 95,3,51.0,False,2026-02-28,Taobao,
 95,4,68.0,True,2026-03-01,Taobao,
 95,7,119.0,False,2026-03-12,Taobao,
-95,5,85.0,False,2026-03-17,Taobao,96
-95,6,102.0,False,2026-03-18,Taobao,96
+95,5,85.0,False,2026-03-17,Taobao,
+95,6,102.0,False,2026-03-18,Taobao,
 95,3,51.0,False,2026-03-21,Taobao,
 95,10,170.0,False,2026-04-08,Taobao,
 96,3,48.0,False,2026-01-12,Temu,
 96,7,112.0,False,2026-01-18,Temu,
 96,7,112.0,False,2026-01-24,Temu,
-96,5,80.0,False,2026-02-09,Temu,97
+96,5,80.0,False,2026-02-09,Temu,
 96,5,80.0,False,2026-02-12,Temu,
 96,3,48.0,False,2026-02-26,Temu,
 96,6,96.0,False,2026-03-18,Temu,
 96,3,48.0,False,2026-03-27,Temu,
 97,12,131.88,False,2026-01-14,Facebook Marketplace,
 97,9,98.91,False,2026-01-30,Facebook Marketplace,
-97,18,197.82,False,2026-02-09,Facebook Marketplace,
-97,8,87.92,False,2026-02-22,Facebook Marketplace,
-97,22,241.78,False,2026-03-07,Facebook Marketplace,
-97,14,153.86,False,2026-03-17,Facebook Marketplace,
-97,11,120.89,True,2026-03-17,Facebook Marketplace,
+97,18,197.82,False,2026-02-09,Facebook Marketplace,37
+97,8,87.92,False,2026-02-22,Facebook Marketplace,37
+97,22,241.78,False,2026-03-07,Facebook Marketplace,37
+97,14,153.86,False,2026-03-17,Facebook Marketplace,47
+97,11,120.89,True,2026-03-17,Facebook Marketplace,"37,47"
 97,17,186.83,False,2026-03-18,Facebook Marketplace,
-97,25,274.75,False,2026-03-27,Facebook Marketplace,
-97,19,208.81,False,2026-03-27,Facebook Marketplace,
-97,6,65.94,False,2026-04-03,Facebook Marketplace,
-97,15,164.85,False,2026-04-05,Facebook Marketplace,
-97,16,175.84,False,2026-04-06,Facebook Marketplace,
+97,25,274.75,False,2026-03-27,Facebook Marketplace,37
+97,19,208.81,False,2026-03-27,Facebook Marketplace,37
+97,6,65.94,False,2026-04-03,Facebook Marketplace,140
+97,15,164.85,False,2026-04-05,Facebook Marketplace,"37,47,140"
+97,16,175.84,False,2026-04-06,Facebook Marketplace,140
 97,16,175.84,True,2026-04-08,Facebook Marketplace,
 98,27,296.73,False,2026-01-23,JD,
 98,28,307.72,False,2026-02-03,JD,
 98,23,252.77,False,2026-02-09,JD,
-98,8,87.92,False,2026-02-09,JD,99
+98,8,87.92,False,2026-02-09,JD,
 98,11,120.89,False,2026-02-11,JD,
 98,24,263.76,False,2026-02-13,JD,
 98,17,186.83,False,2026-03-04,JD,
@@ -794,7 +794,7 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 98,18,197.82,False,2026-04-04,JD,
 98,25,274.75,False,2026-04-08,JD,
 99,13,142.87,False,2026-01-11,JD,
-99,6,65.94,False,2026-01-17,JD,100
+99,6,65.94,False,2026-01-17,JD,
 99,27,296.73,False,2026-01-24,JD,
 99,20,219.8,False,2026-01-30,JD,
 99,7,76.93,False,2026-02-24,JD,
@@ -807,10 +807,10 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 99,27,296.73,False,2026-03-26,JD,
 99,12,131.88,True,2026-03-30,JD,
 100,2,76.0,False,2026-01-21,Facebook Marketplace,
-100,2,76.0,False,2026-01-26,Facebook Marketplace,101
+100,2,76.0,False,2026-01-26,Facebook Marketplace,
 100,2,76.0,False,2026-03-01,Facebook Marketplace,
 100,6,228.0,False,2026-03-08,Facebook Marketplace,
-100,2,76.0,False,2026-03-17,Facebook Marketplace,101
+100,2,76.0,False,2026-03-17,Facebook Marketplace,
 100,3,114.0,False,2026-04-01,Facebook Marketplace,
 101,8,135.92,False,2026-01-20,Taobao,
 101,7,118.93,False,2026-01-25,Taobao,
@@ -830,7 +830,7 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 102,10,330.0,False,2026-03-21,Shopee,
 102,2,66.0,False,2026-03-27,Shopee,
 102,10,330.0,False,2026-03-29,Shopee,
-103,9,216.0,False,2026-01-18,Facebook Marketplace,104
+103,9,216.0,False,2026-01-18,Facebook Marketplace,
 103,6,144.0,False,2026-01-28,Facebook Marketplace,
 103,3,72.0,False,2026-02-04,Facebook Marketplace,
 103,4,96.0,False,2026-02-08,Facebook Marketplace,
@@ -850,18 +850,18 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 104,7,224.0,True,2026-04-04,Taobao,
 105,5,195.0,False,2026-01-09,Shopee,
 105,6,234.0,False,2026-01-24,Shopee,
-105,8,312.0,False,2026-02-22,Shopee,106
-105,8,312.0,True,2026-02-25,Shopee,106
+105,8,312.0,False,2026-02-22,Shopee,
+105,8,312.0,True,2026-02-25,Shopee,
 105,7,273.0,False,2026-02-28,Shopee,
 105,7,273.0,False,2026-03-02,Shopee,
 105,8,312.0,False,2026-03-09,Shopee,
 105,5,195.0,False,2026-04-01,Shopee,
 106,7,154.0,False,2026-01-18,Facebook Marketplace,
-106,3,66.0,False,2026-01-20,Facebook Marketplace,107
+106,3,66.0,False,2026-01-20,Facebook Marketplace,
 106,3,66.0,False,2026-01-22,Facebook Marketplace,
 106,5,110.0,False,2026-01-24,Facebook Marketplace,
 106,7,154.0,False,2026-01-27,Facebook Marketplace,
-106,4,88.0,False,2026-02-01,Facebook Marketplace,107
+106,4,88.0,False,2026-02-01,Facebook Marketplace,
 106,4,88.0,False,2026-02-11,Facebook Marketplace,
 106,2,44.0,False,2026-02-14,Facebook Marketplace,
 106,7,154.0,False,2026-03-13,Facebook Marketplace,
@@ -878,15 +878,15 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 108,5,195.0,False,2026-01-27,JD,
 108,3,117.0,False,2026-01-30,JD,
 108,5,195.0,False,2026-02-18,JD,
-108,5,195.0,False,2026-03-02,JD,109
-108,9,351.0,False,2026-03-08,JD,109
+108,5,195.0,False,2026-03-02,JD,
+108,9,351.0,False,2026-03-08,JD,
 108,5,195.0,False,2026-03-24,JD,
 108,9,351.0,False,2026-03-24,JD,
 109,3,66.0,False,2026-01-17,Taobao,
 109,8,176.0,False,2026-02-08,Taobao,
 109,6,132.0,False,2026-02-12,Taobao,
 109,5,110.0,False,2026-03-18,Taobao,
-109,6,132.0,False,2026-03-23,Taobao,110
+109,6,132.0,False,2026-03-23,Taobao,
 110,8,272.0,False,2026-01-31,Taobao,
 110,5,170.0,True,2026-02-11,Taobao,
 110,7,238.0,False,2026-02-20,Taobao,
@@ -899,21 +899,21 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 110,9,306.0,True,2026-04-05,Taobao,
 111,3,129.0,False,2026-01-21,Shopee,
 111,1,43.0,False,2026-02-20,Shopee,
-111,5,215.0,False,2026-03-26,Shopee,112
+111,5,215.0,False,2026-03-26,Shopee,
 112,6,108.0,False,2026-02-03,Facebook Marketplace,
 112,9,162.0,False,2026-03-10,Facebook Marketplace,
 112,8,144.0,False,2026-03-11,Facebook Marketplace,
 112,8,144.0,False,2026-03-15,Facebook Marketplace,
 112,6,108.0,False,2026-03-19,Facebook Marketplace,
-112,2,36.0,False,2026-04-08,Facebook Marketplace,113
+112,2,36.0,False,2026-04-08,Facebook Marketplace,
 113,21,188.79,False,2026-01-09,Facebook Marketplace,
 113,23,206.77,False,2026-01-18,Facebook Marketplace,
 113,16,143.84,False,2026-02-01,Facebook Marketplace,
 113,9,80.91,False,2026-02-21,Facebook Marketplace,
-113,25,224.75,False,2026-02-24,Facebook Marketplace,114
+113,25,224.75,False,2026-02-24,Facebook Marketplace,
 113,7,62.93,False,2026-03-02,Facebook Marketplace,
 113,8,71.92,False,2026-03-19,Facebook Marketplace,
-113,24,215.76,False,2026-03-22,Facebook Marketplace,114
+113,24,215.76,False,2026-03-22,Facebook Marketplace,
 113,14,125.86,False,2026-04-01,Facebook Marketplace,
 113,27,242.73,False,2026-04-06,Facebook Marketplace,
 114,7,56.0,False,2026-01-16,Temu,
@@ -924,7 +924,7 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 114,10,80.0,False,2026-02-23,Temu,
 114,24,192.0,False,2026-02-25,Temu,
 114,14,112.0,False,2026-03-05,Temu,
-114,26,208.0,False,2026-03-28,Temu,115
+114,26,208.0,False,2026-03-28,Temu,
 115,18,161.82,False,2026-01-12,Shopee,
 115,28,251.72,False,2026-01-12,Shopee,
 115,22,197.78,False,2026-01-13,Shopee,
@@ -932,7 +932,7 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 115,22,197.78,False,2026-02-11,Shopee,
 115,23,206.77,False,2026-02-21,Shopee,
 115,17,152.83,False,2026-02-21,Shopee,
-115,12,107.88,False,2026-02-22,Shopee,116
+115,12,107.88,False,2026-02-22,Shopee,
 115,30,269.7,False,2026-03-19,Shopee,
 115,12,107.88,False,2026-03-25,Shopee,
 115,23,206.77,False,2026-03-27,Shopee,
@@ -958,7 +958,7 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 117,11,98.89,False,2026-02-18,Facebook Marketplace,
 117,10,89.9,True,2026-02-19,Facebook Marketplace,
 117,22,197.78,False,2026-02-27,Facebook Marketplace,
-117,20,179.8,False,2026-03-05,Facebook Marketplace,118
+117,20,179.8,False,2026-03-05,Facebook Marketplace,
 117,11,98.89,False,2026-03-16,Facebook Marketplace,
 117,18,161.82,False,2026-03-23,Facebook Marketplace,
 117,19,170.81,False,2026-03-28,Facebook Marketplace,
@@ -970,13 +970,13 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 118,29,290.0,False,2026-03-28,Shopee,
 118,19,190.0,False,2026-03-30,Shopee,
 118,8,80.0,False,2026-04-07,Shopee,
-119,10,99.9,False,2026-01-11,Temu,120
+119,10,99.9,False,2026-01-11,Temu,
 119,25,249.75,False,2026-01-13,Temu,
 119,13,129.87,False,2026-01-14,Temu,
 119,17,169.83,False,2026-01-22,Temu,
 119,28,279.72,False,2026-02-28,Temu,
 119,7,69.93,False,2026-03-12,Temu,
-119,29,289.71,False,2026-03-14,Temu,120
+119,29,289.71,False,2026-03-14,Temu,
 119,28,279.72,False,2026-03-17,Temu,
 120,9,98.91,False,2026-01-18,JD,
 120,28,307.72,False,2026-01-19,JD,
@@ -991,7 +991,7 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 120,24,263.76,False,2026-04-08,JD,
 121,22,242.0,False,2026-01-24,Shopee,
 121,27,297.0,False,2026-02-08,Shopee,
-121,21,231.0,False,2026-02-16,Shopee,122
+121,21,231.0,False,2026-02-16,Shopee,
 121,24,264.0,False,2026-02-19,Shopee,
 121,25,275.0,False,2026-03-04,Shopee,
 121,18,198.0,False,2026-03-06,Shopee,
@@ -1020,9 +1020,9 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 123,5,49.95,False,2026-03-28,Shopee,
 123,14,139.86,False,2026-04-07,Shopee,
 124,10,149.9,False,2026-01-13,Temu,
-124,8,119.92,False,2026-01-28,Temu,125
+124,8,119.92,False,2026-01-28,Temu,
 124,26,389.74,False,2026-02-11,Temu,
-124,17,254.83,False,2026-02-14,Temu,125
+124,17,254.83,False,2026-02-14,Temu,
 124,15,224.85,False,2026-02-17,Temu,
 124,26,389.74,False,2026-02-27,Temu,
 124,26,389.74,False,2026-03-03,Temu,
@@ -1030,21 +1030,21 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 124,8,119.92,False,2026-03-11,Temu,
 124,19,284.81,False,2026-04-05,Temu,
 125,10,100.0,False,2026-01-11,JD,
-125,25,250.0,False,2026-01-19,JD,126
+125,25,250.0,False,2026-01-19,JD,
 125,18,180.0,False,2026-02-16,JD,
 125,23,230.0,False,2026-02-21,JD,
 125,21,210.0,False,2026-02-26,JD,
 125,27,270.0,False,2026-03-01,JD,
 125,20,200.0,False,2026-03-04,JD,
 125,13,130.0,False,2026-03-15,JD,
-125,13,130.0,False,2026-03-31,JD,126
+125,13,130.0,False,2026-03-31,JD,
 126,10,380.0,False,2026-02-08,Shopee,
 126,3,114.0,False,2026-02-14,Shopee,
 126,3,114.0,False,2026-02-26,Shopee,
 126,4,152.0,False,2026-03-12,Shopee,
 126,8,304.0,False,2026-03-21,Shopee,
 127,4,112.0,False,2026-01-23,JD,
-127,3,84.0,True,2026-02-20,JD,128
+127,3,84.0,True,2026-02-20,JD,
 127,8,224.0,False,2026-03-09,JD,
 127,8,224.0,False,2026-03-14,JD,
 127,6,168.0,False,2026-03-27,JD,
@@ -1076,17 +1076,17 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 131,5,160.0,False,2026-03-05,Shopee,
 131,7,224.0,False,2026-03-08,Shopee,
 131,4,128.0,False,2026-03-17,Shopee,
-131,6,192.0,False,2026-03-23,Shopee,132
+131,6,192.0,False,2026-03-23,Shopee,
 131,2,64.0,False,2026-04-07,Shopee,
 132,3,147.0,False,2026-01-09,JD,
 132,1,49.0,False,2026-01-11,JD,
 132,3,147.0,False,2026-01-21,JD,
-132,4,196.0,False,2026-02-26,JD,133
+132,4,196.0,False,2026-02-26,JD,
 132,3,147.0,False,2026-03-01,JD,
 132,1,49.0,False,2026-03-03,JD,
 133,3,96.0,False,2026-01-25,Shopee,
 133,5,160.0,False,2026-02-19,Shopee,
-133,4,128.0,False,2026-02-24,Shopee,134
+133,4,128.0,False,2026-02-24,Shopee,
 133,3,96.0,False,2026-03-19,Shopee,
 133,3,96.0,False,2026-03-28,Shopee,
 133,6,192.0,False,2026-04-03,Shopee,
@@ -1101,7 +1101,7 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 135,8,128.0,False,2026-01-22,Temu,
 135,6,96.0,False,2026-02-06,Temu,
 135,6,96.0,False,2026-02-24,Temu,
-135,6,96.0,False,2026-03-16,Temu,136
+135,6,96.0,False,2026-03-16,Temu,
 135,3,48.0,False,2026-03-26,Temu,
 135,9,144.0,False,2026-03-27,Temu,
 136,5,95.0,False,2026-01-20,Shopee,
@@ -1112,7 +1112,7 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 136,7,133.0,False,2026-03-18,Shopee,
 136,7,133.0,True,2026-03-28,Shopee,
 137,10,189.9,False,2026-01-22,Taobao,
-137,6,113.94,False,2026-02-07,Taobao,138
+137,6,113.94,False,2026-02-07,Taobao,
 137,9,170.91,False,2026-02-18,Taobao,
 137,4,75.96,True,2026-02-22,Taobao,
 137,2,37.98,False,2026-03-10,Taobao,
@@ -1136,21 +1136,21 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 139,27,297.0,True,2026-02-11,JD,
 139,17,187.0,False,2026-03-04,JD,
 139,29,319.0,False,2026-03-26,JD,
-139,25,275.0,False,2026-03-29,JD,140
+139,25,275.0,False,2026-03-29,JD,
 139,29,319.0,False,2026-04-04,JD,
 140,7,42.0,False,2026-01-12,Taobao,
-140,14,84.0,False,2026-01-17,Taobao,
+140,14,84.0,False,2026-01-17,Taobao,37
 140,15,90.0,False,2026-01-28,Taobao,
-140,18,108.0,False,2026-02-01,Taobao,141
-140,28,168.0,False,2026-02-02,Taobao,
-140,16,96.0,True,2026-02-06,Taobao,
+140,18,108.0,False,2026-02-01,Taobao,"37,97"
+140,28,168.0,False,2026-02-02,Taobao,97
+140,16,96.0,True,2026-02-06,Taobao,37
 140,26,156.0,False,2026-02-15,Taobao,
-140,23,138.0,False,2026-02-20,Taobao,
-140,23,138.0,False,2026-02-26,Taobao,
+140,23,138.0,False,2026-02-20,Taobao,37
+140,23,138.0,False,2026-02-26,Taobao,37
 140,25,150.0,True,2026-03-06,Taobao,
-140,5,30.0,False,2026-03-06,Taobao,
-140,23,138.0,False,2026-03-14,Taobao,
-140,24,144.0,False,2026-03-30,Taobao,
+140,5,30.0,False,2026-03-06,Taobao,37
+140,23,138.0,False,2026-03-14,Taobao,37
+140,24,144.0,False,2026-03-30,Taobao,97
 140,12,72.0,False,2026-04-03,Taobao,
 141,4,60.0,False,2026-01-12,JD,
 141,4,60.0,False,2026-02-01,JD,
@@ -1158,28 +1158,28 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 141,5,75.0,False,2026-02-27,JD,
 141,9,135.0,False,2026-03-06,JD,
 141,10,150.0,False,2026-03-22,JD,
-141,3,45.0,False,2026-04-04,JD,142
+141,3,45.0,False,2026-04-04,JD,
 141,2,30.0,False,2026-04-07,JD,
-142,8,136.0,False,2026-01-11,Facebook Marketplace,
-142,6,102.0,False,2026-01-19,Facebook Marketplace,
-142,10,170.0,False,2026-02-03,Facebook Marketplace,143
-142,7,119.0,False,2026-02-15,Facebook Marketplace,143
-142,5,85.0,False,2026-02-19,Facebook Marketplace,
+142,8,136.0,False,2026-01-11,Facebook Marketplace,"91,66"
+142,6,102.0,False,2026-01-19,Facebook Marketplace,"91,66"
+142,10,170.0,False,2026-02-03,Facebook Marketplace,
+142,7,119.0,False,2026-02-15,Facebook Marketplace,
+142,5,85.0,False,2026-02-19,Facebook Marketplace,91
 142,8,136.0,False,2026-02-23,Facebook Marketplace,
-142,9,153.0,False,2026-03-13,Facebook Marketplace,
-142,2,34.0,False,2026-03-27,Facebook Marketplace,
-142,2,34.0,False,2026-03-29,Facebook Marketplace,143
-142,8,136.0,False,2026-03-31,Facebook Marketplace,
-143,29,289.71,False,2026-01-18,Temu,
-143,25,249.75,False,2026-01-24,Temu,
-143,18,179.82,False,2026-02-01,Temu,
+142,9,153.0,False,2026-03-13,Facebook Marketplace,"91,66"
+142,2,34.0,False,2026-03-27,Facebook Marketplace,91
+142,2,34.0,False,2026-03-29,Facebook Marketplace,91
+142,8,136.0,False,2026-03-31,Facebook Marketplace,91
+143,29,289.71,False,2026-01-18,Temu,33
+143,25,249.75,False,2026-01-24,Temu,33
+143,18,179.82,False,2026-02-01,Temu,33
 143,18,179.82,False,2026-02-02,Temu,
-143,12,119.88,False,2026-02-02,Temu,
-143,26,259.74,False,2026-02-19,Temu,
-143,7,69.93,False,2026-03-19,Temu,
+143,12,119.88,False,2026-02-02,Temu,"33,67"
+143,26,259.74,False,2026-02-19,Temu,188
+143,7,69.93,False,2026-03-19,Temu,"33,188"
 143,28,279.72,False,2026-03-23,Temu,
-143,18,179.82,False,2026-04-08,Temu,
-143,27,269.73,False,2026-04-08,Temu,
+143,18,179.82,False,2026-04-08,Temu,"33,67"
+143,27,269.73,False,2026-04-08,Temu,"33,67,188"
 144,9,63.0,False,2026-01-16,Facebook Marketplace,
 144,30,210.0,False,2026-01-17,Facebook Marketplace,
 144,14,98.0,False,2026-01-22,Facebook Marketplace,
@@ -1199,19 +1199,19 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 145,2,70.0,False,2026-03-30,Taobao,
 146,14,153.86,False,2026-01-24,Facebook Marketplace,
 146,25,274.75,False,2026-01-29,Facebook Marketplace,
-146,11,120.89,False,2026-02-03,Facebook Marketplace,147
+146,11,120.89,False,2026-02-03,Facebook Marketplace,
 146,30,329.7,False,2026-02-03,Facebook Marketplace,
 146,11,120.89,False,2026-02-10,Facebook Marketplace,
 146,28,307.72,False,2026-02-11,Facebook Marketplace,
 146,11,120.89,False,2026-02-19,Facebook Marketplace,
 146,16,175.84,False,2026-02-20,Facebook Marketplace,
 146,12,131.88,False,2026-02-27,Facebook Marketplace,
-146,13,142.87,False,2026-02-28,Facebook Marketplace,147
+146,13,142.87,False,2026-02-28,Facebook Marketplace,
 146,5,54.95,False,2026-03-15,Facebook Marketplace,
 146,15,164.85,False,2026-03-27,Facebook Marketplace,
 146,17,186.83,False,2026-04-02,Facebook Marketplace,
 147,5,130.0,False,2026-01-12,JD,
-147,2,52.0,False,2026-02-03,JD,148
+147,2,52.0,False,2026-02-03,JD,
 147,8,208.0,False,2026-02-12,JD,
 147,5,130.0,False,2026-02-12,JD,
 147,6,156.0,False,2026-02-14,JD,
@@ -1227,10 +1227,10 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 149,8,272.0,True,2026-01-23,Taobao,
 149,7,238.0,False,2026-01-25,Taobao,
 149,9,306.0,True,2026-01-26,Taobao,
-149,8,272.0,False,2026-01-30,Taobao,150
+149,8,272.0,False,2026-01-30,Taobao,
 149,7,238.0,False,2026-02-07,Taobao,
 149,5,170.0,False,2026-03-06,Taobao,
-149,3,102.0,True,2026-04-08,Taobao,150
+149,3,102.0,True,2026-04-08,Taobao,
 150,8,127.92,True,2026-01-14,Taobao,
 150,7,111.93,False,2026-01-16,Taobao,
 150,5,79.95,False,2026-02-06,Taobao,
@@ -1240,14 +1240,14 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 150,2,31.98,False,2026-03-05,Taobao,
 151,7,111.93,False,2026-02-12,Temu,
 151,6,95.94,False,2026-02-28,Temu,
-151,10,159.9,False,2026-03-08,Temu,152
+151,10,159.9,False,2026-03-08,Temu,
 151,5,79.95,False,2026-03-11,Temu,
 151,9,143.91,False,2026-03-18,Temu,
 151,6,95.94,False,2026-03-22,Temu,
 152,4,60.0,False,2026-01-19,Taobao,
 152,8,120.0,True,2026-01-21,Taobao,
 152,5,75.0,False,2026-02-07,Taobao,
-152,10,150.0,False,2026-03-02,Taobao,153
+152,10,150.0,False,2026-03-02,Taobao,
 152,10,150.0,False,2026-03-06,Taobao,
 152,5,75.0,False,2026-03-06,Taobao,
 153,6,83.94,False,2026-01-10,JD,
@@ -1255,7 +1255,7 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 153,24,335.76,False,2026-01-28,JD,
 153,13,181.87,False,2026-01-30,JD,
 153,27,377.73,False,2026-01-31,JD,
-153,25,349.75,False,2026-02-01,JD,154
+153,25,349.75,False,2026-02-01,JD,
 153,17,237.83,False,2026-02-09,JD,
 153,21,293.79,False,2026-02-12,JD,
 153,17,237.83,False,2026-02-19,JD,
@@ -1269,8 +1269,8 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 154,8,200.0,False,2026-02-25,Temu,
 154,6,150.0,False,2026-03-06,Temu,
 154,5,125.0,False,2026-03-16,Temu,
-154,8,200.0,False,2026-03-24,Temu,155
-155,7,161.0,False,2026-01-17,Shopee,156
+154,8,200.0,False,2026-03-24,Temu,
+155,7,161.0,False,2026-01-17,Shopee,
 155,8,184.0,False,2026-01-19,Shopee,
 155,9,207.0,False,2026-01-29,Shopee,
 155,7,161.0,False,2026-02-09,Shopee,
@@ -1280,9 +1280,9 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 155,7,161.0,False,2026-03-29,Shopee,
 155,8,184.0,False,2026-04-03,Shopee,
 156,5,150.0,False,2026-02-08,JD,
-156,4,120.0,True,2026-02-17,JD,157
+156,4,120.0,True,2026-02-17,JD,
 156,3,90.0,False,2026-02-19,JD,
-156,4,120.0,False,2026-03-01,JD,157
+156,4,120.0,False,2026-03-01,JD,
 156,7,210.0,False,2026-03-03,JD,
 156,9,270.0,False,2026-04-02,JD,
 156,10,300.0,False,2026-04-04,JD,
@@ -1294,7 +1294,7 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 157,5,140.0,False,2026-03-17,Temu,
 157,5,140.0,False,2026-03-25,Temu,
 157,2,56.0,False,2026-03-28,Temu,
-157,6,168.0,False,2026-03-28,Temu,158
+157,6,168.0,False,2026-03-28,Temu,
 158,3,69.0,False,2026-01-17,Shopee,
 158,10,230.0,False,2026-01-23,Shopee,
 158,6,138.0,False,2026-01-31,Shopee,
@@ -1313,7 +1313,7 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 160,23,276.0,False,2026-01-23,Shopee,
 160,8,96.0,False,2026-01-24,Shopee,
 160,27,324.0,True,2026-02-09,Shopee,
-160,28,336.0,True,2026-02-10,Shopee,161
+160,28,336.0,True,2026-02-10,Shopee,
 160,17,204.0,False,2026-03-01,Shopee,
 160,8,96.0,False,2026-03-03,Shopee,
 160,27,324.0,False,2026-03-13,Shopee,
@@ -1338,11 +1338,11 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 162,28,363.72,False,2026-02-07,Shopee,
 162,29,376.71,False,2026-02-13,Shopee,
 162,9,116.91,False,2026-03-23,Shopee,
-162,10,129.9,False,2026-03-30,Shopee,163
+162,10,129.9,False,2026-03-30,Shopee,
 162,16,207.84,True,2026-04-04,Shopee,
 163,7,101.5,False,2026-01-10,Shopee,
 163,30,435.0,False,2026-01-12,Shopee,
-163,22,319.0,False,2026-01-12,Shopee,164
+163,22,319.0,False,2026-01-12,Shopee,
 163,25,362.5,False,2026-01-12,Shopee,
 163,28,406.0,False,2026-01-12,Shopee,
 163,17,246.5,False,2026-01-13,Shopee,
@@ -1353,25 +1353,25 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 163,29,420.5,False,2026-03-31,Shopee,
 163,29,420.5,False,2026-04-04,Shopee,
 163,6,87.0,False,2026-04-07,Shopee,
-164,12,107.88,False,2026-01-11,Facebook Marketplace,
-164,9,80.91,False,2026-01-29,Facebook Marketplace,
-164,21,188.79,False,2026-01-30,Facebook Marketplace,
-164,29,260.71,False,2026-02-15,Facebook Marketplace,
+164,12,107.88,False,2026-01-11,Facebook Marketplace,49
+164,9,80.91,False,2026-01-29,Facebook Marketplace,49
+164,21,188.79,False,2026-01-30,Facebook Marketplace,33
+164,29,260.71,False,2026-02-15,Facebook Marketplace,49
 164,6,53.94,False,2026-02-16,Facebook Marketplace,
 164,25,224.75,False,2026-02-17,Facebook Marketplace,
 164,29,260.71,False,2026-03-02,Facebook Marketplace,
 164,6,53.94,False,2026-03-16,Facebook Marketplace,
 164,28,251.72,False,2026-03-23,Facebook Marketplace,
 164,26,233.74,False,2026-03-29,Facebook Marketplace,
-164,28,251.72,True,2026-04-01,Facebook Marketplace,165
-164,17,152.83,False,2026-04-04,Facebook Marketplace,
-164,14,125.86,False,2026-04-04,Facebook Marketplace,
-164,21,188.79,False,2026-04-05,Facebook Marketplace,
+164,28,251.72,True,2026-04-01,Facebook Marketplace,49
+164,17,152.83,False,2026-04-04,Facebook Marketplace,"49,33"
+164,14,125.86,False,2026-04-04,Facebook Marketplace,"49,33"
+164,21,188.79,False,2026-04-05,Facebook Marketplace,49
 165,4,188.0,False,2026-01-19,Facebook Marketplace,
 165,4,188.0,False,2026-03-14,Facebook Marketplace,
 165,4,188.0,False,2026-03-28,Facebook Marketplace,
 166,18,143.82,False,2026-01-11,Shopee,
-166,6,47.94,False,2026-01-14,Shopee,167
+166,6,47.94,False,2026-01-14,Shopee,
 166,28,223.72,False,2026-01-25,Shopee,
 166,5,39.95,False,2026-02-08,Shopee,
 166,6,47.94,False,2026-02-21,Shopee,
@@ -1386,13 +1386,13 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 167,1,99.0,False,2026-02-02,JD,
 168,2,338.0,False,2026-02-02,Temu,
 168,1,169.0,False,2026-03-17,Temu,
-169,2,72.0,False,2026-01-25,JD,170
+169,2,72.0,False,2026-01-25,JD,
 169,9,324.0,False,2026-01-26,JD,
 169,8,288.0,False,2026-01-26,JD,
 169,3,108.0,False,2026-02-22,JD,
 169,8,288.0,False,2026-03-01,JD,
 169,6,216.0,False,2026-03-02,JD,
-169,5,180.0,False,2026-03-26,JD,170
+169,5,180.0,False,2026-03-26,JD,
 169,4,144.0,False,2026-04-04,JD,
 170,10,150.0,False,2026-01-10,Facebook Marketplace,
 170,5,75.0,False,2026-01-18,Facebook Marketplace,
@@ -1406,7 +1406,7 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 171,5,180.0,False,2026-03-18,Temu,
 171,6,216.0,False,2026-03-19,Temu,
 171,4,144.0,False,2026-03-25,Temu,
-171,10,360.0,False,2026-03-27,Temu,172
+171,10,360.0,False,2026-03-27,Temu,
 171,3,108.0,False,2026-03-29,Temu,
 171,10,360.0,False,2026-04-06,Temu,
 172,2,170.0,False,2026-02-21,Facebook Marketplace,
@@ -1437,23 +1437,23 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 177,1,54.0,False,2026-02-28,Shopee,
 177,1,54.0,False,2026-03-27,Shopee,
 178,5,360.0,False,2026-01-09,Taobao,
-178,5,360.0,False,2026-02-05,Taobao,179
+178,5,360.0,False,2026-02-05,Taobao,
 178,1,72.0,False,2026-04-02,Taobao,
-179,18,198.0,False,2026-01-17,Shopee,
-179,13,143.0,False,2026-02-14,Shopee,
-179,30,330.0,False,2026-02-17,Shopee,
-179,8,88.0,True,2026-02-22,Shopee,180
-179,8,88.0,False,2026-02-25,Shopee,
-179,6,66.0,False,2026-02-25,Shopee,
-179,28,308.0,False,2026-02-25,Shopee,
-179,8,88.0,False,2026-03-04,Shopee,
-179,7,77.0,False,2026-03-06,Shopee,
-179,6,66.0,False,2026-03-07,Shopee,
-179,30,330.0,False,2026-03-22,Shopee,
-179,8,88.0,False,2026-03-25,Shopee,180
-179,28,308.0,False,2026-03-29,Shopee,
-179,6,66.0,False,2026-03-31,Shopee,
-179,6,66.0,False,2026-04-05,Shopee,
+179,18,198.0,False,2026-01-17,Shopee,"33,37,190"
+179,13,143.0,False,2026-02-14,Shopee,"33,37,182,190"
+179,30,330.0,False,2026-02-17,Shopee,"33,37,23"
+179,8,88.0,True,2026-02-22,Shopee,"33,37,182,187"
+179,8,88.0,False,2026-02-25,Shopee,"33,37,187,23"
+179,6,66.0,False,2026-02-25,Shopee,"33,37,187,23"
+179,28,308.0,False,2026-02-25,Shopee,"33,37,182"
+179,8,88.0,False,2026-03-04,Shopee,"33,37,190,23"
+179,7,77.0,False,2026-03-06,Shopee,"33,37,187,190,23"
+179,6,66.0,False,2026-03-07,Shopee,"33,37,182,187,190"
+179,30,330.0,False,2026-03-22,Shopee,"33,37,182,187,190,23"
+179,8,88.0,False,2026-03-25,Shopee,"33,37"
+179,28,308.0,False,2026-03-29,Shopee,"33,37,182,187,190"
+179,6,66.0,False,2026-03-31,Shopee,"33,37,182,23"
+179,6,66.0,False,2026-04-05,Shopee,"33,37"
 180,21,167.79,True,2026-01-09,Temu,
 180,25,199.75,False,2026-01-14,Temu,
 180,17,135.83,False,2026-01-17,Temu,
@@ -1462,7 +1462,7 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 180,8,63.92,False,2026-02-10,Temu,
 180,22,175.78,False,2026-02-18,Temu,
 180,17,135.83,False,2026-02-18,Temu,
-180,20,159.8,False,2026-03-23,Temu,181
+180,20,159.8,False,2026-03-23,Temu,
 180,20,159.8,False,2026-03-27,Temu,
 180,10,79.9,False,2026-03-28,Temu,
 180,11,87.89,False,2026-04-04,Temu,
@@ -1472,26 +1472,26 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 181,22,195.8,False,2026-02-01,Taobao,
 181,28,249.2,False,2026-02-02,Taobao,
 181,26,231.4,False,2026-02-16,Taobao,
-181,25,222.5,False,2026-02-26,Taobao,182
+181,25,222.5,False,2026-02-26,Taobao,
 181,16,142.4,False,2026-03-01,Taobao,
 181,30,267.0,False,2026-03-10,Taobao,
-181,8,71.2,False,2026-03-22,Taobao,182
+181,8,71.2,False,2026-03-22,Taobao,
 181,22,195.8,False,2026-03-26,Taobao,
 181,14,124.6,False,2026-04-01,Taobao,
 181,22,195.8,False,2026-04-04,Taobao,
-182,28,182.0,False,2026-01-22,Taobao,183
-182,10,65.0,False,2026-01-29,Taobao,183
+182,28,182.0,False,2026-01-22,Taobao,179
+182,10,65.0,False,2026-01-29,Taobao,179
 182,13,84.5,False,2026-02-04,Taobao,
-182,17,110.5,False,2026-02-05,Taobao,
-182,5,32.5,False,2026-02-07,Taobao,
-182,13,84.5,False,2026-02-23,Taobao,
-182,13,84.5,False,2026-03-02,Taobao,183
+182,17,110.5,False,2026-02-05,Taobao,179
+182,5,32.5,False,2026-02-07,Taobao,179
+182,13,84.5,False,2026-02-23,Taobao,"179,187"
+182,13,84.5,False,2026-03-02,Taobao,187
 182,15,97.5,False,2026-03-10,Taobao,
-182,27,175.5,False,2026-03-26,Taobao,183
-182,23,149.5,False,2026-03-31,Taobao,
-182,20,130.0,False,2026-04-03,Taobao,
+182,27,175.5,False,2026-03-26,Taobao,
+182,23,149.5,False,2026-03-31,Taobao,179
+182,20,130.0,False,2026-04-03,Taobao,"179,187"
 183,10,200.0,False,2026-01-21,Shopee,
-183,2,40.0,False,2026-01-25,Shopee,184
+183,2,40.0,False,2026-01-25,Shopee,
 183,2,40.0,False,2026-02-04,Shopee,
 183,6,120.0,False,2026-02-09,Shopee,
 183,6,120.0,False,2026-02-18,Shopee,
@@ -1518,7 +1518,7 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 185,10,290.0,False,2026-02-07,Facebook Marketplace,
 185,7,203.0,False,2026-02-12,Facebook Marketplace,
 185,6,174.0,False,2026-02-17,Facebook Marketplace,
-185,6,174.0,False,2026-02-20,Facebook Marketplace,186
+185,6,174.0,False,2026-02-20,Facebook Marketplace,
 185,10,290.0,False,2026-03-14,Facebook Marketplace,
 185,7,203.0,False,2026-03-19,Facebook Marketplace,
 185,5,145.0,False,2026-03-29,Facebook Marketplace,
@@ -1526,21 +1526,21 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 186,1,42.0,True,2026-03-15,JD,
 186,2,84.0,False,2026-03-16,JD,
 186,1,42.0,False,2026-03-23,JD,
-187,4,196.0,False,2026-01-11,Temu,
-187,4,196.0,False,2026-01-14,Temu,188
-187,1,49.0,False,2026-01-18,Temu,
-187,3,147.0,False,2026-02-20,Temu,188
-187,1,49.0,False,2026-02-26,Temu,
-187,2,98.0,False,2026-03-06,Temu,188
-187,4,196.0,False,2026-04-07,Temu,
-188,6,174.0,False,2026-01-24,Facebook Marketplace,
-188,4,116.0,False,2026-02-18,Facebook Marketplace,
-188,4,116.0,False,2026-02-20,Facebook Marketplace,189
-188,10,290.0,False,2026-02-24,Facebook Marketplace,189
-188,8,232.0,False,2026-03-08,Facebook Marketplace,
-188,4,116.0,False,2026-03-08,Facebook Marketplace,
-188,9,261.0,False,2026-03-12,Facebook Marketplace,
-188,9,261.0,False,2026-03-15,Facebook Marketplace,
+187,4,196.0,False,2026-01-11,Temu,"179,182"
+187,4,196.0,False,2026-01-14,Temu,"179,190"
+187,1,49.0,False,2026-01-18,Temu,179
+187,3,147.0,False,2026-02-20,Temu,"179,190"
+187,1,49.0,False,2026-02-26,Temu,"179,182,190"
+187,2,98.0,False,2026-03-06,Temu,179
+187,4,196.0,False,2026-04-07,Temu,"179,182"
+188,6,174.0,False,2026-01-24,Facebook Marketplace,33
+188,4,116.0,False,2026-02-18,Facebook Marketplace,"33,143"
+188,4,116.0,False,2026-02-20,Facebook Marketplace,33
+188,10,290.0,False,2026-02-24,Facebook Marketplace,33
+188,8,232.0,False,2026-03-08,Facebook Marketplace,143
+188,4,116.0,False,2026-03-08,Facebook Marketplace,33
+188,9,261.0,False,2026-03-12,Facebook Marketplace,33
+188,9,261.0,False,2026-03-15,Facebook Marketplace,"33,143"
 189,4,140.0,False,2026-01-09,Taobao,
 189,2,70.0,False,2026-01-20,Taobao,
 189,9,315.0,False,2026-01-22,Taobao,
@@ -1550,14 +1550,14 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 189,3,105.0,False,2026-03-09,Taobao,
 189,6,210.0,False,2026-03-28,Taobao,
 189,6,210.0,False,2026-04-03,Taobao,
-190,4,64.0,False,2026-01-19,Facebook Marketplace,191
-190,2,32.0,False,2026-01-29,Facebook Marketplace,
-190,7,112.0,False,2026-02-04,Facebook Marketplace,
-190,6,96.0,False,2026-02-20,Facebook Marketplace,
-190,3,48.0,False,2026-02-23,Facebook Marketplace,191
-190,3,48.0,False,2026-02-24,Facebook Marketplace,
-190,10,160.0,False,2026-02-28,Facebook Marketplace,191
-190,2,32.0,False,2026-03-29,Facebook Marketplace,
+190,4,64.0,False,2026-01-19,Facebook Marketplace,"179,187,23"
+190,2,32.0,False,2026-01-29,Facebook Marketplace,179
+190,7,112.0,False,2026-02-04,Facebook Marketplace,179
+190,6,96.0,False,2026-02-20,Facebook Marketplace,179
+190,3,48.0,False,2026-02-23,Facebook Marketplace,"179,187,23"
+190,3,48.0,False,2026-02-24,Facebook Marketplace,"179,187"
+190,10,160.0,False,2026-02-28,Facebook Marketplace,23
+190,2,32.0,False,2026-03-29,Facebook Marketplace,179
 191,1,59.0,False,2026-01-13,Taobao,
 191,3,177.0,False,2026-01-25,Taobao,
 191,5,295.0,False,2026-02-05,Taobao,
@@ -1569,13 +1569,13 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 192,1,59.0,True,2026-03-08,Temu,
 192,5,295.0,True,2026-03-18,Temu,
 193,23,298.77,False,2026-01-17,Taobao,
-193,26,337.74,False,2026-01-21,Taobao,194
+193,26,337.74,False,2026-01-21,Taobao,
 193,8,103.92,False,2026-01-24,Taobao,
 193,11,142.89,False,2026-01-30,Taobao,
 193,22,285.78,False,2026-02-23,Taobao,
 193,15,194.85,False,2026-03-16,Taobao,
 193,20,259.8,False,2026-03-17,Taobao,
-193,17,220.83,False,2026-03-27,Taobao,194
+193,17,220.83,False,2026-03-27,Taobao,
 193,6,77.94,False,2026-04-01,Taobao,
 193,12,155.88,False,2026-04-03,Taobao,
 194,6,89.94,False,2026-01-18,JD,
@@ -1584,7 +1584,7 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 194,28,419.72,False,2026-02-26,JD,
 194,24,359.76,False,2026-03-03,JD,
 194,23,344.77,False,2026-03-10,JD,
-194,8,119.92,False,2026-03-26,JD,195
+194,8,119.92,False,2026-03-26,JD,
 194,6,89.94,False,2026-03-27,JD,
 194,16,239.84,False,2026-04-06,JD,
 194,17,254.83,False,2026-04-06,JD,
@@ -1624,7 +1624,7 @@ product_id,quantity,revenue,returned,sale_date,marketplace,bundled_with
 198,26,181.74,False,2026-04-04,Temu,
 198,10,69.9,False,2026-04-05,Temu,
 199,20,139.8,False,2026-01-10,Taobao,
-199,7,48.93,False,2026-01-11,Taobao,200
+199,7,48.93,False,2026-01-11,Taobao,
 199,11,76.89,False,2026-01-18,Taobao,
 199,18,125.82,False,2026-01-29,Taobao,
 199,19,132.81,False,2026-01-30,Taobao,
