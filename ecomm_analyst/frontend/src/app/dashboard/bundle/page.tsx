@@ -150,6 +150,34 @@ function CoPurchaseGraph({ nodes: rawNodes, edges: rawEdges }: { nodes: GraphNod
   const animRef = useRef<number>(0);
   const [, rerender] = useState(0);
 
+  // ── Zoom / Pan state ──────────────────────────────────────────────────────
+  const [zoom, setZoom] = useState(1);
+  const [pan, setPan]   = useState({ x: 0, y: 0 });
+  const dragRef = useRef<{ startX: number; startY: number; panX: number; panY: number } | null>(null);
+  const svgWrapRef = useRef<HTMLDivElement>(null);
+
+  const handleWheel = (e: React.WheelEvent) => {
+    e.preventDefault();
+    const factor = e.deltaY < 0 ? 1.12 : 1 / 1.12;
+    setZoom((z) => Math.min(4, Math.max(0.3, z * factor)));
+  };
+
+  const handlePointerDown = (e: React.PointerEvent) => {
+    (e.currentTarget as HTMLElement).setPointerCapture(e.pointerId);
+    dragRef.current = { startX: e.clientX, startY: e.clientY, panX: pan.x, panY: pan.y };
+  };
+
+  const handlePointerMove = (e: React.PointerEvent) => {
+    if (!dragRef.current) return;
+    const dx = e.clientX - dragRef.current.startX;
+    const dy = e.clientY - dragRef.current.startY;
+    setPan({ x: dragRef.current.panX + dx, y: dragRef.current.panY + dy });
+  };
+
+  const handlePointerUp = () => { dragRef.current = null; };
+
+  const resetView = () => { setZoom(1); setPan({ x: 0, y: 0 }); };
+
   // Init: nodes placed on a hexagonal grid so they start evenly spaced
   useEffect(() => {
     if (!nodes.length) return;
@@ -258,65 +286,108 @@ function CoPurchaseGraph({ nodes: rawNodes, edges: rawEdges }: { nodes: GraphNod
   const idxById  = new Map(nodes.map((n, i) => [n.id, i]));
 
   return (
-    <div className="overflow-x-auto">
+    <div>
       {rawNodes.length > MAX_GRAPH_NODES && (
         <p className="text-xs text-slate-400 mb-2">
           Showing top {MAX_GRAPH_NODES} of {rawNodes.length} products by sales volume
         </p>
       )}
-      <svg width={W} height={H} className="rounded-xl bg-slate-50/50">
-        {/* Edges */}
-        {edges.map((e, i) => {
-          const si = idxById.get(e.source), ti = idxById.get(e.target);
-          if (si === undefined || ti === undefined || !pos[si] || !pos[ti]) return null;
-          const alpha = 0.15 + 0.55 * (e.weight / maxW);
-          const lw    = 0.8 + 2.5 * (e.weight / maxW);
-          const mx = (pos[si].x + pos[ti].x) / 2;
-          const my = (pos[si].y + pos[ti].y) / 2;
-          return (
-            <g key={i}>
-              <line
-                x1={pos[si].x} y1={pos[si].y}
-                x2={pos[ti].x} y2={pos[ti].y}
-                stroke={`rgba(99,102,241,${alpha})`}
-                strokeWidth={lw}
-                strokeLinecap="round"
-              />
-              {e.weight > 1 && (
-                <text x={mx} y={my} textAnchor="middle" dominantBaseline="central"
-                  fontSize={8} fill="rgba(99,102,241,0.65)" fontWeight={600}>
-                  {e.weight}
-                </text>
-              )}
-            </g>
-          );
-        })}
 
-        {/* Nodes — smaller radii */}
-        {nodes.map((n, i) => {
-          if (!pos[i]) return null;
-          const r     = 7 + 7 * (n.sales_count / maxSales);   // was 11+12
-          const color = NODE_COLORS[i % NODE_COLORS.length];
-          const label = n.name.length > 13 ? n.name.slice(0, 12) + "…" : n.name;
-          return (
-            <g key={n.id}>
-              <circle cx={pos[i].x} cy={pos[i].y} r={r + 3}
-                fill={color} opacity={0.10} />
-              <circle cx={pos[i].x} cy={pos[i].y} r={r}
-                fill={color} stroke="#fff" strokeWidth={1.5} />
-              <text x={pos[i].x} y={pos[i].y} textAnchor="middle"
-                dominantBaseline="central" fontSize={Math.max(7, r * 0.65)}
-                fill="#fff" fontWeight={700}>
-                {i + 1}
-              </text>
-              <text x={pos[i].x} y={pos[i].y + r + 9} textAnchor="middle"
-                fontSize={8} fill="#64748b">
-                {label}
-              </text>
+      {/* Zoom / pan container */}
+      <div className="relative select-none">
+        {/* Controls */}
+        <div className="absolute top-2 right-2 z-10 flex flex-col gap-1">
+          <button
+            onClick={() => setZoom((z) => Math.min(4, z * 1.25))}
+            className="w-7 h-7 rounded-lg bg-white border border-slate-200 shadow-sm text-slate-600 hover:bg-slate-50 flex items-center justify-center text-base font-bold leading-none"
+            title="Zoom in"
+          >+</button>
+          <button
+            onClick={() => setZoom((z) => Math.max(0.3, z / 1.25))}
+            className="w-7 h-7 rounded-lg bg-white border border-slate-200 shadow-sm text-slate-600 hover:bg-slate-50 flex items-center justify-center text-base font-bold leading-none"
+            title="Zoom out"
+          >−</button>
+          <button
+            onClick={resetView}
+            className="w-7 h-7 rounded-lg bg-white border border-slate-200 shadow-sm text-slate-500 hover:bg-slate-50 flex items-center justify-center text-xs font-semibold"
+            title="Reset view"
+          >⊙</button>
+        </div>
+
+        {/* SVG */}
+        <div
+          ref={svgWrapRef}
+          className="overflow-hidden rounded-xl bg-slate-50/50 cursor-grab active:cursor-grabbing"
+          style={{ width: W, height: H, maxWidth: "100%" }}
+          onWheel={handleWheel}
+          onPointerDown={handlePointerDown}
+          onPointerMove={handlePointerMove}
+          onPointerUp={handlePointerUp}
+          onPointerLeave={handlePointerUp}
+        >
+          <svg width={W} height={H}>
+            <g transform={`translate(${pan.x},${pan.y}) scale(${zoom})`}
+               style={{ transformOrigin: `${W/2}px ${H/2}px` }}>
+              {/* Edges */}
+              {edges.map((e, i) => {
+                const si = idxById.get(e.source), ti = idxById.get(e.target);
+                if (si === undefined || ti === undefined || !pos[si] || !pos[ti]) return null;
+                const alpha = 0.15 + 0.55 * (e.weight / maxW);
+                const lw    = 0.8 + 2.5 * (e.weight / maxW);
+                const mx = (pos[si].x + pos[ti].x) / 2;
+                const my = (pos[si].y + pos[ti].y) / 2;
+                return (
+                  <g key={i}>
+                    <line
+                      x1={pos[si].x} y1={pos[si].y}
+                      x2={pos[ti].x} y2={pos[ti].y}
+                      stroke={`rgba(99,102,241,${alpha})`}
+                      strokeWidth={lw}
+                      strokeLinecap="round"
+                    />
+                    {e.weight > 1 && (
+                      <text x={mx} y={my} textAnchor="middle" dominantBaseline="central"
+                        fontSize={8} fill="rgba(99,102,241,0.65)" fontWeight={600}>
+                        {e.weight}
+                      </text>
+                    )}
+                  </g>
+                );
+              })}
+
+              {/* Nodes */}
+              {nodes.map((n, i) => {
+                if (!pos[i]) return null;
+                const r     = 7 + 7 * (n.sales_count / maxSales);
+                const color = NODE_COLORS[i % NODE_COLORS.length];
+                const label = n.name.length > 13 ? n.name.slice(0, 12) + "…" : n.name;
+                return (
+                  <g key={n.id}>
+                    <circle cx={pos[i].x} cy={pos[i].y} r={r + 3}
+                      fill={color} opacity={0.10} />
+                    <circle cx={pos[i].x} cy={pos[i].y} r={r}
+                      fill={color} stroke="#fff" strokeWidth={1.5} />
+                    <text x={pos[i].x} y={pos[i].y} textAnchor="middle"
+                      dominantBaseline="central" fontSize={Math.max(7, r * 0.65)}
+                      fill="#fff" fontWeight={700}>
+                      {i + 1}
+                    </text>
+                    <text x={pos[i].x} y={pos[i].y + r + 9} textAnchor="middle"
+                      fontSize={8} fill="#64748b">
+                      {label}
+                    </text>
+                  </g>
+                );
+              })}
             </g>
-          );
-        })}
-      </svg>
+          </svg>
+        </div>
+
+        {/* Zoom level hint */}
+        <p className="text-xs text-slate-400 mt-1 text-right">
+          {Math.round(zoom * 100)}% · scroll to zoom · drag to pan
+        </p>
+      </div>
 
       {/* Legend */}
       <div className="flex flex-wrap gap-2 mt-3">
