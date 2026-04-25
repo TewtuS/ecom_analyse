@@ -106,6 +106,33 @@ function BundleTooltip({ active, payload, label }: {
 // NO persistent velocity (avoids overshoot / wall-pinning).
 const MAX_GRAPH_NODES = 20;
 
+// Build a flat-top hexagonal grid of N points centred at (cx, cy) with spacing s
+function hexGridPositions(N: number, cx: number, cy: number, s: number): { x: number; y: number }[] {
+  const pts: { x: number; y: number }[] = [];
+  // Spiral out ring by ring: ring 0 = centre, ring r has 6r points
+  pts.push({ x: cx, y: cy });
+  for (let ring = 1; pts.length < N; ring++) {
+    // Start at top-right corner of ring
+    let hx = ring, hy = 0;
+    const dirs = [
+      [-1,  1], [-1,  0], [ 0, -1],
+      [ 1, -1], [ 1,  0], [ 0,  1],
+    ];
+    for (const [dq, dr] of dirs) {
+      for (let step = 0; step < ring; step++) {
+        if (pts.length >= N) break;
+        // axial → pixel (flat-top hex)
+        pts.push({
+          x: cx + s * (hx + hy * 0.5),
+          y: cy + s * (hy * Math.sqrt(3) / 2),
+        });
+        hx += dq; hy += dr;
+      }
+    }
+  }
+  return pts.slice(0, N);
+}
+
 function CoPurchaseGraph({ nodes: rawNodes, edges: rawEdges }: { nodes: GraphNode[]; edges: GraphEdge[] }) {
   // Trim to top-N by sales_count
   const nodes = [...rawNodes]
@@ -114,7 +141,7 @@ function CoPurchaseGraph({ nodes: rawNodes, edges: rawEdges }: { nodes: GraphNod
   const nodeIds = new Set(nodes.map((n) => n.id));
   const edges = rawEdges.filter((e) => nodeIds.has(e.source) && nodeIds.has(e.target));
 
-  const W = 700, H = 500;
+  const W = 860, H = 620;
   const PAD = 60;
 
   type Pos = { x: number; y: number };
@@ -123,16 +150,13 @@ function CoPurchaseGraph({ nodes: rawNodes, edges: rawEdges }: { nodes: GraphNod
   const animRef = useRef<number>(0);
   const [, rerender] = useState(0);
 
-  // Init: random positions in a small central cloud (not a large circle)
+  // Init: nodes placed on a hexagonal grid so they start evenly spaced
   useEffect(() => {
     if (!nodes.length) return;
     cancelAnimationFrame(animRef.current);
     tickRef.current = 0;
-    // Start all nodes within ±40px of centre — repulsion will spread them out
-    posRef.current = nodes.map(() => ({
-      x: W / 2 + (Math.random() - 0.5) * 80,
-      y: H / 2 + (Math.random() - 0.5) * 80,
-    }));
+    const spacing = Math.min((W - PAD * 2), (H - PAD * 2)) / (Math.ceil(Math.sqrt(nodes.length)) + 1);
+    posRef.current = hexGridPositions(nodes.length, W / 2, H / 2, spacing);
     rerender((n) => n + 1);
   }, [nodes.length, edges.length]); // eslint-disable-line react-hooks/exhaustive-deps
 
@@ -140,16 +164,13 @@ function CoPurchaseGraph({ nodes: rawNodes, edges: rawEdges }: { nodes: GraphNod
     if (!nodes.length) return;
     const N = nodes.length;
 
-    // FR ideal spacing
     const usableW = W - PAD * 2, usableH = H - PAD * 2;
     const k = Math.sqrt((usableW * usableH) / N);
 
     const maxEdgeW = edges.reduce((m, e) => Math.max(m, e.weight), 1);
     const idxById  = new Map(nodes.map((n, i) => [n.id, i]));
 
-    // Temperature schedule: wide at start so repulsion pushes nodes apart,
-    // then cools so they settle. Linear decay is simple and reliable.
-    const T0 = usableW * 0.5;   // initial temperature (px)
+    const T0 = usableW * 0.45;
     const MAX_TICKS = 400;
 
     const step = () => {
@@ -174,8 +195,7 @@ function CoPurchaseGraph({ nodes: rawNodes, edges: rawEdges }: { nodes: GraphNod
         }
       }
 
-      // ── Attraction: dist²/k (FR) — only along edges ───────────────────────
-      // Divided by extra factor so it can't overpower repulsion at start
+      // ── Attraction along edges ────────────────────────────────────────────
       for (const e of edges) {
         const si = idxById.get(e.source), ti = idxById.get(e.target);
         if (si === undefined || ti === undefined) continue;
@@ -183,21 +203,30 @@ function CoPurchaseGraph({ nodes: rawNodes, edges: rawEdges }: { nodes: GraphNod
         const ddy = pos[ti].y - pos[si].y;
         const dist = Math.sqrt(ddx * ddx + ddy * ddy) || 0.1;
         const wScale = 0.5 + 0.5 * (e.weight / maxEdgeW);
-        // Standard FR attraction, but scaled by current temperature so it
-        // starts weaker and grows as nodes spread — prevents early wall pinning
         const fa = (dist / k) * Math.min(dist, temp) * wScale * 0.15;
         dx[si] += fa * ddx / dist;  dy[si] += fa * ddy / dist;
         dx[ti] -= fa * ddx / dist;  dy[ti] -= fa * ddy / dist;
       }
 
-      // ── Gravity toward centre ─────────────────────────────────────────────
-      const G = 0.06;
+      // ── Hexagonal gravity: pull toward nearest hex-ring anchor ────────────
+      // Regular gravity keeps nodes from drifting; hex-bias shapes the outline
+      const G = 0.05;
+      const hexR = Math.min(usableW, usableH) * 0.42; // target hex radius
       for (let i = 0; i < N; i++) {
+        // Soft pull toward centre
         dx[i] += G * (W / 2 - pos[i].x);
         dy[i] += G * (H / 2 - pos[i].y);
+        // Hex-boundary repulsion: push nodes inward when they exceed hex outline
+        const ox = pos[i].x - W / 2, oy = pos[i].y - H / 2;
+        const od = Math.sqrt(ox * ox + oy * oy) || 1;
+        if (od > hexR) {
+          const over = od - hexR;
+          dx[i] -= (ox / od) * over * 0.12;
+          dy[i] -= (oy / od) * over * 0.12;
+        }
       }
 
-      // ── Cap total displacement to temperature, update position ────────────
+      // ── Cap displacement to temperature, clamp to SVG bounds ─────────────
       for (let i = 0; i < N; i++) {
         const mag = Math.sqrt(dx[i] * dx[i] + dy[i] * dy[i]) || 1;
         const scale = Math.min(mag, temp) / mag;
@@ -224,7 +253,7 @@ function CoPurchaseGraph({ nodes: rawNodes, edges: rawEdges }: { nodes: GraphNod
   const pos = posRef.current;
   if (pos.length !== nodes.length) return null;
 
-  const maxW   = edges.reduce((m, e) => Math.max(m, e.weight), 1);
+  const maxW     = edges.reduce((m, e) => Math.max(m, e.weight), 1);
   const maxSales = nodes.reduce((m, n) => Math.max(m, n.sales_count), 1);
   const idxById  = new Map(nodes.map((n, i) => [n.id, i]));
 
@@ -241,7 +270,7 @@ function CoPurchaseGraph({ nodes: rawNodes, edges: rawEdges }: { nodes: GraphNod
           const si = idxById.get(e.source), ti = idxById.get(e.target);
           if (si === undefined || ti === undefined || !pos[si] || !pos[ti]) return null;
           const alpha = 0.15 + 0.55 * (e.weight / maxW);
-          const lw    = 1   + 3   * (e.weight / maxW);
+          const lw    = 0.8 + 2.5 * (e.weight / maxW);
           const mx = (pos[si].x + pos[ti].x) / 2;
           const my = (pos[si].y + pos[ti].y) / 2;
           return (
@@ -255,7 +284,7 @@ function CoPurchaseGraph({ nodes: rawNodes, edges: rawEdges }: { nodes: GraphNod
               />
               {e.weight > 1 && (
                 <text x={mx} y={my} textAnchor="middle" dominantBaseline="central"
-                  fontSize={9} fill="rgba(99,102,241,0.7)" fontWeight={600}>
+                  fontSize={8} fill="rgba(99,102,241,0.65)" fontWeight={600}>
                   {e.weight}
                 </text>
               )}
@@ -263,25 +292,25 @@ function CoPurchaseGraph({ nodes: rawNodes, edges: rawEdges }: { nodes: GraphNod
           );
         })}
 
-        {/* Nodes */}
+        {/* Nodes — smaller radii */}
         {nodes.map((n, i) => {
           if (!pos[i]) return null;
-          const r     = 11 + 12 * (n.sales_count / maxSales);
+          const r     = 7 + 7 * (n.sales_count / maxSales);   // was 11+12
           const color = NODE_COLORS[i % NODE_COLORS.length];
-          const label = n.name.length > 14 ? n.name.slice(0, 13) + "…" : n.name;
+          const label = n.name.length > 13 ? n.name.slice(0, 12) + "…" : n.name;
           return (
             <g key={n.id}>
-              <circle cx={pos[i].x} cy={pos[i].y} r={r + 4}
-                fill={color} opacity={0.12} />
+              <circle cx={pos[i].x} cy={pos[i].y} r={r + 3}
+                fill={color} opacity={0.10} />
               <circle cx={pos[i].x} cy={pos[i].y} r={r}
-                fill={color} stroke="#fff" strokeWidth={2} />
+                fill={color} stroke="#fff" strokeWidth={1.5} />
               <text x={pos[i].x} y={pos[i].y} textAnchor="middle"
-                dominantBaseline="central" fontSize={Math.max(9, r * 0.65)}
+                dominantBaseline="central" fontSize={Math.max(7, r * 0.65)}
                 fill="#fff" fontWeight={700}>
                 {i + 1}
               </text>
-              <text x={pos[i].x} y={pos[i].y + r + 11} textAnchor="middle"
-                fontSize={9} fill="#64748b">
+              <text x={pos[i].x} y={pos[i].y + r + 9} textAnchor="middle"
+                fontSize={8} fill="#64748b">
                 {label}
               </text>
             </g>
